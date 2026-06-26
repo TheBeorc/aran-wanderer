@@ -9,7 +9,9 @@ import type { IconType } from "./poi";
  *  3. Unknown / missing icon_type values fall back to `natural_feature`.
  */
 
-type IconRenderer = () => JSX.Element;
+import type { ReactElement, ReactNode } from "react";
+
+type IconRenderer = () => ReactElement;
 
 // Shared illustrated style: rounded strokes, warm earth + sea palette, soft fill.
 const STROKE = "#3b2a1f";
@@ -20,7 +22,7 @@ const ROOF = "#8a4a3a";
 const GOLD = "#e8b04a";
 const GREEN = "#6ea24a";
 
-const wrap = (children: React.ReactNode) => (
+const wrap = (children: ReactNode): ReactElement => (
   <svg viewBox="0 0 32 32" width="100%" height="100%" aria-hidden="true">
     {children}
   </svg>
