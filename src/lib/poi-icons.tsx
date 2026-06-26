@@ -107,7 +107,7 @@ const ICON_RENDERERS: Record<IconType, IconRenderer> = {
     ),
 };
 
-export function renderPoiIcon(icon: IconType): JSX.Element {
+export function renderPoiIcon(icon: IconType): ReactElement {
   const renderer = ICON_RENDERERS[icon] ?? ICON_RENDERERS.natural_feature;
   return renderer();
 }
