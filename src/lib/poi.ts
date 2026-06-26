@@ -1,0 +1,96 @@
+import { useQuery } from "@tanstack/react-query";
+
+export type IconType =
+  | "holy_well"
+  | "church_monastic"
+  | "fort_dun"
+  | "castle_ruin"
+  | "beach_strand"
+  | "cliff_coast"
+  | "village_settlement"
+  | "pub_amenity"
+  | "natural_feature";
+
+export type CoordPrecision = "precise" | "zona" | "uncertain";
+
+export type Island = "Inishmore" | "Inishmaan" | "Inisheer";
+
+export interface PoiImage {
+  url: string;
+  author: string;
+  license: string;
+  source: string;
+}
+
+export interface Poi {
+  name: string;
+  island: Island;
+  cluster: string;
+  lat: number;
+  long: number;
+  coord_precision: CoordPrecision;
+  description: string;
+  folklore?: string;
+  nature?: string;
+  icon_type: IconType;
+  images: PoiImage[];
+}
+
+export const KNOWN_ICON_TYPES: IconType[] = [
+  "holy_well",
+  "church_monastic",
+  "fort_dun",
+  "castle_ruin",
+  "beach_strand",
+  "cliff_coast",
+  "village_settlement",
+  "pub_amenity",
+  "natural_feature",
+];
+
+export function normalisePoi(raw: unknown): Poi | null {
+  if (!raw || typeof raw !== "object") return null;
+  const r = raw as Record<string, unknown>;
+  if (
+    typeof r.name !== "string" ||
+    typeof r.lat !== "number" ||
+    typeof r.long !== "number"
+  ) {
+    return null;
+  }
+  const icon = KNOWN_ICON_TYPES.includes(r.icon_type as IconType)
+    ? (r.icon_type as IconType)
+    : "natural_feature";
+  const precision: CoordPrecision =
+    r.coord_precision === "precise" ||
+    r.coord_precision === "zona" ||
+    r.coord_precision === "uncertain"
+      ? r.coord_precision
+      : "uncertain";
+  return {
+    name: r.name,
+    island: (r.island as Island) ?? "Inishmore",
+    cluster: (r.cluster as string) ?? "",
+    lat: r.lat,
+    long: r.long,
+    coord_precision: precision,
+    description: (r.description as string) ?? "",
+    folklore: (r.folklore as string) ?? "",
+    nature: (r.nature as string) ?? "",
+    icon_type: icon,
+    images: Array.isArray(r.images) ? (r.images as PoiImage[]) : [],
+  };
+}
+
+export function usePois() {
+  return useQuery({
+    queryKey: ["pois"],
+    queryFn: async (): Promise<Poi[]> => {
+      const res = await fetch("/poi.json", { cache: "no-cache" });
+      if (!res.ok) throw new Error("Failed to load poi.json");
+      const raw = (await res.json()) as unknown[];
+      return raw.map(normalisePoi).filter((p): p is Poi => p !== null);
+    },
+    staleTime: 5 * 60 * 1000,
+  });
+}
