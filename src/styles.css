@@ -59,7 +59,135 @@
   --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
   --color-sidebar-border: var(--sidebar-border);
   --color-sidebar-ring: var(--sidebar-ring);
+  --color-sea: var(--sea);
+  --color-sea-deep: var(--sea-deep);
+  --color-parchment: var(--parchment);
+  --color-marker-precise: var(--marker-precise);
+  --color-marker-approx: var(--marker-approx);
+  --color-marker-approx-ink: var(--marker-approx-ink);
+  --color-green-moss: var(--green-moss);
 }
+
+@layer base {
+  :root {
+    --sea: oklch(0.82 0.07 220);
+    --sea-deep: oklch(0.55 0.11 230);
+    --parchment: oklch(0.96 0.04 85);
+    --marker-precise: oklch(0.55 0.18 40);
+    --marker-approx: oklch(0.75 0.06 50);
+    --marker-approx-ink: oklch(0.45 0.12 40);
+    --green-moss: oklch(0.5 0.12 140);
+  }
+  .dark {
+    --sea: oklch(0.42 0.08 220);
+    --sea-deep: oklch(0.7 0.1 220);
+    --parchment: oklch(0.3 0.03 85);
+    --marker-precise: oklch(0.75 0.15 40);
+    --marker-approx: oklch(0.55 0.05 50);
+    --marker-approx-ink: oklch(0.78 0.1 40);
+    --green-moss: oklch(0.7 0.13 140);
+  }
+}
+
+/* ---------- Aran Wanderer map skin ---------- */
+
+/* Warm, cartoon-leaning filter on raster tiles only — never on markers. */
+.aran-tiles {
+  filter: saturate(1.15) contrast(0.95) hue-rotate(-4deg) brightness(1.03);
+}
+
+.leaflet-container {
+  font-family: inherit;
+  background: var(--color-sea);
+}
+
+.leaflet-control-attribution {
+  background: rgba(255, 255, 255, 0.85) !important;
+  font-size: 10px !important;
+}
+
+/* POI markers */
+.aran-marker-wrap { background: transparent; border: none; }
+.aran-marker {
+  position: relative;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.15s ease;
+}
+.aran-marker:hover { transform: translateY(-2px) scale(1.05); }
+.aran-marker__icon {
+  position: relative;
+  width: 36px;
+  height: 36px;
+  filter: drop-shadow(0 2px 2px rgba(0, 0, 0, 0.25));
+}
+.aran-marker__halo {
+  position: absolute;
+  inset: 0;
+  border-radius: 9999px;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.6) 0%, transparent 70%);
+  pointer-events: none;
+}
+.aran-marker--precise .aran-marker__halo { opacity: 0; }
+.aran-marker--approx .aran-marker__icon { opacity: 0.65; }
+.aran-marker--approx .aran-marker__halo {
+  background: radial-gradient(circle, color-mix(in oklch, var(--color-marker-approx) 70%, transparent) 0%, transparent 70%);
+  animation: aran-halo-pulse 2.4s ease-in-out infinite;
+}
+@keyframes aran-halo-pulse {
+  0%, 100% { transform: scale(0.9); opacity: 0.5; }
+  50% { transform: scale(1.05); opacity: 0.85; }
+}
+
+/* User location */
+.aran-user-wrap { background: transparent; border: none; }
+.aran-user {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+.aran-user__dot {
+  position: absolute;
+  inset: 6px;
+  border-radius: 9999px;
+  background: var(--color-sea-deep);
+  border: 2px solid white;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+.aran-user__pulse {
+  position: absolute;
+  inset: 0;
+  border-radius: 9999px;
+  background: var(--color-sea-deep);
+  opacity: 0.4;
+  animation: aran-user-pulse 1.8s ease-out infinite;
+}
+@keyframes aran-user-pulse {
+  0% { transform: scale(0.5); opacity: 0.6; }
+  100% { transform: scale(1.6); opacity: 0; }
+}
+
+/* Cluster bubbles - cartoon style */
+.aran-cluster-wrap { background: transparent; border: none; }
+.aran-cluster {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 9999px;
+  background: var(--color-parchment);
+  border: 2px solid var(--color-marker-precise);
+  font-weight: 700;
+  color: var(--color-marker-approx-ink);
+  font-size: 14px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.aran-cluster span { line-height: 1; }
+
 
 :root {
   --radius: 0.625rem;
