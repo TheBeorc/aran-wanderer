@@ -1,0 +1,146 @@
+[
+  {
+    "name": "Tobar Éinne (St. Enda's Well)",
+    "island": "Inishmore",
+    "cluster": "Cill Éinne & The Monastic Shore (Inishmore)",
+    "lat": 53.1102,
+    "long": -9.6531,
+    "coord_precision": "precise",
+    "description": "A holy well associated with St. Enda, founder of the great monastic settlement on Inishmore. Pilgrims still leave tokens at the surrounding stones.",
+    "folklore": "Local tradition holds that water from the well, taken before sunrise, cures eye ailments.",
+    "nature": "",
+    "icon_type": "holy_well",
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Inis_M%C3%B3r_-_Tobar_%C3%89inne.jpg/800px-Inis_M%C3%B3r_-_Tobar_%C3%89inne.jpg",
+        "author": "Andreas F. Borchert",
+        "license": "CC BY-SA 4.0",
+        "source": "Wikimedia Commons"
+      }
+    ]
+  },
+  {
+    "name": "Dún Aonghasa",
+    "island": "Inishmore",
+    "cluster": "Western Cliffs (Inishmore)",
+    "lat": 53.1264,
+    "long": -9.7680,
+    "coord_precision": "precise",
+    "description": "A spectacular prehistoric stone fort perched on a 100m cliff above the Atlantic. Three massive concentric walls and a chevaux-de-frise of jagged stones guard the landward approach.",
+    "folklore": "Said to have been built by the Fir Bolg king Aonghus, who chose the cliff edge so no enemy could ever come at his back.",
+    "nature": "The clifftop hosts nesting fulmars and is rich in salt-tolerant maritime flora.",
+    "icon_type": "fort_dun",
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Dun_Aengus.jpg/1024px-Dun_Aengus.jpg",
+        "author": "Jibi44",
+        "license": "CC BY-SA 3.0",
+        "source": "Wikimedia Commons"
+      }
+    ]
+  },
+  {
+    "name": "Kilronan (Cill Rónáin)",
+    "island": "Inishmore",
+    "cluster": "Cill Rónáin (Inishmore)",
+    "lat": 53.1236,
+    "long": -9.6680,
+    "coord_precision": "precise",
+    "description": "The main village and harbour of Inishmore. Ferries from Rossaveel and Doolin dock here; pubs, cafés and the heritage centre are within a few minutes' walk.",
+    "folklore": "",
+    "nature": "",
+    "icon_type": "village_settlement",
+    "images": []
+  },
+  {
+    "name": "Joe Watty's Bar",
+    "island": "Inishmore",
+    "cluster": "Cill Rónáin (Inishmore)",
+    "lat": 53.1255,
+    "long": -9.6705,
+    "coord_precision": "precise",
+    "description": "A landmark pub above Kilronan, known for trad sessions, chowder and a sweeping view down to the pier.",
+    "folklore": "",
+    "nature": "",
+    "icon_type": "pub_amenity",
+    "images": []
+  },
+  {
+    "name": "The Worm Hole (Poll na bPéist)",
+    "island": "Inishmore",
+    "cluster": "Western Cliffs (Inishmore)",
+    "lat": 53.1188,
+    "long": -9.7720,
+    "coord_precision": "zona",
+    "description": "A near-perfect rectangular pool cut into the limestone shelf below the cliffs — entirely natural, despite its quarried appearance. Reached by a rough walk across the karst.",
+    "folklore": "Said to be the lair of a great sea-serpent (péist) that once terrorised fishermen.",
+    "nature": "The surrounding limestone pavement is a textbook example of karst weathering, with grikes hosting ferns and gentians.",
+    "icon_type": "natural_feature",
+    "images": []
+  },
+  {
+    "name": "Dún Chonchúir",
+    "island": "Inishmaan",
+    "cluster": "Central Inishmaan",
+    "lat": 53.0875,
+    "long": -9.5790,
+    "coord_precision": "precise",
+    "description": "An oval stone fort crowning the highest point of Inishmaan, with commanding views across all three islands.",
+    "folklore": "",
+    "nature": "",
+    "icon_type": "fort_dun",
+    "images": []
+  },
+  {
+    "name": "Cill Cheannannach",
+    "island": "Inishmaan",
+    "cluster": "Eastern Inishmaan",
+    "lat": 53.0820,
+    "long": -9.5640,
+    "coord_precision": "zona",
+    "description": "A ruined early-medieval church near the eastern shore, traditionally associated with St. Gregory.",
+    "folklore": "",
+    "nature": "",
+    "icon_type": "church_monastic",
+    "images": []
+  },
+  {
+    "name": "O'Brien's Castle (Caisleán Uí Bhriain)",
+    "island": "Inisheer",
+    "cluster": "Inisheer Village",
+    "lat": 53.0613,
+    "long": -9.5180,
+    "coord_precision": "precise",
+    "description": "A 14th-century tower house built inside a much older ring fort, dominating the skyline of Inisheer.",
+    "folklore": "",
+    "nature": "",
+    "icon_type": "castle_ruin",
+    "images": []
+  },
+  {
+    "name": "An Trá Mhór",
+    "island": "Inisheer",
+    "cluster": "Inisheer Village",
+    "lat": 53.0633,
+    "long": -9.5135,
+    "coord_precision": "precise",
+    "description": "The wide, sheltered white-sand beach next to the Inisheer pier — safe for swimming on calm days.",
+    "folklore": "",
+    "nature": "Shoreline dunes support marram grass and occasional sightings of grey seals offshore.",
+    "icon_type": "beach_strand",
+    "images": []
+  },
+  {
+    "name": "Plassey Wreck",
+    "island": "Inisheer",
+    "cluster": "Eastern Inisheer",
+    "lat": 53.0640,
+    "long": -9.4970,
+    "coord_precision": "precise",
+    "description": "The rusting hulk of the MV Plassey, driven ashore in a 1960 storm and famously featured in the opening credits of Father Ted.",
+    "folklore": "All crew were saved by the islanders using a breeches buoy — a rescue still celebrated locally.",
+    "nature": "",
+    "icon_type": "cliff_coast",
+    "images": []
+  }
+]
