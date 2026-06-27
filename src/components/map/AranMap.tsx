@@ -15,7 +15,7 @@ import { Crosshair, MapPin } from "lucide-react";
 // --- Constants ---
 const ARAN_BOUNDS: L.LatLngBoundsExpression = [
   [53.0, -10.15],
-  [53.95, -6.2],
+  [53.95, -6.4],
 ];
 const INITIAL_CENTER: L.LatLngExpression = [53.095, -9.62];
 const INITIAL_ZOOM = 9;
