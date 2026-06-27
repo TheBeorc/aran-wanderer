@@ -9,7 +9,8 @@ export type IconType =
   | "cliff_coast"
   | "village_settlement"
   | "pub_amenity"
-  | "natural_feature";
+  | "natural_feature"
+  | "airport";
 
 export type CoordPrecision = "precise" | "zona" | "uncertain";
 
@@ -50,6 +51,7 @@ export const KNOWN_ICON_TYPES: IconType[] = [
   "village_settlement",
   "pub_amenity",
   "natural_feature",
+  "airport",
 ];
 
 export function normalisePoi(raw: unknown): Poi | null {
