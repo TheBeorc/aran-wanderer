@@ -120,9 +120,21 @@
 .aran-marker:hover { transform: translateY(-2px) scale(1.05); }
 .aran-marker__icon {
   position: relative;
-  width: 36px;
-  height: 36px;
+  width: 100%;
+  height: 100%;
   filter: drop-shadow(0 2px 2px rgba(0, 0, 0, 0.25));
+}
+.aran-marker__badge {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 12px;
+  height: 12px;
+  border-radius: 9999px;
+  background: #e11d48;
+  border: 2px solid #fff;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.4);
+  z-index: 2;
 }
 .aran-marker__halo {
   position: absolute;
