@@ -72,7 +72,9 @@ export function normalisePoi(raw: unknown): Poi | null {
       : "uncertain";
   return {
     name: r.name,
-    island: (r.island as Island) ?? "Inishmore",
+    island: r.island as Island | undefined,
+    region: (r.region as string | undefined) ?? undefined,
+
     cluster: (r.cluster as string) ?? "",
     lat: r.lat,
     long: r.long,
