@@ -1,8 +1,8 @@
 [
   {
-    "name": "Cill Ãinne (Killeany)",
+    "name": "Cill ÃÂinne (Killeany)",
     "island": "Inishmore",
-    "cluster": "Cill Ãinne & The Monastic Shore (Inishmore)",
+    "cluster": "Cill ÃÂinne & The Monastic Shore (Inishmore)",
     "lat": 53.1048,
     "long": -9.66199,
     "coord_precision": "precise",
@@ -15,7 +15,7 @@
         "url": "https://upload.wikimedia.org/wikipedia/commons/7/77/County_Galway_-_Cuan_Chill_%C3%89inne_-_20130916111102.jpg",
         "author": "KevForkan",
         "license": "CC BY-SA 4.0",
-        "source": "https://commons.wikimedia.org/wiki/File:County Galway - Cuan Chill Ãinne - 20130916111102.jpg"
+        "source": "https://commons.wikimedia.org/wiki/File:County Galway - Cuan Chill ÃÂinne - 20130916111102.jpg"
       },
       {
         "url": "https://upload.wikimedia.org/wikipedia/commons/2/24/Inishmore_Killeany_round_tower.jpg",
@@ -28,7 +28,7 @@
   {
     "name": "Arkin Castle (Site of)",
     "island": "Inishmore",
-    "cluster": "Cill Ãinne & The Monastic Shore (Inishmore)",
+    "cluster": "Cill ÃÂinne & The Monastic Shore (Inishmore)",
     "lat": 53.10483,
     "long": -9.66259,
     "coord_precision": "precise",
@@ -52,14 +52,14 @@
     ]
   },
   {
-    "name": "Tobar Ãinne (St. Enda's Well)",
+    "name": "Tobar ÃÂinne (St. Enda's Well)",
     "island": "Inishmore",
-    "cluster": "Cill Ãinne & The Monastic Shore (Inishmore)",
+    "cluster": "Cill ÃÂinne & The Monastic Shore (Inishmore)",
     "lat": 53.10334,
     "long": -9.66397,
     "coord_precision": "precise",
-    "description": "A holy well dedicated to the islandâs patron, located south of the main village.",
-    "folklore": "Still a vital site of pilgrimage. Local tradition holds the water never fails. Nearby, the faint traces of ClochÃ¡n Ãinne mark the site where the saint lived in ascetic seclusion. Informants like Beartla recall the persistence of rituals here even as modern life encroached.",
+    "description": "A holy well dedicated to the islandÃ¢ÂÂs patron, located south of the main village.",
+    "folklore": "Still a vital site of pilgrimage. Local tradition holds the water never fails. Nearby, the faint traces of ClochÃÂ¡n ÃÂinne mark the site where the saint lived in ascetic seclusion. Informants like Beartla recall the persistence of rituals here even as modern life encroached.",
     "nature": "Karst pavement surrounding a natural spring; home to maiden-hair ferns.",
     "icon_type": "holy_well",
     "images": [
@@ -72,14 +72,14 @@
     ]
   },
   {
-    "name": "An SuicÃ­n",
+    "name": "An SuicÃÂ­n",
     "island": "Inishmore",
-    "cluster": "Cill Ãinne & The Monastic Shore (Inishmore)",
+    "cluster": "Cill ÃÂinne & The Monastic Shore (Inishmore)",
     "lat": 53.12442,
     "long": -9.67242,
     "coord_precision": "precise",
-    "description": "A derelict area south of Joe Wattyâs pub, formerly a crowded terrace of cottages.",
-    "folklore": "Derived from a name for a \"marshy patch\" or \"swallow-hole.\" This was the poorest quarter of Cill Ãinne, where a hundred people once lived in a few long terraces. By the late 20th century, only two fragments of these one-room cottages remained, inhabited by a woman who famously disputed with the wind.",
+    "description": "A derelict area south of Joe WattyÃ¢ÂÂs pub, formerly a crowded terrace of cottages.",
+    "folklore": "Derived from a name for a \"marshy patch\" or \"swallow-hole.\" This was the poorest quarter of Cill ÃÂinne, where a hundred people once lived in a few long terraces. By the late 20th century, only two fragments of these one-room cottages remained, inhabited by a woman who famously disputed with the wind.",
     "nature": "Damp limestone depression with seasonal marsh characteristics.",
     "icon_type": "village_settlement",
     "images": []
@@ -87,20 +87,20 @@
   {
     "name": "An Jabaire (Jobber's Hill)",
     "island": "Inishmore",
-    "cluster": "Cill Ãinne & The Monastic Shore (Inishmore)",
+    "cluster": "Cill ÃÂinne & The Monastic Shore (Inishmore)",
     "lat": 53.11225,
     "long": -9.6667,
     "coord_precision": "zona",
     "description": "A steep ascent or carcair on the road leading west out of the village.",
-    "folklore": "Named for \"An Jabaire Beag\" (the little jobber), Pat Mullenâs uncle. Robinson describes the Jobber as a man five feet in height and ten stone, who carried a blackthorn stick in his left hand. The hill was a notorious site for faction fights where stick-fighting skills were tested against \"the Morans.\"",
+    "folklore": "Named for \"An Jabaire Beag\" (the little jobber), Pat MullenÃ¢ÂÂs uncle. Robinson describes the Jobber as a man five feet in height and ten stone, who carried a blackthorn stick in his left hand. The hill was a notorious site for faction fights where stick-fighting skills were tested against \"the Morans.\"",
     "nature": "Rugged limestone steps and high drystone walls.",
     "icon_type": "natural_feature",
     "images": []
   },
   {
-    "name": "BÃ³ithrÃ­n na gCottageachaÃ­",
+    "name": "BÃÂ³ithrÃÂ­n na gCottageachaÃÂ­",
     "island": "Inishmore",
-    "cluster": "Cill Ãinne & The Monastic Shore (Inishmore)",
+    "cluster": "Cill ÃÂinne & The Monastic Shore (Inishmore)",
     "lat": 53.11225,
     "long": -9.6667,
     "coord_precision": "zona",
@@ -111,14 +111,14 @@
     "images": []
   },
   {
-    "name": "St. Thomasâs Church (Ruins)",
+    "name": "St. ThomasÃ¢ÂÂs Church (Ruins)",
     "island": "Inishmore",
-    "cluster": "Cill Ãinne & The Monastic Shore (Inishmore)",
+    "cluster": "Cill ÃÂinne & The Monastic Shore (Inishmore)",
     "lat": 53.12198,
     "long": -9.66881,
     "coord_precision": "precise",
     "description": "An empty, roofless shell of a Protestant church near the rectory.",
-    "folklore": "A stark reminder of seventy years of barren ministry. The roof was removed in 1921 to avoid paying rates, an act of practical necessity that nonetheless symbolized the final departure of the \"alien\" Protestant authority from the islandâs religious landscape.",
+    "folklore": "A stark reminder of seventy years of barren ministry. The roof was removed in 1921 to avoid paying rates, an act of practical necessity that nonetheless symbolized the final departure of the \"alien\" Protestant authority from the islandÃ¢ÂÂs religious landscape.",
     "nature": "Limestone shell standing amidst a \"sheltery backwater\" of the town.",
     "icon_type": "church_monastic",
     "images": []
@@ -126,38 +126,38 @@
   {
     "name": "Digby House (Ruins)",
     "island": "Inishmore",
-    "cluster": "Cill Ãinne & The Monastic Shore (Inishmore)",
+    "cluster": "Cill ÃÂinne & The Monastic Shore (Inishmore)",
     "lat": 53.11225,
     "long": -9.6667,
     "coord_precision": "zona",
     "description": "The vanished three-story seat of the absentee Digby family.",
-    "folklore": "Built by the Digbys, who acquired Aran in the 18th century. By 1845, the house was in ruins. Its stones were famously \"cannibalized\" to build the rectory and later the Catholic curateâs house, mirroring the shifting power dynamics of the islandâs landlords.",
-    "nature": "Located behind a scarp, separated from the main Cill Ãinne road.",
+    "folklore": "Built by the Digbys, who acquired Aran in the 18th century. By 1845, the house was in ruins. Its stones were famously \"cannibalized\" to build the rectory and later the Catholic curateÃ¢ÂÂs house, mirroring the shifting power dynamics of the islandÃ¢ÂÂs landlords.",
+    "nature": "Located behind a scarp, separated from the main Cill ÃÂinne road.",
     "icon_type": "building",
     "images": []
   },
   {
-    "name": "Carcair na CÃ©artan (Forge Hill)",
+    "name": "Carcair na CÃÂ©artan (Forge Hill)",
     "island": "Inishmore",
-    "cluster": "Cill Ãinne & The Monastic Shore (Inishmore)",
+    "cluster": "Cill ÃÂinne & The Monastic Shore (Inishmore)",
     "lat": 53.11225,
     "long": -9.6667,
     "coord_precision": "zona",
     "description": "A steep rise named after a former smithy site.",
-    "folklore": "Named for a forge run by Micil Riabhach Ã Niaidh, described as a Connemara poitÃ­n smuggler who operated here a century ago. It marks the transition from the village to the higher limestone terraces of Eochaill.",
+    "folklore": "Named for a forge run by Micil Riabhach ÃÂ Niaidh, described as a Connemara poitÃÂ­n smuggler who operated here a century ago. It marks the transition from the village to the higher limestone terraces of Eochaill.",
     "nature": "A classic carcair featuring sharp limestone \"clints.\"",
     "icon_type": "natural_feature",
     "images": []
   },
   {
-    "name": "Joe Wattyâs Pub",
+    "name": "Joe WattyÃ¢ÂÂs Pub",
     "island": "Inishmore",
-    "cluster": "Cill Ãinne & The Monastic Shore (Inishmore)",
+    "cluster": "Cill ÃÂinne & The Monastic Shore (Inishmore)",
     "lat": 53.12397,
     "long": -9.67089,
     "coord_precision": "precise",
     "description": "A local landmark at a turning in the road opposite the rectory.",
-    "folklore": "Formerly an obscure public house run by Joe Watty, who died in 1975. Folklore tells that Joe would stand in prayer before St. Ronanâs bed for twenty minutes every day, a testament to the deep, quiet piety that persisted alongside the villageâs social life.",
+    "folklore": "Formerly an obscure public house run by Joe Watty, who died in 1975. Folklore tells that Joe would stand in prayer before St. RonanÃ¢ÂÂs bed for twenty minutes every day, a testament to the deep, quiet piety that persisted alongside the villageÃ¢ÂÂs social life.",
     "nature": "Sheltered by a row of cottages and a low limestone scarp.",
     "icon_type": "pub_amenity",
     "images": [
@@ -184,33 +184,33 @@
   {
     "name": "The Rectory",
     "island": "Inishmore",
-    "cluster": "Cill Ãinne & The Monastic Shore (Inishmore)",
+    "cluster": "Cill ÃÂinne & The Monastic Shore (Inishmore)",
     "lat": 53.11225,
     "long": -9.6667,
     "coord_precision": "zona",
     "description": "A sturdy stone dwelling built for the Protestant minister.",
     "folklore": "Built using stones from the ruinous Digby House. It was the residence of Reverend Kilbride during the 1880s Land War, where he was famously besieged by the \"Catholic faction\" and once had a stone thrown through his window during the Ganly eviction dispute.",
-    "nature": "Surrounded by treesâa rarity on the islandâand stone outbuildings.",
+    "nature": "Surrounded by treesÃ¢ÂÂa rarity on the islandÃ¢ÂÂand stone outbuildings.",
     "icon_type": "building",
     "images": []
   },
   {
     "name": "Sulochan na Naomh",
     "island": "Inishmore",
-    "cluster": "Cill Ãinne & The Monastic Shore (Inishmore)",
+    "cluster": "Cill ÃÂinne & The Monastic Shore (Inishmore)",
     "lat": 53.11225,
     "long": -9.6667,
     "coord_precision": "zona",
     "description": "A small stone structure translated as \"Seat of the Saints.\"",
-    "folklore": "Found in the vicinity of Cill Ãinne. Local tradition identifies this as a resting place or altar used by the early holy men who inhabited the monastic city under St. Endaâs rule.",
+    "folklore": "Found in the vicinity of Cill ÃÂinne. Local tradition identifies this as a resting place or altar used by the early holy men who inhabited the monastic city under St. EndaÃ¢ÂÂs rule.",
     "nature": "Weathered limestone block in a field of thin soil.",
     "icon_type": "church_monastic",
     "images": []
   },
   {
-    "name": "Teampall BheanÃ¡in",
+    "name": "Teampall BheanÃÂ¡in",
     "island": "Inishmore",
-    "cluster": "Cill Ãinne & The Monastic Shore (Inishmore)",
+    "cluster": "Cill ÃÂinne & The Monastic Shore (Inishmore)",
     "lat": 53.10239,
     "long": -9.66621,
     "coord_precision": "precise",
@@ -229,20 +229,20 @@
         "url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Teampull_Bhean%C3%A1in.jpg",
         "author": "Guilhem Boyer",
         "license": "CC BY-SA 3.0",
-        "source": "https://commons.wikimedia.org/wiki/File:Teampull BheanÃ¡in.jpg"
+        "source": "https://commons.wikimedia.org/wiki/File:Teampull BheanÃÂ¡in.jpg"
       },
       {
         "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Teampull_Bhean%C3%A1in2.jpg",
         "author": "Aiden Clarke",
         "license": "CC BY-SA 2.0",
-        "source": "https://commons.wikimedia.org/wiki/File:Teampull BheanÃ¡in2.jpg"
+        "source": "https://commons.wikimedia.org/wiki/File:Teampull BheanÃÂ¡in2.jpg"
       }
     ]
   },
   {
     "name": "Coastguard Station (Former)",
     "island": "Inishmore",
-    "cluster": "Cill Ãinne & The Monastic Shore (Inishmore)",
+    "cluster": "Cill ÃÂinne & The Monastic Shore (Inishmore)",
     "lat": 53.11225,
     "long": -9.6667,
     "coord_precision": "zona",
@@ -255,7 +255,7 @@
   {
     "name": "An Lurgain",
     "island": "Inishmore",
-    "cluster": "Cill Ãinne & The Monastic Shore (Inishmore)",
+    "cluster": "Cill ÃÂinne & The Monastic Shore (Inishmore)",
     "lat": 53.11225,
     "long": -9.6667,
     "coord_precision": "zona",
@@ -266,9 +266,9 @@
     "images": []
   },
   {
-    "name": "An Baile ThÃ­os",
+    "name": "An Baile ThÃÂ­os",
     "island": "Inishmore",
-    "cluster": "Cill Ãinne & The Monastic Shore (Inishmore)",
+    "cluster": "Cill ÃÂinne & The Monastic Shore (Inishmore)",
     "lat": 53.11217,
     "long": -9.66785,
     "coord_precision": "zona",
@@ -279,14 +279,14 @@
     "images": []
   },
   {
-    "name": "ClochÃ¡n Ãinne",
+    "name": "ClochÃÂ¡n ÃÂinne",
     "island": "Inishmore",
-    "cluster": "Cill Ãinne & The Monastic Shore (Inishmore)",
+    "cluster": "Cill ÃÂinne & The Monastic Shore (Inishmore)",
     "lat": 53.11217,
     "long": -9.66785,
     "coord_precision": "zona",
     "description": "The beehive cell associated with St. Enda.",
-    "folklore": "Located 200 yards south of Tobar Ãinne. Only faint traces remain of this drystone corbelled structure where the saint practiced his most extreme forms of mortification.",
+    "folklore": "Located 200 yards south of Tobar ÃÂinne. Only faint traces remain of this drystone corbelled structure where the saint practiced his most extreme forms of mortification.",
     "nature": "Surrounded by a \"desert\" of glaciated limestone pavement.",
     "icon_type": "church_monastic",
     "images": []
@@ -294,7 +294,7 @@
   {
     "name": "The 'Soupers' List' Site",
     "island": "Inishmore",
-    "cluster": "Cill Ãinne & The Monastic Shore (Inishmore)",
+    "cluster": "Cill ÃÂinne & The Monastic Shore (Inishmore)",
     "lat": 53.11217,
     "long": -9.66785,
     "coord_precision": "zona",
@@ -307,7 +307,7 @@
   {
     "name": "Dr. Stoney's Grave Site",
     "island": "Inishmore",
-    "cluster": "Cill Ãinne & The Monastic Shore (Inishmore)",
+    "cluster": "Cill ÃÂinne & The Monastic Shore (Inishmore)",
     "lat": 53.11217,
     "long": -9.66785,
     "coord_precision": "zona",
@@ -320,12 +320,12 @@
   {
     "name": "An Chreig Dhubh (The Black Crag)",
     "island": "Inishmore",
-    "cluster": "Cill Ãinne & The Monastic Shore (Inishmore)",
+    "cluster": "Cill ÃÂinne & The Monastic Shore (Inishmore)",
     "lat": 53.111624,
     "long": -9.675941,
     "coord_precision": "precise",
     "description": "A vast, dark terrace of limestone pavement.",
-    "folklore": "Noted for its \"lugubrious\" appearance. Local man Beartla commented that the Cill RÃ³nÃ¡in men were disgraced for not reclaiming this \"wasteland\" instead of spending their days lying under walls.",
+    "folklore": "Noted for its \"lugubrious\" appearance. Local man Beartla commented that the Cill RÃÂ³nÃÂ¡in men were disgraced for not reclaiming this \"wasteland\" instead of spending their days lying under walls.",
     "nature": "Pure karst pavement; an \"imbricated\" landscape of deep grykes.",
     "icon_type": "natural_feature",
     "images": []
@@ -333,7 +333,7 @@
   {
     "name": "Creig Earraigh",
     "island": "Inishmore",
-    "cluster": "Cill Ãinne & The Monastic Shore (Inishmore)",
+    "cluster": "Cill ÃÂinne & The Monastic Shore (Inishmore)",
     "lat": 53.11217,
     "long": -9.66785,
     "coord_precision": "zona",
@@ -344,9 +344,9 @@
     "images": []
   },
   {
-    "name": "BÃ³ithrÃ­n an tSnÃ¡mha",
+    "name": "BÃÂ³ithrÃÂ­n an tSnÃÂ¡mha",
     "island": "Inishmore",
-    "cluster": "Cill Ãinne & The Monastic Shore (Inishmore)",
+    "cluster": "Cill ÃÂinne & The Monastic Shore (Inishmore)",
     "lat": 53.11217,
     "long": -9.66785,
     "coord_precision": "zona",
@@ -359,12 +359,12 @@
   {
     "name": "An Currach Yard",
     "island": "Inishmore",
-    "cluster": "Cill Ãinne & The Monastic Shore (Inishmore)",
+    "cluster": "Cill ÃÂinne & The Monastic Shore (Inishmore)",
     "lat": 53.11217,
     "long": -9.66785,
     "coord_precision": "zona",
     "description": "The site near the harbor where boats are maintained.",
-    "folklore": "The heart of Aranâs maritime technology. Robinson notes the rapid growth of this area in the 1890s under CDB influence, transitioning from traditional skin boats to government-assisted designs.",
+    "folklore": "The heart of AranÃ¢ÂÂs maritime technology. Robinson notes the rapid growth of this area in the 1890s under CDB influence, transitioning from traditional skin boats to government-assisted designs.",
     "nature": "Near the pier; dominated by the smell of tar and salt.",
     "icon_type": "cliff_coast",
     "images": []
@@ -372,20 +372,20 @@
   {
     "name": "Port na Cille",
     "island": "Inishmore",
-    "cluster": "Cill Ãinne & The Monastic Shore (Inishmore)",
+    "cluster": "Cill ÃÂinne & The Monastic Shore (Inishmore)",
     "lat": 53.11217,
     "long": -9.66785,
     "coord_precision": "zona",
     "description": "The \"Harbor of the Church.\"",
-    "folklore": "The ancient landing site for the monastic city. It was here that pilgrims would first step onto the islandâs \"holy soil\" after the crossing from Connemara.",
+    "folklore": "The ancient landing site for the monastic city. It was here that pilgrims would first step onto the islandÃ¢ÂÂs \"holy soil\" after the crossing from Connemara.",
     "nature": "A natural limestone inlet with heavy sea-weed accumulation.",
     "icon_type": "cliff_coast",
     "images": []
   },
   {
-    "name": "Leac na nÃan",
+    "name": "Leac na nÃÂan",
     "island": "Inishmore",
-    "cluster": "Cill Ãinne & The Monastic Shore (Inishmore)",
+    "cluster": "Cill ÃÂinne & The Monastic Shore (Inishmore)",
     "lat": 53.11217,
     "long": -9.66785,
     "coord_precision": "zona",
@@ -396,7 +396,7 @@
     "images": []
   },
   {
-    "name": "Poll na bPÃ©ist (The Worm Hole)",
+    "name": "Poll na bPÃÂ©ist (The Worm Hole)",
     "island": "Inishmore",
     "cluster": "Barr Aille, The Southern Cliffs & Geological Wonders (Inishmore)",
     "lat": 53.121597,
@@ -411,7 +411,7 @@
         "url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Poll_na_bP%C3%A9ist.jpg",
         "author": "Paucabot",
         "license": "CC BY-SA 3.0",
-        "source": "https://commons.wikimedia.org/wiki/File:Poll na bPÃ©ist.jpg"
+        "source": "https://commons.wikimedia.org/wiki/File:Poll na bPÃÂ©ist.jpg"
       }
     ]
   },
@@ -429,7 +429,7 @@
     "images": []
   },
   {
-    "name": "An Aill MhÃ³r",
+    "name": "An Aill MhÃÂ³r",
     "island": "Inishmore",
     "cluster": "Barr Aille, The Southern Cliffs & Geological Wonders (Inishmore)",
     "lat": 53.12645,
@@ -455,14 +455,14 @@
     "images": []
   },
   {
-    "name": "Carraig an PhÃ­obaire (Piper's Rock)",
+    "name": "Carraig an PhÃÂ­obaire (Piper's Rock)",
     "island": "Inishmore",
     "cluster": "Barr Aille, The Southern Cliffs & Geological Wonders (Inishmore)",
     "lat": 53.131296,
     "long": -9.686338,
     "coord_precision": "precise",
     "description": "A distinctively shaped coastal outcrop.",
-    "folklore": "Legend tells of an underground piper who entered the cave at An Uamhain and whose music could be heard beneath this rock as he traveled toward Inis MeÃ¡in.",
+    "folklore": "Legend tells of an underground piper who entered the cave at An Uamhain and whose music could be heard beneath this rock as he traveled toward Inis MeÃÂ¡in.",
     "nature": "Sharp limestone \"clints\" exposed to heavy salt spray.",
     "icon_type": "cliff_coast",
     "images": [
@@ -501,20 +501,20 @@
     "images": []
   },
   {
-    "name": "Scailp an TÃ¡iseir",
+    "name": "Scailp an TÃÂ¡iseir",
     "island": "Inishmore",
     "cluster": "Barr Aille, The Southern Cliffs & Geological Wonders (Inishmore)",
     "lat": 53.12645,
     "long": -9.72056,
     "coord_precision": "zona",
     "description": "A cleft named for a \"ghost\" or \"vision.\"",
-    "folklore": "Scailp refers to a deep fissure. This site is associated with coastal apparitions and the \"tÃ¡is\" (ghosts) of those lost at sea.",
+    "folklore": "Scailp refers to a deep fissure. This site is associated with coastal apparitions and the \"tÃÂ¡is\" (ghosts) of those lost at sea.",
     "nature": "A deep, shadowed gryke near the cliff edge.",
     "icon_type": "cliff_coast",
     "images": []
   },
   {
-    "name": "Poll BÃ¡ite",
+    "name": "Poll BÃÂ¡ite",
     "island": "Inishmore",
     "cluster": "Barr Aille, The Southern Cliffs & Geological Wonders (Inishmore)",
     "lat": 53.12645,
@@ -527,7 +527,7 @@
     "images": []
   },
   {
-    "name": "An CorrÃ¡n",
+    "name": "An CorrÃÂ¡n",
     "island": "Inishmore",
     "cluster": "Barr Aille, The Southern Cliffs & Geological Wonders (Inishmore)",
     "lat": 53.12645,
@@ -547,13 +547,13 @@
     "long": -9.72056,
     "coord_precision": "zona",
     "description": "The cliffs overlooking the ancient monastic harbor.",
-    "folklore": "These provided the first line of defense for Cill Ãinne. O'Donovan and Wakeman noted the ruins of Arkin were built to defend these waters from Dutch raiders.",
+    "folklore": "These provided the first line of defense for Cill ÃÂinne. O'Donovan and Wakeman noted the ruins of Arkin were built to defend these waters from Dutch raiders.",
     "nature": "Limestone scarps with high concentrations of maritime lichens.",
     "icon_type": "cliff_coast",
     "images": []
   },
   {
-    "name": "Buaile na gCopÃ³g",
+    "name": "Buaile na gCopÃÂ³g",
     "island": "Inishmore",
     "cluster": "Barr Aille, The Southern Cliffs & Geological Wonders (Inishmore)",
     "lat": 53.136389,
@@ -592,7 +592,7 @@
     "images": []
   },
   {
-    "name": "Poll na bPoncÃ¡n",
+    "name": "Poll na bPoncÃÂ¡n",
     "island": "Inishmore",
     "cluster": "Barr Aille, The Southern Cliffs & Geological Wonders (Inishmore)",
     "lat": 53.12645,
@@ -618,7 +618,7 @@
     "images": []
   },
   {
-    "name": "An PhailÃ­s",
+    "name": "An PhailÃÂ­s",
     "island": "Inishmore",
     "cluster": "Barr Aille, The Southern Cliffs & Geological Wonders (Inishmore)",
     "lat": 53.12645,
@@ -631,7 +631,7 @@
     "images": []
   },
   {
-    "name": "An Scailp MhÃ³r",
+    "name": "An Scailp MhÃÂ³r",
     "island": "Inishmore",
     "cluster": "Barr Aille, The Southern Cliffs & Geological Wonders (Inishmore)",
     "lat": 53.12645,
@@ -657,7 +657,7 @@
     "images": []
   },
   {
-    "name": "An SundaÃ³ (The South Sound)",
+    "name": "An SundaÃÂ³ (The South Sound)",
     "island": "Inishmore",
     "cluster": "Barr Aille, The Southern Cliffs & Geological Wonders (Inishmore)",
     "lat": 53.12645,
@@ -677,13 +677,13 @@
     "long": -9.685804,
     "coord_precision": "precise",
     "description": "A fertile farmstead near the ancient monastic ruins.",
-    "folklore": "The \"ground zero\" of the Land War on Aran. In 1879, Pat Ganly and his mother were evicted from here. The farm was then given to Reverend Kilbride, inciting a decade of \"twilight deeds,\" including the stabbing of Chardeâs cattle and the burning of the rent office.",
+    "folklore": "The \"ground zero\" of the Land War on Aran. In 1879, Pat Ganly and his mother were evicted from here. The farm was then given to Reverend Kilbride, inciting a decade of \"twilight deeds,\" including the stabbing of ChardeÃ¢ÂÂs cattle and the burning of the rent office.",
     "nature": "Deep soil compared to the surrounding karst; good for rye and potatoes.",
     "icon_type": "building",
     "images": []
   },
   {
-    "name": "Leaba RÃ³nÃ¡in (St. Ronan's Bed)",
+    "name": "Leaba RÃÂ³nÃÂ¡in (St. Ronan's Bed)",
     "island": "Inishmore",
     "cluster": "Mainistir, Gort na gCapall & The Interior (Inishmore)",
     "lat": 53.124332,
@@ -748,7 +748,7 @@
     "images": []
   },
   {
-    "name": "Aill Chreig an TÃ­",
+    "name": "Aill Chreig an TÃÂ­",
     "island": "Inishmore",
     "cluster": "Mainistir, Gort na gCapall & The Interior (Inishmore)",
     "lat": 53.128,
@@ -761,7 +761,7 @@
     "images": []
   },
   {
-    "name": "Log an tSnÃ¡mha",
+    "name": "Log an tSnÃÂ¡mha",
     "island": "Inishmore",
     "cluster": "Mainistir, Gort na gCapall & The Interior (Inishmore)",
     "lat": 53.128,
@@ -774,7 +774,7 @@
     "images": []
   },
   {
-    "name": "An Charraig ChÃºl",
+    "name": "An Charraig ChÃÂºl",
     "island": "Inishmore",
     "cluster": "Mainistir, Gort na gCapall & The Interior (Inishmore)",
     "lat": 53.131296,
@@ -787,7 +787,7 @@
     "images": []
   },
   {
-    "name": "Creig an BhobailÃ­n",
+    "name": "Creig an BhobailÃÂ­n",
     "island": "Inishmore",
     "cluster": "Mainistir, Gort na gCapall & The Interior (Inishmore)",
     "lat": 53.128,
@@ -800,7 +800,7 @@
     "images": []
   },
   {
-    "name": "An ScreigÃ­n",
+    "name": "An ScreigÃÂ­n",
     "island": "Inishmore",
     "cluster": "Mainistir, Gort na gCapall & The Interior (Inishmore)",
     "lat": 53.128,
@@ -813,7 +813,7 @@
     "images": []
   },
   {
-    "name": "Buaile na gCopÃ³g",
+    "name": "Buaile na gCopÃÂ³g",
     "island": "Inishmore",
     "cluster": "Mainistir, Gort na gCapall & The Interior (Inishmore)",
     "lat": 53.128,
@@ -826,7 +826,7 @@
     "images": []
   },
   {
-    "name": "An Pholl BhÃ¡ite (Interior)",
+    "name": "An Pholl BhÃÂ¡ite (Interior)",
     "island": "Inishmore",
     "cluster": "Mainistir, Gort na gCapall & The Interior (Inishmore)",
     "lat": 53.128,
@@ -865,7 +865,7 @@
     "images": []
   },
   {
-    "name": "BÃ³ithrÃ­n na gCottageachaÃ­ (West)",
+    "name": "BÃÂ³ithrÃÂ­n na gCottageachaÃÂ­ (West)",
     "island": "Inishmore",
     "cluster": "Mainistir, Gort na gCapall & The Interior (Inishmore)",
     "lat": 53.128,
@@ -911,7 +911,7 @@
     "long": -9.669452,
     "coord_precision": "zona",
     "description": "The ancient cemetery serving the southern townlands.",
-    "folklore": "Contains the \"Leaba RÃ³nÃ¡in.\" Robinson notes it was a \"sheltery backwater\" where people slept on the eve of the saint's day to seek cures.",
+    "folklore": "Contains the \"Leaba RÃÂ³nÃÂ¡in.\" Robinson notes it was a \"sheltery backwater\" where people slept on the eve of the saint's day to seek cures.",
     "nature": "Shaded by elderberry and hawthorn; home to the flower-beetle.",
     "icon_type": "church_monastic",
     "images": []
@@ -930,7 +930,7 @@
     "images": []
   },
   {
-    "name": "CreigÃ¡n Ard",
+    "name": "CreigÃÂ¡n Ard",
     "island": "Inishmore",
     "cluster": "Mainistir, Gort na gCapall & The Interior (Inishmore)",
     "lat": 53.128,
@@ -943,7 +943,7 @@
     "images": []
   },
   {
-    "name": "BÃ³ithrÃ­n na bPampooties",
+    "name": "BÃÂ³ithrÃÂ­n na bPampooties",
     "island": "Inishmore",
     "cluster": "Mainistir, Gort na gCapall & The Interior (Inishmore)",
     "lat": 53.128,
@@ -969,14 +969,14 @@
     "images": []
   },
   {
-    "name": "Poll an RÃ³idÃ­n",
+    "name": "Poll an RÃÂ³idÃÂ­n",
     "island": "Inishmore",
     "cluster": "Mainistir, Gort na gCapall & The Interior (Inishmore)",
     "lat": 53.128,
     "long": -9.6939,
     "coord_precision": "zona",
     "description": "The \"Pool of the Little Road.\"",
-    "folklore": "A landmark at the end of a long boithrÃ­n leading to the sea.",
+    "folklore": "A landmark at the end of a long boithrÃÂ­n leading to the sea.",
     "nature": "Coastal inlet; home to grey seals.",
     "icon_type": "cliff_coast",
     "images": []
@@ -995,27 +995,27 @@
     "images": []
   },
   {
-    "name": "DÃºn Formna",
+    "name": "DÃÂºn Formna",
     "island": "Inisheer",
     "cluster": "The Southern Isle (Inisheer)",
     "lat": 53.060618,
     "long": -9.511016,
     "coord_precision": "zona",
-    "description": "An irregular cashel wall on the islandâs highest knoll.",
+    "description": "An irregular cashel wall on the islandÃ¢ÂÂs highest knoll.",
     "folklore": "Formna means the ridge or shoulder of a hill. The site contains a 14th-century O'Brien tower-house, destroyed by Cromwellians in 1652. It represents the ancient defensive spine of the southern isle.",
     "nature": "Built on a limestone knoll; home to maritime lichens.",
     "icon_type": "fort_dun",
     "images": []
   },
   {
-    "name": "Teampall ChaomhÃ¡in",
+    "name": "Teampall ChaomhÃÂ¡in",
     "island": "Inisheer",
     "cluster": "The Southern Isle (Inisheer)",
     "lat": 53.063871,
     "long": -9.514034,
     "coord_precision": "zona",
     "description": "A 10th-century church, famous for being buried by shifting sands.",
-    "folklore": "Dedicated to St. CaomhÃ¡n, brother of St. Kevin of Glendalough. Shifting dunes bury the church so frequently that it must be dug out for the saintâs feast day (June 14th).",
+    "folklore": "Dedicated to St. CaomhÃÂ¡n, brother of St. Kevin of Glendalough. Shifting dunes bury the church so frequently that it must be dug out for the saintÃ¢ÂÂs feast day (June 14th).",
     "nature": "Surrounded by a kitchen midden of ancient seashells.",
     "icon_type": "church_monastic",
     "images": [
@@ -1023,30 +1023,30 @@
         "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Window_of_Teampall_Chaomh%C3%A1in_-_geograph.org.uk_-_2634614.jpg",
         "author": "louise price",
         "license": "CC BY-SA 2.0",
-        "source": "https://commons.wikimedia.org/wiki/File:Window of Teampall ChaomhÃ¡in - geograph.org.uk - 2634614.jpg"
+        "source": "https://commons.wikimedia.org/wiki/File:Window of Teampall ChaomhÃÂ¡in - geograph.org.uk - 2634614.jpg"
       },
       {
         "url": "https://upload.wikimedia.org/wikipedia/commons/b/be/Teampall_Chaomh%C3%A1in_on_Inis_O%C3%ADrr_-_geograph.org.uk_-_2634609.jpg",
         "author": "louise price",
         "license": "CC BY-SA 2.0",
-        "source": "https://commons.wikimedia.org/wiki/File:Teampall ChaomhÃ¡in on Inis OÃ­rr - geograph.org.uk - 2634609.jpg"
+        "source": "https://commons.wikimedia.org/wiki/File:Teampall ChaomhÃÂ¡in on Inis OÃÂ­rr - geograph.org.uk - 2634609.jpg"
       },
       {
         "url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Carved_altar_stone%2C_Teampall_Chaomh%C3%A1in_-_geograph.org.uk_-_2634624.jpg",
         "author": "louise price",
         "license": "CC BY-SA 2.0",
-        "source": "https://commons.wikimedia.org/wiki/File:Carved altar stone, Teampall ChaomhÃ¡in - geograph.org.uk - 2634624.jpg"
+        "source": "https://commons.wikimedia.org/wiki/File:Carved altar stone, Teampall ChaomhÃÂ¡in - geograph.org.uk - 2634624.jpg"
       }
     ]
   },
   {
-    "name": "CaisleÃ¡n UÃ­ Bhriain",
+    "name": "CaisleÃÂ¡n UÃÂ­ Bhriain",
     "island": "Inisheer",
     "cluster": "The Southern Isle (Inisheer)",
     "lat": 53.062056,
     "long": -9.51918,
     "coord_precision": "precise",
-    "description": "The tower-house within DÃºn Formna.",
+    "description": "The tower-house within DÃÂºn Formna.",
     "folklore": "The stronghold of the O'Briens, who ruled the islands until the late 16th century. Its ruin stands as a testament to the O'Flaherty/O'Brien conflicts for control of the Atlantic trade routes.",
     "nature": "Massive drystone and mortar masonry.",
     "icon_type": "castle_ruin",
@@ -1067,7 +1067,7 @@
     "long": -9.529214,
     "coord_precision": "precise",
     "description": "A small 8th-century church dedicated to St. Gobnet.",
-    "folklore": "Features a narrow lintelled West door and a tiny East window. Nearby are early graves and the remains of a clochÃ¡n.",
+    "folklore": "Features a narrow lintelled West door and a tiny East window. Nearby are early graves and the remains of a clochÃÂ¡n.",
     "nature": "Situated in a quiet limestone depression.",
     "icon_type": "church_monastic",
     "images": [
@@ -1087,12 +1087,12 @@
         "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Cill_Ghobnait%2C_Inis_O%C3%ADrr_-_geograph.org.uk_-_2622937.jpg",
         "author": "louise price",
         "license": "CC BY-SA 2.0",
-        "source": "https://commons.wikimedia.org/wiki/File:Cill Ghobnait, Inis OÃ­rr - geograph.org.uk - 2622937.jpg"
+        "source": "https://commons.wikimedia.org/wiki/File:Cill Ghobnait, Inis OÃÂ­rr - geograph.org.uk - 2622937.jpg"
       }
     ]
   },
   {
-    "name": "Cnoc RaithnÃ­",
+    "name": "Cnoc RaithnÃÂ­",
     "island": "Inisheer",
     "cluster": "The Southern Isle (Inisheer)",
     "lat": 53.065032,
@@ -1107,7 +1107,7 @@
         "url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Inisheer_Cnoc_Raithn%C3%AD.jpg",
         "author": "Karie Kuiper",
         "license": "CC BY-SA 4.0",
-        "source": "https://commons.wikimedia.org/wiki/File:Inisheer Cnoc RaithnÃ­.jpg"
+        "source": "https://commons.wikimedia.org/wiki/File:Inisheer Cnoc RaithnÃÂ­.jpg"
       },
       {
         "url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Inisheer_cnoc_raithni_20230529_1.jpg",
@@ -1131,8 +1131,8 @@
     "long": -9.526293,
     "coord_precision": "precise",
     "description": "A tall stone tower built in 1857.",
-    "folklore": "Automated in 1978. Its construction brought \"outsiders\" to the island, including the smithy TÃ­ Smith, influencing the local social structure.",
-    "nature": "Overlooking the An SundaÃ³ (South Sound).",
+    "folklore": "Automated in 1978. Its construction brought \"outsiders\" to the island, including the smithy TÃÂ­ Smith, influencing the local social structure.",
+    "nature": "Overlooking the An SundaÃÂ³ (South Sound).",
     "icon_type": "building",
     "images": [
       {
@@ -1182,7 +1182,7 @@
     "images": []
   },
   {
-    "name": "Reilig PÃ³il",
+    "name": "Reilig PÃÂ³il",
     "island": "Inisheer",
     "cluster": "The Southern Isle (Inisheer)",
     "lat": 53.05681,
@@ -1195,14 +1195,14 @@
     "images": []
   },
   {
-    "name": "An Uamhain (Inis OÃ­rr)",
+    "name": "An Uamhain (Inis OÃÂ­rr)",
     "island": "Inisheer",
     "cluster": "The Southern Isle (Inisheer)",
     "lat": 53.056981,
     "long": -9.528712,
     "coord_precision": "precise",
     "description": "A small cave with a legendary connection to Inishmore.",
-    "folklore": "Folklore tells of a piper who entered here and emerged in Inis MeÃ¡in; his music was said to be heard under Carraig an PhÃ­obaire.",
+    "folklore": "Folklore tells of a piper who entered here and emerged in Inis MeÃÂ¡in; his music was said to be heard under Carraig an PhÃÂ­obaire.",
     "nature": "Dark opening in the karst pavement.",
     "icon_type": "natural_feature",
     "images": [
@@ -1210,13 +1210,13 @@
         "url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Feidin_wall_on_Inis_O%C3%ADrr_-_geograph.org.uk_-_2634519.jpg",
         "author": "louise price",
         "license": "CC BY-SA 2.0",
-        "source": "https://commons.wikimedia.org/wiki/File:Feidin wall on Inis OÃ­rr - geograph.org.uk - 2634519.jpg"
+        "source": "https://commons.wikimedia.org/wiki/File:Feidin wall on Inis OÃÂ­rr - geograph.org.uk - 2634519.jpg"
       },
       {
         "url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Thatched_shed_on_Inis_O%C3%ADrr_-_geograph.org.uk_-_2634534.jpg",
         "author": "louise price",
         "license": "CC BY-SA 2.0",
-        "source": "https://commons.wikimedia.org/wiki/File:Thatched shed on Inis OÃ­rr - geograph.org.uk - 2634534.jpg"
+        "source": "https://commons.wikimedia.org/wiki/File:Thatched shed on Inis OÃÂ­rr - geograph.org.uk - 2634534.jpg"
       }
     ]
   },
@@ -1234,7 +1234,7 @@
     "images": []
   },
   {
-    "name": "GarraÃ­ an DiÃºidÃ­n",
+    "name": "GarraÃÂ­ an DiÃÂºidÃÂ­n",
     "island": "Inisheer",
     "cluster": "The Southern Isle (Inisheer)",
     "lat": 53.05681,
@@ -1247,7 +1247,7 @@
     "images": []
   },
   {
-    "name": "Cill na Seacht nInÃ­on",
+    "name": "Cill na Seacht nInÃÂ­on",
     "island": "Inisheer",
     "cluster": "The Southern Isle (Inisheer)",
     "lat": 53.05724,
@@ -1262,7 +1262,7 @@
         "url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Cill_na_Seacht_Nini%C3%B3n_-_Inis_O%C3%ADrr_-_geograph.org.uk_-_3553806.jpg",
         "author": "louise price",
         "license": "CC BY-SA 2.0",
-        "source": "https://commons.wikimedia.org/wiki/File:Cill na Seacht NiniÃ³n - Inis OÃ­rr - geograph.org.uk - 3553806.jpg"
+        "source": "https://commons.wikimedia.org/wiki/File:Cill na Seacht NiniÃÂ³n - Inis OÃÂ­rr - geograph.org.uk - 3553806.jpg"
       }
     ]
   },
@@ -1287,13 +1287,13 @@
     "long": -9.52472,
     "coord_precision": "zona",
     "description": "Circular stone stands for drying ricks of weed.",
-    "folklore": "Built by the CDB to assist the local kelp industry. These \"sea-rod\" drying stations are a unique feature of the Inis OÃ­rr landscape.",
+    "folklore": "Built by the CDB to assist the local kelp industry. These \"sea-rod\" drying stations are a unique feature of the Inis OÃÂ­rr landscape.",
     "nature": "Short lengths of wall and circular platforms.",
     "icon_type": "natural_feature",
     "images": []
   },
   {
-    "name": "TÃ­ Smith",
+    "name": "TÃÂ­ Smith",
     "island": "Inisheer",
     "cluster": "The Southern Isle (Inisheer)",
     "lat": 53.046272,
@@ -1306,7 +1306,7 @@
     "images": []
   },
   {
-    "name": "Baile an tSÃ©ipÃ©il",
+    "name": "Baile an tSÃÂ©ipÃÂ©il",
     "island": "Inisheer",
     "cluster": "The Southern Isle (Inisheer)",
     "lat": 53.062517,
@@ -1326,7 +1326,7 @@
     "long": -9.526212,
     "coord_precision": "zona",
     "description": "An obscurely named field or landmark.",
-    "folklore": "A traditional topographical marker in the Baile an tSÃ©ipÃ©il area.",
+    "folklore": "A traditional topographical marker in the Baile an tSÃÂ©ipÃÂ©il area.",
     "nature": "Small grassy enclosure near the village.",
     "icon_type": "natural_feature",
     "images": []
@@ -1364,14 +1364,14 @@
     "lat": 53.05681,
     "long": -9.52472,
     "coord_precision": "zona",
-    "description": "Bradyâs Cleft.",
+    "description": "BradyÃ¢ÂÂs Cleft.",
     "folklore": "A specific fissure in the limestone cliffs named for a local figure.",
     "nature": "Narrow gap in the coastal rock face.",
     "icon_type": "cliff_coast",
     "images": []
   },
   {
-    "name": "UlÃ¡n Dubh",
+    "name": "UlÃÂ¡n Dubh",
     "island": "Inisheer",
     "cluster": "The Southern Isle (Inisheer)",
     "lat": 53.05681,
@@ -1397,20 +1397,20 @@
     "images": []
   },
   {
-    "name": "BullÃ¡n an Chapaill",
+    "name": "BullÃÂ¡n an Chapaill",
     "island": "Inisheer",
     "cluster": "The Southern Isle (Inisheer)",
     "lat": 53.05681,
     "long": -9.52472,
     "coord_precision": "zona",
     "description": "The \"Horse's Stone Basin.\"",
-    "folklore": "A bullÃ¡n or man-made depression in a rock, likely used for ritual or livestock watering.",
+    "folklore": "A bullÃÂ¡n or man-made depression in a rock, likely used for ritual or livestock watering.",
     "nature": "Large boulder with a deep, circular hollow.",
     "icon_type": "natural_feature",
     "images": []
   },
   {
-    "name": "BÃ©al an Chalaidh",
+    "name": "BÃÂ©al an Chalaidh",
     "island": "Inisheer",
     "cluster": "The Southern Isle (Inisheer)",
     "lat": 53.052084,
@@ -1423,7 +1423,7 @@
     "images": []
   },
   {
-    "name": "Leic an ChaisleÃ¡in",
+    "name": "Leic an ChaisleÃÂ¡in",
     "island": "Inisheer",
     "cluster": "The Southern Isle (Inisheer)",
     "lat": 53.05681,
@@ -1436,7 +1436,7 @@
     "images": []
   },
   {
-    "name": "DÃºn na NÃ­",
+    "name": "DÃÂºn na NÃÂ­",
     "island": "Inisheer",
     "cluster": "The Southern Isle (Inisheer)",
     "lat": 53.05681,
@@ -1449,7 +1449,7 @@
     "images": []
   },
   {
-    "name": "TrÃ¡cht Mil",
+    "name": "TrÃÂ¡cht Mil",
     "island": "Inisheer",
     "cluster": "The Southern Isle (Inisheer)",
     "lat": 53.05681,
@@ -1462,7 +1462,7 @@
     "images": []
   },
   {
-    "name": "Leic MhÃ³r",
+    "name": "Leic MhÃÂ³r",
     "island": "Inisheer",
     "cluster": "The Southern Isle (Inisheer)",
     "lat": 53.05681,
@@ -1470,12 +1470,12 @@
     "coord_precision": "zona",
     "description": "The \"Great Ledge.\"",
     "folklore": "A massive horizontal shelf of limestone.",
-    "nature": "One of the largest single pavements on Inis OÃ­rr.",
+    "nature": "One of the largest single pavements on Inis OÃÂ­rr.",
     "icon_type": "natural_feature",
     "images": []
   },
   {
-    "name": "Gob an BhorrÃ¡in",
+    "name": "Gob an BhorrÃÂ¡in",
     "island": "Inisheer",
     "cluster": "The Southern Isle (Inisheer)",
     "lat": 53.05681,
@@ -1501,7 +1501,7 @@
     "images": []
   },
   {
-    "name": "Loig BhuÃ­",
+    "name": "Loig BhuÃÂ­",
     "island": "Inisheer",
     "cluster": "The Southern Isle (Inisheer)",
     "lat": 53.05681,
@@ -1514,14 +1514,14 @@
     "images": []
   },
   {
-    "name": "Poll Loige BuÃ­",
+    "name": "Poll Loige BuÃÂ­",
     "island": "Inisheer",
     "cluster": "The Southern Isle (Inisheer)",
     "lat": 53.049725,
     "long": -9.519447,
     "coord_precision": "precise",
     "description": "The \"Pool of the Yellow Hollow.\"",
-    "folklore": "A coastal pool near the Loig BhuÃ­ depression.",
+    "folklore": "A coastal pool near the Loig BhuÃÂ­ depression.",
     "nature": "Deep seawater pool.",
     "icon_type": "cliff_coast",
     "images": []
@@ -1533,20 +1533,20 @@
     "lat": 53.05681,
     "long": -9.52472,
     "coord_precision": "zona",
-    "description": "Cormacâs Stone.",
+    "description": "CormacÃ¢ÂÂs Stone.",
     "folklore": "A prominent erratic boulder or memorial stone in the open fields.",
     "nature": "Prominent glacial erratic.",
     "icon_type": "natural_feature",
     "images": []
   },
   {
-    "name": "Poll DhÃ³naill",
+    "name": "Poll DhÃÂ³naill",
     "island": "Inisheer",
     "cluster": "The Southern Isle (Inisheer)",
     "lat": 53.05681,
     "long": -9.52472,
     "coord_precision": "zona",
-    "description": "Donalâs Pool.",
+    "description": "DonalÃ¢ÂÂs Pool.",
     "folklore": "A coastal pool named after a local fisherman or historical figure.",
     "nature": "Rocky inlet with deep water.",
     "icon_type": "cliff_coast",
@@ -1559,21 +1559,21 @@
     "lat": 53.05994,
     "long": -9.52332,
     "coord_precision": "zona",
-    "description": "The Hollow of the Dead, situated in low-lying sandy pasturage north-west of Baile an DÃºin. It contains a squarish mound with stone kerbing and a small upright stone.",
-    "folklore": "Site of the last outbreak of clan warfare in Iar-Chonnacht (1584). A contention arose between the descendants of Owen and Murchadh OâFlaherty over the island's possession. Nine Connemara men, part of a nocturnal expedition, were slaughtered here. Nearby, a plaque commemorates Lawrence Mc Donogh, shot by the Black and Tans on December 19, 1920.",
+    "description": "The Hollow of the Dead, situated in low-lying sandy pasturage north-west of Baile an DÃÂºin. It contains a squarish mound with stone kerbing and a small upright stone.",
+    "folklore": "Site of the last outbreak of clan warfare in Iar-Chonnacht (1584). A contention arose between the descendants of Owen and Murchadh OÃ¢ÂÂFlaherty over the island's possession. Nine Connemara men, part of a nocturnal expedition, were slaughtered here. Nearby, a plaque commemorates Lawrence Mc Donogh, shot by the Black and Tans on December 19, 1920.",
     "nature": "Sandy pasturage subject to winter rain storms; the \"hollow\" serves as a natural sink for runoff in the coastal dunes.",
     "icon_type": "natural_feature",
     "images": []
   },
   {
-    "name": "An SuicÃ­n",
+    "name": "An SuicÃÂ­n",
     "island": "Inisheer",
     "cluster": "Topographical and Folkloric Inventory (Inisheer)",
     "lat": 53.05994,
     "long": -9.52332,
     "coord_precision": "zona",
-    "description": "A derelict quarter located behind Joe Wattyâs pub, once a populous terrace of one-room thatched cottages. The derivation likely refers to a marshy patch or \"swallow-hole.\"",
-    "folklore": "This was once the poorest quarter of the village where a hundred people lived in cramped conditions. Robinson notes an eerie atmosphere where a womanâs voice was heardâa \"disembodied voice\" representing the \"accumulated pangs of female life\" from generations of hardship.",
+    "description": "A derelict quarter located behind Joe WattyÃ¢ÂÂs pub, once a populous terrace of one-room thatched cottages. The derivation likely refers to a marshy patch or \"swallow-hole.\"",
+    "folklore": "This was once the poorest quarter of the village where a hundred people lived in cramped conditions. Robinson notes an eerie atmosphere where a womanÃ¢ÂÂs voice was heardÃ¢ÂÂa \"disembodied voice\" representing the \"accumulated pangs of female life\" from generations of hardship.",
     "nature": "A solutional cavity in the karst limestone that once collected moisture in an otherwise dry terrain.",
     "icon_type": "village_settlement",
     "images": []
@@ -1592,14 +1592,14 @@
     "images": []
   },
   {
-    "name": "Teampall ChaomhÃ¡n",
+    "name": "Teampall ChaomhÃÂ¡n",
     "island": "Inisheer",
     "cluster": "Topographical and Folkloric Inventory (Inisheer)",
     "lat": 53.063871,
     "long": -9.514034,
     "coord_precision": "precise",
-    "description": "A 10th-century church dedicated to St. CaomhÃ¡n, brother of St. Kevin of Glendalough. The nave is a later Medieval addition.",
-    "folklore": "Partially buried by drifting sands for centuries, the church required constant excavation. St. CaomhÃ¡n is a central figure in island hagiography; a huge kitchen midden of seashells nearby dates back to Early Christian times, suggesting long-term ritual habitation.",
+    "description": "A 10th-century church dedicated to St. CaomhÃÂ¡n, brother of St. Kevin of Glendalough. The nave is a later Medieval addition.",
+    "folklore": "Partially buried by drifting sands for centuries, the church required constant excavation. St. CaomhÃÂ¡n is a central figure in island hagiography; a huge kitchen midden of seashells nearby dates back to Early Christian times, suggesting long-term ritual habitation.",
     "nature": "Set within coastal dunes; the surrounding sand-system is stabilized by marram grass.",
     "icon_type": "church_monastic",
     "images": [
@@ -1613,7 +1613,7 @@
         "url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/County_Galway_-_Tempall_Chaomh%C3%A1in_-_20170726175140.jpg",
         "author": "Eskerroe",
         "license": "CC BY-SA 4.0",
-        "source": "https://commons.wikimedia.org/wiki/File:County Galway - Tempall ChaomhÃ¡in - 20170726175140.jpg"
+        "source": "https://commons.wikimedia.org/wiki/File:County Galway - Tempall ChaomhÃÂ¡in - 20170726175140.jpg"
       }
     ]
   },
@@ -1625,7 +1625,7 @@
     "long": -9.529214,
     "coord_precision": "precise",
     "description": "A small, early (8th or 9th century) church dedicated to St. Gobnet of Ballyvourney. Features a narrow lintelled West door.",
-    "folklore": "Located near Early Historic graves and the remains of a clochÃ¡n (stone cell). It represents the spread of the Cult of Gobnet from the mainland to the islands during the monastic expansion.",
+    "folklore": "Located near Early Historic graves and the remains of a clochÃÂ¡n (stone cell). It represents the spread of the Cult of Gobnet from the mainland to the islands during the monastic expansion.",
     "nature": "Surrounded by limestone terraces and early botanical remnants of monastic gardening.",
     "icon_type": "church_monastic",
     "images": [
@@ -1645,18 +1645,18 @@
         "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Cill_Ghobnait%2C_Inis_O%C3%ADrr_-_geograph.org.uk_-_2622937.jpg",
         "author": "louise price",
         "license": "CC BY-SA 2.0",
-        "source": "https://commons.wikimedia.org/wiki/File:Cill Ghobnait, Inis OÃ­rr - geograph.org.uk - 2622937.jpg"
+        "source": "https://commons.wikimedia.org/wiki/File:Cill Ghobnait, Inis OÃÂ­rr - geograph.org.uk - 2622937.jpg"
       }
     ]
   },
   {
-    "name": "Leaba RÃ³nÃ¡in",
+    "name": "Leaba RÃÂ³nÃÂ¡in",
     "island": "Inisheer",
     "cluster": "Topographical and Folkloric Inventory (Inisheer)",
     "lat": 53.05994,
     "long": -9.52332,
     "coord_precision": "zona",
-    "description": "St. RÃ³nÃ¡nâs \"bed\" or grave; a four-yard square plot delimited by a low wall with a small altar and cross-inscribed stone.",
+    "description": "St. RÃÂ³nÃÂ¡nÃ¢ÂÂs \"bed\" or grave; a four-yard square plot delimited by a low wall with a small altar and cross-inscribed stone.",
     "folklore": "Local tradition held that sleeping in the leaba on the eve of the saint's day (August 15) provided cures. Robinson notes that even in the 20th century, crutches were left behind by those healed through these clifftop vigils.",
     "nature": "Features a solitary elderberry bush, once uprooted by an Englishman who was allegedly \"smitten with a stroke\" for his sacrilege.",
     "icon_type": "church_monastic",
@@ -1682,8 +1682,8 @@
     "lat": 53.05994,
     "long": -9.52332,
     "coord_precision": "zona",
-    "description": "A steep limestone slope or scarp leading down to the burial ground of Baile an DÃºin.",
-    "folklore": "The primary route for funeral processions. It is where the community pauses before descending to the grave of St. RÃ³nÃ¡n, marking a boundary between the world of the living and the dead.",
+    "description": "A steep limestone slope or scarp leading down to the burial ground of Baile an DÃÂºin.",
+    "folklore": "The primary route for funeral processions. It is where the community pauses before descending to the grave of St. RÃÂ³nÃÂ¡n, marking a boundary between the world of the living and the dead.",
     "nature": "A significant geological scarp separating the upper limestone terraces from the lower sandy hamlets.",
     "icon_type": "natural_feature",
     "images": []
@@ -1695,27 +1695,27 @@
     "lat": 53.05994,
     "long": -9.52332,
     "coord_precision": "zona",
-    "description": "Jobberâs Hill, named after the uncle of Pat Mullen (author of Hero Breed), a cattle dealer or \"jobber.\"",
+    "description": "JobberÃ¢ÂÂs Hill, named after the uncle of Pat Mullen (author of Hero Breed), a cattle dealer or \"jobber.\"",
     "folklore": "A traditional site for faction fights. The \"Little Jobber,\" a man of five feet height but immense strength, was a legendary stick-fighter who practiced his \"bauneen\" wrapping techniques here to ward off blows from the Morans.",
     "nature": "A steep roadway rising out of the village, showcasing the terraced nature of the karst landscape.",
     "icon_type": "natural_feature",
     "images": []
   },
   {
-    "name": "Carcair na CÃ©artan",
+    "name": "Carcair na CÃÂ©artan",
     "island": "Inisheer",
     "cluster": "Topographical and Folkloric Inventory (Inisheer)",
     "lat": 53.05994,
     "long": -9.52332,
     "coord_precision": "zona",
-    "description": "The Scarp of the Forge, where a blacksmithâs shop once stood on the right of the road.",
-    "folklore": "The forge was operated by Micil Riabhach Ã Niaidh, a Connemara poitÃ­n smuggler who lived a century ago. It represents the island's historical reliance on clandestine maritime trade.",
+    "description": "The Scarp of the Forge, where a blacksmithÃ¢ÂÂs shop once stood on the right of the road.",
+    "folklore": "The forge was operated by Micil Riabhach ÃÂ Niaidh, a Connemara poitÃÂ­n smuggler who lived a century ago. It represents the island's historical reliance on clandestine maritime trade.",
     "nature": "Marks the entry point into the higher limestone pavement areas.",
     "icon_type": "natural_feature",
     "images": []
   },
   {
-    "name": "Cnoc RaithnÃ­",
+    "name": "Cnoc RaithnÃÂ­",
     "island": "Inisheer",
     "cluster": "Topographical and Folkloric Inventory (Inisheer)",
     "lat": 53.065032,
@@ -1730,7 +1730,7 @@
         "url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Inisheer_Cnoc_Raithn%C3%AD.jpg",
         "author": "Karie Kuiper",
         "license": "CC BY-SA 4.0",
-        "source": "https://commons.wikimedia.org/wiki/File:Inisheer Cnoc RaithnÃ­.jpg"
+        "source": "https://commons.wikimedia.org/wiki/File:Inisheer Cnoc RaithnÃÂ­.jpg"
       },
       {
         "url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Inisheer_cnoc_raithni_20230529_1.jpg",
@@ -1747,7 +1747,7 @@
     ]
   },
   {
-    "name": "Cill na Seacht nInÃ­on",
+    "name": "Cill na Seacht nInÃÂ­on",
     "island": "Inisheer",
     "cluster": "Topographical and Folkloric Inventory (Inisheer)",
     "lat": 53.05724,
@@ -1762,33 +1762,33 @@
         "url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Cill_na_Seacht_Nini%C3%B3n_-_Inis_O%C3%ADrr_-_geograph.org.uk_-_3553806.jpg",
         "author": "louise price",
         "license": "CC BY-SA 2.0",
-        "source": "https://commons.wikimedia.org/wiki/File:Cill na Seacht NiniÃ³n - Inis OÃ­rr - geograph.org.uk - 3553806.jpg"
+        "source": "https://commons.wikimedia.org/wiki/File:Cill na Seacht NiniÃÂ³n - Inis OÃÂ­rr - geograph.org.uk - 3553806.jpg"
       }
     ]
   },
   {
-    "name": "DÃºn Formna",
+    "name": "DÃÂºn Formna",
     "island": "Inisheer",
     "cluster": "Topographical and Folkloric Inventory (Inisheer)",
     "lat": 53.060618,
     "long": -9.511016,
     "coord_precision": "zona",
     "description": "A prehistoric stone fort or cashel wall following the lines of the knoll upon which it stands.",
-    "folklore": "Formna signifies the \"ridge\" or \"shoulder\" of a hill. It represents the earliest defensive architecture on Inis OÃ­rr, predating the O'Brien tower-house built within its perimeter.",
+    "folklore": "Formna signifies the \"ridge\" or \"shoulder\" of a hill. It represents the earliest defensive architecture on Inis OÃÂ­rr, predating the O'Brien tower-house built within its perimeter.",
     "nature": "Built on the highest ridge of the island, offering a vantage over the South Sound.",
     "icon_type": "fort_dun",
     "images": []
   },
   {
-    "name": "CaisleÃ¡n UÃ­ Bhriain",
+    "name": "CaisleÃÂ¡n UÃÂ­ Bhriain",
     "island": "Inisheer",
     "cluster": "Topographical and Folkloric Inventory (Inisheer)",
     "lat": 53.062056,
     "long": -9.51918,
     "coord_precision": "precise",
-    "description": "A 14th-century tower-house built within the walls of DÃºn Formna by the O'Briens.",
-    "folklore": "Occupied by the O'Briens until 1582 and later destroyed by Cromwellian forces in 1652. It is the most prominent landmark on the islandâs skyline, symbolizing Gaelic lordship.",
-    "nature": "Constructed from local limestone, it is now a shell integrated into the prehistoric fortâs fabric.",
+    "description": "A 14th-century tower-house built within the walls of DÃÂºn Formna by the O'Briens.",
+    "folklore": "Occupied by the O'Briens until 1582 and later destroyed by Cromwellian forces in 1652. It is the most prominent landmark on the islandÃ¢ÂÂs skyline, symbolizing Gaelic lordship.",
+    "nature": "Constructed from local limestone, it is now a shell integrated into the prehistoric fortÃ¢ÂÂs fabric.",
     "icon_type": "castle_ruin",
     "images": [
       {
@@ -1864,7 +1864,7 @@
     ]
   },
   {
-    "name": "TÃ­ Smith",
+    "name": "TÃÂ­ Smith",
     "island": "Inisheer",
     "cluster": "Topographical and Folkloric Inventory (Inisheer)",
     "lat": 53.046272,
@@ -1884,7 +1884,7 @@
     "long": -9.52332,
     "coord_precision": "zona",
     "description": "A small cave near the shoreline.",
-    "folklore": "Legend tells of a piper who entered this cave and was never seen again; however, his music was reportedly heard emanating from under Carraig an PhÃ­obaire in Inis MeÃ¡in.",
+    "folklore": "Legend tells of a piper who entered this cave and was never seen again; however, his music was reportedly heard emanating from under Carraig an PhÃÂ­obaire in Inis MeÃÂ¡in.",
     "nature": "A natural solution cavity within the limestone, typical of karst topography.",
     "icon_type": "natural_feature",
     "images": []
@@ -1903,7 +1903,7 @@
     "images": []
   },
   {
-    "name": "SuÃ­ochÃ¡n na Naomh",
+    "name": "SuÃÂ­ochÃÂ¡n na Naomh",
     "island": "Inisheer",
     "cluster": "Topographical and Folkloric Inventory (Inisheer)",
     "lat": 53.05994,
@@ -1916,7 +1916,7 @@
     "images": []
   },
   {
-    "name": "Reilig PÃ³il",
+    "name": "Reilig PÃÂ³il",
     "island": "Inisheer",
     "cluster": "Topographical and Folkloric Inventory (Inisheer)",
     "lat": 53.05994,
@@ -1942,7 +1942,7 @@
     "images": []
   },
   {
-    "name": "GarraÃ­ an DiÃºidÃ­n",
+    "name": "GarraÃÂ­ an DiÃÂºidÃÂ­n",
     "island": "Inisheer",
     "cluster": "Topographical and Folkloric Inventory (Inisheer)",
     "lat": 53.05994,
@@ -1955,20 +1955,20 @@
     "images": []
   },
   {
-    "name": "Tobar Ãinne",
+    "name": "Tobar ÃÂinne",
     "island": "Inisheer",
     "cluster": "Topographical and Folkloric Inventory (Inisheer)",
     "lat": 53.058051,
     "long": -9.544697,
     "coord_precision": "precise",
-    "description": "St. Endaâs Well, a site of active pilgrimage.",
-    "folklore": "Still visited for its curative waters. Robinson notes that while ClochÃ¡n Ãinne is nearby, only a trace of the saint's cell remains.",
+    "description": "St. EndaÃ¢ÂÂs Well, a site of active pilgrimage.",
+    "folklore": "Still visited for its curative waters. Robinson notes that while ClochÃÂ¡n ÃÂinne is nearby, only a trace of the saint's cell remains.",
     "nature": "A natural spring issuing through a fissure in the limestone.",
     "icon_type": "holy_well",
     "images": []
   },
   {
-    "name": "An PhÃºca",
+    "name": "An PhÃÂºca",
     "island": "Inisheer",
     "cluster": "Topographical and Folkloric Inventory (Inisheer)",
     "lat": 53.05994,
@@ -1981,7 +1981,7 @@
     "images": []
   },
   {
-    "name": "BÃ³ithrÃ­n na gCottageachaÃ­",
+    "name": "BÃÂ³ithrÃÂ­n na gCottageachaÃÂ­",
     "island": "Inisheer",
     "cluster": "Topographical and Folkloric Inventory (Inisheer)",
     "lat": 53.05994,
@@ -1994,7 +1994,7 @@
     "images": []
   },
   {
-    "name": "An Lui MhÃ³r",
+    "name": "An Lui MhÃÂ³r",
     "island": "Inisheer",
     "cluster": "Topographical and Folkloric Inventory (Inisheer)",
     "lat": 53.05994,
@@ -2007,20 +2007,20 @@
     "images": []
   },
   {
-    "name": "Poll na bPÃ©ist",
+    "name": "Poll na bPÃÂ©ist",
     "island": "Inisheer",
     "cluster": "Topographical and Folkloric Inventory (Inisheer)",
     "lat": 53.05994,
     "long": -9.52332,
     "coord_precision": "zona",
     "description": "The Worm Hole, a natural rectangular sea-pool.",
-    "folklore": "Folklore speaks of a \"pÃ©ist\" (serpent) inhabiting the depths. It is a marvel of coastal erosion, often mistaken for a man-made quarry.",
+    "folklore": "Folklore speaks of a \"pÃÂ©ist\" (serpent) inhabiting the depths. It is a marvel of coastal erosion, often mistaken for a man-made quarry.",
     "nature": "A geometric basin cut into the sea-shelf by the relentless hydraulic action of the Atlantic.",
     "icon_type": "cliff_coast",
     "images": []
   },
   {
-    "name": "Creig an BhobailÃ­n",
+    "name": "Creig an BhobailÃÂ­n",
     "island": "Inisheer",
     "cluster": "Topographical and Folkloric Inventory (Inisheer)",
     "lat": 53.05994,
@@ -2033,7 +2033,7 @@
     "images": []
   },
   {
-    "name": "Leac na nÃan",
+    "name": "Leac na nÃÂan",
     "island": "Inisheer",
     "cluster": "Topographical and Folkloric Inventory (Inisheer)",
     "lat": 53.05994,
@@ -2046,7 +2046,7 @@
     "images": []
   },
   {
-    "name": "An Aill MhÃ³r",
+    "name": "An Aill MhÃÂ³r",
     "island": "Inisheer",
     "cluster": "Topographical and Folkloric Inventory (Inisheer)",
     "lat": 53.05994,
@@ -2072,7 +2072,7 @@
     "images": []
   },
   {
-    "name": "An ChurÃ¡it",
+    "name": "An ChurÃÂ¡it",
     "island": "Inisheer",
     "cluster": "Topographical and Folkloric Inventory (Inisheer)",
     "lat": 53.05994,
@@ -2085,7 +2085,7 @@
     "images": []
   },
   {
-    "name": "MÃ³inÃ­n Dubh",
+    "name": "MÃÂ³inÃÂ­n Dubh",
     "island": "Inisheer",
     "cluster": "Topographical and Folkloric Inventory (Inisheer)",
     "lat": 53.05994,
@@ -2111,7 +2111,7 @@
     "images": []
   },
   {
-    "name": "An CorrÃ n",
+    "name": "An CorrÃÂ n",
     "island": "Inisheer",
     "cluster": "Topographical and Folkloric Inventory (Inisheer)",
     "lat": 53.05994,
@@ -2124,7 +2124,7 @@
     "images": []
   },
   {
-    "name": "Scalp an TÃ iseir",
+    "name": "Scalp an TÃÂ iseir",
     "island": "Inisheer",
     "cluster": "Topographical and Folkloric Inventory (Inisheer)",
     "lat": 53.05994,
@@ -2137,7 +2137,7 @@
     "images": []
   },
   {
-    "name": "Leic an NÃ­ochÃ¡in",
+    "name": "Leic an NÃÂ­ochÃÂ¡in",
     "island": "Inisheer",
     "cluster": "Topographical and Folkloric Inventory (Inisheer)",
     "lat": 53.05994,
@@ -2150,7 +2150,7 @@
     "images": []
   },
   {
-    "name": "Poll an RÃ³idÃ­n",
+    "name": "Poll an RÃÂ³idÃÂ­n",
     "island": "Inisheer",
     "cluster": "Topographical and Folkloric Inventory (Inisheer)",
     "lat": 53.05994,
@@ -2163,7 +2163,7 @@
     "images": []
   },
   {
-    "name": "An MionnÃ¡n",
+    "name": "An MionnÃÂ¡n",
     "island": "Inisheer",
     "cluster": "Topographical and Folkloric Inventory (Inisheer)",
     "lat": 53.05994,
@@ -2176,7 +2176,7 @@
     "images": []
   },
   {
-    "name": "TrÃ¡cht Each",
+    "name": "TrÃÂ¡cht Each",
     "island": "Inisheer",
     "cluster": "Topographical and Folkloric Inventory (Inisheer)",
     "lat": 53.068568,
@@ -2189,7 +2189,7 @@
     "images": []
   },
   {
-    "name": "Ãit an Chuain",
+    "name": "ÃÂit an Chuain",
     "island": "Inisheer",
     "cluster": "Topographical and Folkloric Inventory (Inisheer)",
     "lat": 53.065441,
@@ -2202,7 +2202,7 @@
     "images": []
   },
   {
-    "name": "Scalp Ãit an Chuain",
+    "name": "Scalp ÃÂit an Chuain",
     "island": "Inisheer",
     "cluster": "Topographical and Folkloric Inventory (Inisheer)",
     "lat": 53.065441,
@@ -2215,7 +2215,7 @@
     "images": []
   },
   {
-    "name": "An Charraig ChÃºl",
+    "name": "An Charraig ChÃÂºl",
     "island": "Inisheer",
     "cluster": "Topographical and Folkloric Inventory (Inisheer)",
     "lat": 53.05994,
@@ -2228,33 +2228,33 @@
     "images": []
   },
   {
-    "name": "Poll MhÃ¡irtÃ­n",
+    "name": "Poll MhÃÂ¡irtÃÂ­n",
     "island": "Inisheer",
     "cluster": "Topographical and Folkloric Inventory (Inisheer)",
     "lat": 53.05994,
     "long": -9.52332,
     "coord_precision": "zona",
-    "description": "Martinâs Hole.",
+    "description": "MartinÃ¢ÂÂs Hole.",
     "folklore": "Named after a local individual who either found a record catch here or suffered a maritime mishap.",
     "nature": "A specific sea-cauldron within the rocky shelf.",
     "icon_type": "cliff_coast",
     "images": []
   },
   {
-    "name": "Carraig an PhÃ­obaire",
+    "name": "Carraig an PhÃÂ­obaire",
     "island": "Inisheer",
     "cluster": "Topographical and Folkloric Inventory (Inisheer)",
     "lat": 53.05994,
     "long": -9.52332,
     "coord_precision": "zona",
-    "description": "The Piperâs Rock.",
-    "folklore": "The companion site to An Uamhain; people claimed to hear the lost piperâs music beneath this stone.",
+    "description": "The PiperÃ¢ÂÂs Rock.",
+    "folklore": "The companion site to An Uamhain; people claimed to hear the lost piperÃ¢ÂÂs music beneath this stone.",
     "nature": "A large, distinct limestone erratic.",
     "icon_type": "natural_feature",
     "images": []
   },
   {
-    "name": "An ChuinnÃ©og",
+    "name": "An ChuinnÃÂ©og",
     "island": "Inisheer",
     "cluster": "Topographical and Folkloric Inventory (Inisheer)",
     "lat": 53.057324,
@@ -2267,7 +2267,7 @@
     "images": []
   },
   {
-    "name": "An Poll BÃ¡ite",
+    "name": "An Poll BÃÂ¡ite",
     "island": "Inisheer",
     "cluster": "Topographical and Folkloric Inventory (Inisheer)",
     "lat": 53.05994,
@@ -2293,7 +2293,7 @@
     "images": []
   },
   {
-    "name": "Ceann na FaolchanaÃ­",
+    "name": "Ceann na FaolchanaÃÂ­",
     "island": "Inisheer",
     "cluster": "Topographical and Folkloric Inventory (Inisheer)",
     "lat": 53.05994,
@@ -2312,14 +2312,14 @@
     "lat": 53.05994,
     "long": -9.52332,
     "coord_precision": "zona",
-    "description": "Bradyâs Cleft.",
+    "description": "BradyÃ¢ÂÂs Cleft.",
     "folklore": "Named for a family associated with this specific portion of the \"backwaters.\"",
     "nature": "A narrow, vertical fissure in the coastal rock-face.",
     "icon_type": "cliff_coast",
     "images": []
   },
   {
-    "name": "UlÃ¡n Dubh",
+    "name": "UlÃÂ¡n Dubh",
     "island": "Inisheer",
     "cluster": "Topographical and Folkloric Inventory (Inisheer)",
     "lat": 53.05994,
@@ -2345,20 +2345,20 @@
     "images": []
   },
   {
-    "name": "BullÃ¡n an Chapaill",
+    "name": "BullÃÂ¡n an Chapaill",
     "island": "Inisheer",
     "cluster": "Topographical and Folkloric Inventory (Inisheer)",
     "lat": 53.05994,
     "long": -9.52332,
     "coord_precision": "zona",
-    "description": "The Horseâs Rock-Basin.",
+    "description": "The HorseÃ¢ÂÂs Rock-Basin.",
     "folklore": "A natural solution hollow used as a trough for livestock.",
     "nature": "A basin formed by the dissolution of limestone by rainwater.",
     "icon_type": "natural_feature",
     "images": []
   },
   {
-    "name": "BÃ©al an Chalaidh",
+    "name": "BÃÂ©al an Chalaidh",
     "island": "Inisheer",
     "cluster": "Topographical and Folkloric Inventory (Inisheer)",
     "lat": 53.052084,
@@ -2371,7 +2371,7 @@
     "images": []
   },
   {
-    "name": "Leic an ChaisleÃ¡in",
+    "name": "Leic an ChaisleÃÂ¡in",
     "island": "Inisheer",
     "cluster": "Topographical and Folkloric Inventory (Inisheer)",
     "lat": 53.05994,
@@ -2384,20 +2384,20 @@
     "images": []
   },
   {
-    "name": "DÃºn na NÃ­",
+    "name": "DÃÂºn na NÃÂ­",
     "island": "Inisheer",
     "cluster": "Topographical and Folkloric Inventory (Inisheer)",
     "lat": 53.060618,
     "long": -9.511016,
     "coord_precision": "zona",
     "description": "A small, ancient stone fort.",
-    "folklore": "Though less famous than DÃºn Formna, it protected the lower coastal access points.",
+    "folklore": "Though less famous than DÃÂºn Formna, it protected the lower coastal access points.",
     "nature": "A ruinous circular stone enclosure.",
     "icon_type": "fort_dun",
     "images": []
   },
   {
-    "name": "TrÃ¡cht Mil",
+    "name": "TrÃÂ¡cht Mil",
     "island": "Inisheer",
     "cluster": "Topographical and Folkloric Inventory (Inisheer)",
     "lat": 53.05994,
@@ -2410,7 +2410,7 @@
     "images": []
   },
   {
-    "name": "Leic MhÃ³r",
+    "name": "Leic MhÃÂ³r",
     "island": "Inisheer",
     "cluster": "Topographical and Folkloric Inventory (Inisheer)",
     "lat": 53.05994,
@@ -2423,7 +2423,7 @@
     "images": []
   },
   {
-    "name": "Gob an ChorrÃ¡in",
+    "name": "Gob an ChorrÃÂ¡in",
     "island": "Inisheer",
     "cluster": "Topographical and Folkloric Inventory (Inisheer)",
     "lat": 53.05994,
@@ -2449,7 +2449,7 @@
     "images": []
   },
   {
-    "name": "Loig BhuÃ­",
+    "name": "Loig BhuÃÂ­",
     "island": "Inisheer",
     "cluster": "Topographical and Folkloric Inventory (Inisheer)",
     "lat": 53.05994,
@@ -2462,7 +2462,7 @@
     "images": []
   },
   {
-    "name": "Poll Loige BuÃ­",
+    "name": "Poll Loige BuÃÂ­",
     "island": "Inisheer",
     "cluster": "Topographical and Folkloric Inventory (Inisheer)",
     "lat": 53.049725,
@@ -2475,7 +2475,7 @@
     "images": []
   },
   {
-    "name": "An ScreigÃ­n",
+    "name": "An ScreigÃÂ­n",
     "island": "Inisheer",
     "cluster": "Topographical and Folkloric Inventory (Inisheer)",
     "lat": 53.05994,
@@ -2494,27 +2494,27 @@
     "lat": 53.05994,
     "long": -9.52332,
     "coord_precision": "zona",
-    "description": "Cormacâs Stone.",
+    "description": "CormacÃ¢ÂÂs Stone.",
     "folklore": "A memorial or boundary marker named for a historical islander.",
     "nature": "A large, isolated limestone boulder.",
     "icon_type": "natural_feature",
     "images": []
   },
   {
-    "name": "Poll DhÃ³naill",
+    "name": "Poll DhÃÂ³naill",
     "island": "Inisheer",
     "cluster": "Topographical and Folkloric Inventory (Inisheer)",
     "lat": 53.05994,
     "long": -9.52332,
     "coord_precision": "zona",
-    "description": "Donaldâs Hole.",
+    "description": "DonaldÃ¢ÂÂs Hole.",
     "folklore": "Associated with a specific maritime accident or a legendary fisherman named Donald.",
     "nature": "A deep, dangerous coastal inlet.",
     "icon_type": "cliff_coast",
     "images": []
   },
   {
-    "name": "Caladh ThrÃ¡ Caorach",
+    "name": "Caladh ThrÃÂ¡ Caorach",
     "island": "Inisheer",
     "cluster": "Topographical and Folkloric Inventory (Inisheer)",
     "lat": 53.059488,
@@ -2527,7 +2527,7 @@
     "images": []
   },
   {
-    "name": "TrÃ¡ Caorach",
+    "name": "TrÃÂ¡ Caorach",
     "island": "Inisheer",
     "cluster": "Topographical and Folkloric Inventory (Inisheer)",
     "lat": 53.059488,
@@ -2560,7 +2560,7 @@
     "images": []
   },
   {
-    "name": "Poll an RÃ³iste",
+    "name": "Poll an RÃÂ³iste",
     "island": "Inisheer",
     "cluster": "Topographical and Folkloric Inventory (Inisheer)",
     "lat": 53.05994,
@@ -2586,7 +2586,7 @@
     "images": []
   },
   {
-    "name": "An PhoillÃ­n",
+    "name": "An PhoillÃÂ­n",
     "island": "Inisheer",
     "cluster": "Topographical and Folkloric Inventory (Inisheer)",
     "lat": 53.059271,
@@ -2599,7 +2599,7 @@
     "images": []
   },
   {
-    "name": "CreagÃ¡n Ard",
+    "name": "CreagÃÂ¡n Ard",
     "island": "Inisheer",
     "cluster": "Topographical and Folkloric Inventory (Inisheer)",
     "lat": 53.057917,
@@ -2612,7 +2612,7 @@
     "images": []
   },
   {
-    "name": "An Loch MÃ³r",
+    "name": "An Loch MÃÂ³r",
     "island": "Inisheer",
     "cluster": "Topographical and Folkloric Inventory (Inisheer)",
     "lat": 53.058585,
@@ -2633,7 +2633,7 @@
     "coord_precision": "precise",
     "description": "The Ridge.",
     "folklore": "A long, low limestone elevation running through the center of the island.",
-    "nature": "A fundamental geological feature of Inis OÃ­rr.",
+    "nature": "A fundamental geological feature of Inis OÃÂ­rr.",
     "icon_type": "natural_feature",
     "images": []
   },
@@ -2664,7 +2664,7 @@
     "images": []
   },
   {
-    "name": "Aill Chreig an TÃ­",
+    "name": "Aill Chreig an TÃÂ­",
     "island": "Inisheer",
     "cluster": "Topographical and Folkloric Inventory (Inisheer)",
     "lat": 53.05994,
@@ -2672,25 +2672,25 @@
     "coord_precision": "zona",
     "description": "The Cliff of the House-Rock.",
     "folklore": "Named for a house that once stood perilously close to the cliff edge.",
-    "nature": "A vertical coastal section near Baile an ChaisleÃ¡in.",
+    "nature": "A vertical coastal section near Baile an ChaisleÃÂ¡in.",
     "icon_type": "cliff_coast",
     "images": []
   },
   {
-    "name": "CeathrÃº I",
+    "name": "CeathrÃÂº I",
     "island": "Inisheer",
     "cluster": "Topographical and Folkloric Inventory (Inisheer)",
     "lat": 53.05994,
     "long": -9.52332,
     "coord_precision": "zona",
     "description": "The First Quarter.",
-    "folklore": "One of the four primary land divisions of Inis OÃ­rr.",
+    "folklore": "One of the four primary land divisions of Inis OÃÂ­rr.",
     "nature": "Administrative and agricultural territory.",
     "icon_type": "village_settlement",
     "images": []
   },
   {
-    "name": "CeathrÃº II",
+    "name": "CeathrÃÂº II",
     "island": "Inisheer",
     "cluster": "Topographical and Folkloric Inventory (Inisheer)",
     "lat": 53.05994,
@@ -2703,14 +2703,14 @@
     "images": []
   },
   {
-    "name": "CeathrÃº III",
+    "name": "CeathrÃÂº III",
     "island": "Inisheer",
     "cluster": "Topographical and Folkloric Inventory (Inisheer)",
     "lat": 53.05994,
     "long": -9.52332,
     "coord_precision": "zona",
     "description": "The Third Quarter.",
-    "folklore": "Contains many of the islandâs primary archaeological sites.",
+    "folklore": "Contains many of the islandÃ¢ÂÂs primary archaeological sites.",
     "nature": "Rich in ancient stone walls and ruins.",
     "icon_type": "village_settlement",
     "images": []
@@ -2742,13 +2742,13 @@
     "images": []
   },
   {
-    "name": "An BhlÃºibh",
+    "name": "An BhlÃÂºibh",
     "island": "Inisheer",
     "cluster": "Topographical and Folkloric Inventory (Inisheer)",
     "lat": 53.062517,
     "long": -9.526212,
     "coord_precision": "zona",
-    "description": "A small, sheltered hollow in Baile an tSÃ©ipÃ©il.",
+    "description": "A small, sheltered hollow in Baile an tSÃÂ©ipÃÂ©il.",
     "folklore": "Often used for sheltering livestock during heavy winter gales.",
     "nature": "A natural limestone basin.",
     "icon_type": "natural_feature",
@@ -2768,7 +2768,7 @@
     "images": []
   },
   {
-    "name": "An Chreig MhÃ³r",
+    "name": "An Chreig MhÃÂ³r",
     "island": "Inisheer",
     "cluster": "Topographical and Folkloric Inventory (Inisheer)",
     "lat": 53.05994,
@@ -2794,14 +2794,14 @@
     "images": []
   },
   {
-    "name": "An TrÃ¡",
+    "name": "An TrÃÂ¡",
     "island": "Inisheer",
     "cluster": "Topographical and Folkloric Inventory (Inisheer)",
     "lat": 53.05994,
     "long": -9.52332,
     "coord_precision": "zona",
     "description": "The Strand.",
-    "folklore": "The primary beach of Inis OÃ­rr, central to social and economic life.",
+    "folklore": "The primary beach of Inis OÃÂ­rr, central to social and economic life.",
     "nature": "A large sandy beach protected by the harbor pier.",
     "icon_type": "beach_strand",
     "images": []
@@ -2846,7 +2846,7 @@
     "images": []
   },
   {
-    "name": "An BÃ³ithrÃ­n",
+    "name": "An BÃÂ³ithrÃÂ­n",
     "island": "Inisheer",
     "cluster": "Topographical and Folkloric Inventory (Inisheer)",
     "lat": 53.05994,
@@ -2859,7 +2859,7 @@
     "images": []
   },
   {
-    "name": "Pier of Inis OÃ­rr",
+    "name": "Pier of Inis OÃÂ­rr",
     "island": "Inisheer",
     "cluster": "Topographical and Folkloric Inventory (Inisheer)",
     "lat": 53.068386,
@@ -2872,13 +2872,13 @@
     "images": [
       {
         "url": "https://upload.wikimedia.org/wikipedia/commons/4/44/376-0055-hinnerk-ruemenapf_inis-oirr.jpg",
-        "author": "Hinnerk RÃ¼menapf (Hinnerk R)",
+        "author": "Hinnerk RÃÂ¼menapf (Hinnerk R)",
         "license": "CC BY-SA 4.0",
         "source": "https://commons.wikimedia.org/wiki/File:376-0055-hinnerk-ruemenapf inis-oirr.jpg"
       },
       {
         "url": "https://upload.wikimedia.org/wikipedia/commons/1/17/376-0040-hinnerk-ruemenapf_inis-oirr.jpg",
-        "author": "Hinnerk RÃ¼menapf (Hinnerk R)",
+        "author": "Hinnerk RÃÂ¼menapf (Hinnerk R)",
         "license": "CC BY-SA 4.0",
         "source": "https://commons.wikimedia.org/wiki/File:376-0040-hinnerk-ruemenapf inis-oirr.jpg"
       },
@@ -2917,14 +2917,14 @@
     "images": []
   },
   {
-    "name": "CaisleÃ¡n Area",
+    "name": "CaisleÃÂ¡n Area",
     "island": "Inisheer",
     "cluster": "Topographical and Folkloric Inventory (Inisheer)",
     "lat": 53.05994,
     "long": -9.52332,
     "coord_precision": "zona",
     "description": "The territory surrounding the O'Brien castle.",
-    "folklore": "The historical center of political power on Inis OÃ­rr.",
+    "folklore": "The historical center of political power on Inis OÃÂ­rr.",
     "nature": "Strategically located high ground.",
     "icon_type": "castle_ruin",
     "images": []
@@ -2956,7 +2956,7 @@
     "images": []
   },
   {
-    "name": "Baile an DÃºin",
+    "name": "Baile an DÃÂºin",
     "island": "Inisheer",
     "cluster": "Topographical and Folkloric Inventory (Inisheer)",
     "lat": 53.05994,
@@ -2976,13 +2976,13 @@
     "long": -9.524989,
     "coord_precision": "precise",
     "description": "The Long Slope.",
-    "folklore": "A significant geographical feature that defines the islandâs northern aspect.",
+    "folklore": "A significant geographical feature that defines the islandÃ¢ÂÂs northern aspect.",
     "nature": "A long, steady limestone incline.",
     "icon_type": "natural_feature",
     "images": []
   },
   {
-    "name": "Poll an RÃ³idÃ­n",
+    "name": "Poll an RÃÂ³idÃÂ­n",
     "island": "Inisheer",
     "cluster": "Topographical and Folkloric Inventory (Inisheer)",
     "lat": 53.05994,
@@ -2995,7 +2995,7 @@
     "images": []
   },
   {
-    "name": "DÃºn Eochla",
+    "name": "DÃÂºn Eochla",
     "island": "Inishmore",
     "cluster": "Topographical and Folkloric Inventory (Inishmore)",
     "lat": 53.127134,
@@ -3003,7 +3003,7 @@
     "coord_precision": "precise",
     "description": "A massive, multi-walled stone fort situated at the highest point of Inishmore in the Eochaill townland.",
     "folklore": "Robinson notes it as a primary landmark for antiquarians. George Petrie visited in 1821 to document its \"Military Architecture,\" providing the first scientific discipline to Irish archaeology.",
-    "nature": "Positioned on a high limestone plateau with 360-degree visibility across the islandâs terraced \"desert.\"",
+    "nature": "Positioned on a high limestone plateau with 360-degree visibility across the islandÃ¢ÂÂs terraced \"desert.\"",
     "icon_type": "fort_dun",
     "images": [
       {
@@ -3034,7 +3034,7 @@
     "long": -9.77763,
     "coord_precision": "precise",
     "description": "A monastic complex in Eoghanacht, consisting of ruined churches and domestic structures.",
-    "folklore": "Dedicated to St. Brecan. Despite the name, Robinson clarifies it consists of only two churches (Teampall BhreacÃ¡in and Teampall an Phoill) and several peripheral ruins. It was a major pilgrimage site where stones were once \"miraculous.\"",
+    "folklore": "Dedicated to St. Brecan. Despite the name, Robinson clarifies it consists of only two churches (Teampall BhreacÃÂ¡in and Teampall an Phoill) and several peripheral ruins. It was a major pilgrimage site where stones were once \"miraculous.\"",
     "nature": "Surrounded by limestone pavements and small fertile patches near the northern Atlantic coast.",
     "icon_type": "church_monastic",
     "images": [
@@ -3042,24 +3042,24 @@
         "url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Minibus_approaching_Na_Seacht_dTeampaill_%28Seven_Churches%29%2C_near_Onaght%2C_Inishm%C3%B3r_%28%C3%81rainn%29%2C_Aran_Islands%2C_Co._Galway_-_geograph.org.uk_-_3634989.jpg",
         "author": "P L Chadwick",
         "license": "CC BY-SA 2.0",
-        "source": "https://commons.wikimedia.org/wiki/File:Minibus approaching Na Seacht dTeampaill (Seven Churches), near Onaght, InishmÃ³r (Ãrainn), Aran Islands, Co. Galway - geograph.org.uk - 3634989.jpg"
+        "source": "https://commons.wikimedia.org/wiki/File:Minibus approaching Na Seacht dTeampaill (Seven Churches), near Onaght, InishmÃÂ³r (ÃÂrainn), Aran Islands, Co. Galway - geograph.org.uk - 3634989.jpg"
       },
       {
         "url": "https://upload.wikimedia.org/wikipedia/commons/3/34/Ford_minibus_by_Na_Seacht_dTeampaill_%28Seven_Churches%29%2C_near_Onaght%2C_Inishm%C3%B3r_%28%C3%81rainn%29%2C_Aran_Islands%2C_Co._Galway_-_geograph.org.uk_-_3635030.jpg",
         "author": "P L Chadwick",
         "license": "CC BY-SA 2.0",
-        "source": "https://commons.wikimedia.org/wiki/File:Ford minibus by Na Seacht dTeampaill (Seven Churches), near Onaght, InishmÃ³r (Ãrainn), Aran Islands, Co. Galway - geograph.org.uk - 3635030.jpg"
+        "source": "https://commons.wikimedia.org/wiki/File:Ford minibus by Na Seacht dTeampaill (Seven Churches), near Onaght, InishmÃÂ³r (ÃÂrainn), Aran Islands, Co. Galway - geograph.org.uk - 3635030.jpg"
       },
       {
         "url": "https://upload.wikimedia.org/wikipedia/commons/2/25/Mercedes_minibus_by_Na_Seacht_dTeampaill_%28Seven_Churches%29%2C_near_Onaght%2C_Inishm%C3%B3r_%28%C3%81rainn%29%2C_Aran_Islands%2C_Co._Galway_-_geograph.org.uk_-_3635007.jpg",
         "author": "P L Chadwick",
         "license": "CC BY-SA 2.0",
-        "source": "https://commons.wikimedia.org/wiki/File:Mercedes minibus by Na Seacht dTeampaill (Seven Churches), near Onaght, InishmÃ³r (Ãrainn), Aran Islands, Co. Galway - geograph.org.uk - 3635007.jpg"
+        "source": "https://commons.wikimedia.org/wiki/File:Mercedes minibus by Na Seacht dTeampaill (Seven Churches), near Onaght, InishmÃÂ³r (ÃÂrainn), Aran Islands, Co. Galway - geograph.org.uk - 3635007.jpg"
       }
     ]
   },
   {
-    "name": "DÃºn Eoghanachta",
+    "name": "DÃÂºn Eoghanachta",
     "island": "Inishmore",
     "cluster": "Topographical and Folkloric Inventory (Inishmore)",
     "lat": 53.139926,
@@ -3080,7 +3080,7 @@
         "url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Ringfort_de_D%C3%BAn_Eoghanachta%2C_%C3%AEle_d%E2%80%99_Inishmore.jpg",
         "author": "Jonathan Wilkins",
         "license": "CC BY-SA 4.0",
-        "source": "https://commons.wikimedia.org/wiki/File:Ringfort de DÃºn Eoghanachta, Ã®le dâ Inishmore.jpg"
+        "source": "https://commons.wikimedia.org/wiki/File:Ringfort de DÃÂºn Eoghanachta, ÃÂ®le dÃ¢ÂÂ Inishmore.jpg"
       },
       {
         "url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Dun_Eoghanachta_-_geograph.org.uk_-_1426692.jpg",
@@ -3104,7 +3104,7 @@
     "images": []
   },
   {
-    "name": "Tobar BhreacÃ¡in (St. Brecan's Well)",
+    "name": "Tobar BhreacÃÂ¡in (St. Brecan's Well)",
     "island": "Inishmore",
     "cluster": "Topographical and Folkloric Inventory (Inishmore)",
     "lat": 53.145589,
@@ -3119,12 +3119,12 @@
         "url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Teampall_Bhreac%C3%A1in%2C_Na_Seacht_dTeampaill_-_geograph.org.uk_-_4230106.jpg",
         "author": "Ian Capper",
         "license": "CC BY-SA 2.0",
-        "source": "https://commons.wikimedia.org/wiki/File:Teampall BhreacÃ¡in, Na Seacht dTeampaill - geograph.org.uk - 4230106.jpg"
+        "source": "https://commons.wikimedia.org/wiki/File:Teampall BhreacÃÂ¡in, Na Seacht dTeampaill - geograph.org.uk - 4230106.jpg"
       }
     ]
   },
   {
-    "name": "Leaba RÃ³nÃ¡in (RÃ³nÃ¡nâs Bed)",
+    "name": "Leaba RÃÂ³nÃÂ¡in (RÃÂ³nÃÂ¡nÃ¢ÂÂs Bed)",
     "island": "Inishmore",
     "cluster": "Topographical and Folkloric Inventory (Inishmore)",
     "lat": 53.124332,
@@ -3137,7 +3137,7 @@
     "images": []
   },
   {
-    "name": "Scailp Ãlainn",
+    "name": "Scailp ÃÂlainn",
     "island": "Inishmore",
     "cluster": "Topographical and Folkloric Inventory (Inishmore)",
     "lat": 53.1295,
@@ -3150,14 +3150,14 @@
     "images": []
   },
   {
-    "name": "An Aill BhrÃ­ste (The Broken Cliff)",
+    "name": "An Aill BhrÃÂ­ste (The Broken Cliff)",
     "island": "Inishmore",
     "cluster": "Topographical and Folkloric Inventory (Inishmore)",
     "lat": 53.13026,
     "long": -9.685804,
     "coord_precision": "zona",
     "description": "A section of cliff-face in Mainistir that steepens into a vertical scarp.",
-    "folklore": "Site of a \"grotto\" containing a blue and white Madonna. Robinson ironically notes a \"minute goldcrest\"âa rare bird in Aranâflitting in the tapestry of rambling roses near the niche.",
+    "folklore": "Site of a \"grotto\" containing a blue and white Madonna. Robinson ironically notes a \"minute goldcrest\"Ã¢ÂÂa rare bird in AranÃ¢ÂÂflitting in the tapestry of rambling roses near the niche.",
     "nature": "Features \"shadowy greenery\" and a vertical rock-face transitioning into a rugged limestone scarp.",
     "icon_type": "cliff_coast",
     "images": []
@@ -3183,20 +3183,20 @@
     "long": -9.685804,
     "coord_precision": "zona",
     "description": "The ruins of a three-storey dwelling in Mainistir, near the leaba.",
-    "folklore": "Built for the Digbys, the islandsâ absentee landlords. By the 1840s, it was in ruins; its stones were later repurposed for Syngeâs rectory and the Catholic curate's house.",
+    "folklore": "Built for the Digbys, the islandsÃ¢ÂÂ absentee landlords. By the 1840s, it was in ruins; its stones were later repurposed for SyngeÃ¢ÂÂs rectory and the Catholic curate's house.",
     "nature": "Overlooks the lower pasturage and the site associated with the \"Hollow of the Dead.\"",
     "icon_type": "building",
     "images": []
   },
   {
-    "name": "An SuicÃ­n (The Little Jobber)",
+    "name": "An SuicÃÂ­n (The Little Jobber)",
     "island": "Inishmore",
     "cluster": "Topographical and Folkloric Inventory (Inishmore)",
     "lat": 53.124417,
     "long": -9.672417,
     "coord_precision": "precise",
     "description": "A derelict area behind Joe Watty's pub, formerly the \"poorest quarter\" of the village.",
-    "folklore": "Derived from \"something that sucks\" (a marshy patch). Robinson identifies it as a place where the menfolk lounged at \"CoirnÃ©al na mBrÃ©ag\" (the corner of lies).",
+    "folklore": "Derived from \"something that sucks\" (a marshy patch). Robinson identifies it as a place where the menfolk lounged at \"CoirnÃÂ©al na mBrÃÂ©ag\" (the corner of lies).",
     "nature": "A damp, low-lying area with the decayed ends of thatched cottage rows still visible.",
     "icon_type": "village_settlement",
     "images": []
@@ -3208,7 +3208,7 @@
     "lat": 53.120215,
     "long": -9.669452,
     "coord_precision": "zona",
-    "description": "A rise on the road out of Cill RÃ³nÃ¡in, named after Pat Mullenâs uncle.",
+    "description": "A rise on the road out of Cill RÃÂ³nÃÂ¡in, named after Pat MullenÃ¢ÂÂs uncle.",
     "folklore": "Named after a cattle-dealer (jobber) whose cottage was a meeting-place for \"the man from the east and the man from the west.\" Famous for stickfights and faction brawls.",
     "nature": "A limestone rise (carcair) offering views back toward the harbor and the Technical School.",
     "icon_type": "natural_feature",
@@ -3222,19 +3222,19 @@
     "long": -9.740762,
     "coord_precision": "zona",
     "description": "A standard-design building from the 1880s nestled under a central peak.",
-    "folklore": "The birthplace of writer BreandÃ¡n Ã hEithir in 1930. His father was a teacher from Co. Clare who married Liam O'Flaherty's sister from Gort na gCapall.",
+    "folklore": "The birthplace of writer BreandÃÂ¡n ÃÂ hEithir in 1930. His father was a teacher from Co. Clare who married Liam O'Flaherty's sister from Gort na gCapall.",
     "nature": "A sturdy stone structure typical of the Congested Districts Board (CDB) era of development.",
     "icon_type": "building",
     "images": []
   },
   {
-    "name": "Joe Wattyâs Pub",
+    "name": "Joe WattyÃ¢ÂÂs Pub",
     "island": "Inishmore",
     "cluster": "Topographical and Folkloric Inventory (Inishmore)",
     "lat": 53.123974,
     "long": -9.670886,
     "coord_precision": "precise",
-    "description": "A public house on the edge of Cill RÃ³nÃ¡in, formerly obscure.",
+    "description": "A public house on the edge of Cill RÃÂ³nÃÂ¡in, formerly obscure.",
     "folklore": "Joe Watty himself died in 1975 (the same day as de Valera). He was known for standing in prayer for twenty minutes every day at the \"cair\" opposite the pub.",
     "nature": "Located at a junction where the level coast road meets the steep hills of the interior.",
     "icon_type": "pub_amenity",
@@ -3266,7 +3266,7 @@
     "lat": 53.123974,
     "long": -9.670886,
     "coord_precision": "zona",
-    "description": "A small stone seat or structure opposite Joe Wattyâs Pub.",
+    "description": "A small stone seat or structure opposite Joe WattyÃ¢ÂÂs Pub.",
     "folklore": "Used by Joe Watty as a site of daily contemplation before the arrival of the mail steamer.",
     "nature": "A simple limestone feature integrated into the dry-stone field walls.",
     "icon_type": "natural_feature",
@@ -3305,8 +3305,8 @@
     "lat": 53.13026,
     "long": -9.685804,
     "coord_precision": "zona",
-    "description": "Locations in Cill RÃ³nÃ¡in and Mainistir associated with the Land League.",
-    "folklore": "David O'Callaghan was a central figure in the inaugural 1880 Land League meeting, presided over by PÃ¡draic Pearse. Conflict centered on the \"rent-books\" stolen from the courthouse.",
+    "description": "Locations in Cill RÃÂ³nÃÂ¡in and Mainistir associated with the Land League.",
+    "folklore": "David O'Callaghan was a central figure in the inaugural 1880 Land League meeting, presided over by PÃÂ¡draic Pearse. Conflict centered on the \"rent-books\" stolen from the courthouse.",
     "nature": "Sites marked by the interface of village dwellings and the surrounding \"stony\" fields.",
     "icon_type": "village_settlement",
     "images": []
@@ -3325,7 +3325,7 @@
     "images": []
   },
   {
-    "name": "Buaile na gCopÃ³g (Pasture of Plantains)",
+    "name": "Buaile na gCopÃÂ³g (Pasture of Plantains)",
     "island": "Inishmore",
     "cluster": "Topographical and Folkloric Inventory (Inishmore)",
     "lat": 53.136389,
@@ -3338,26 +3338,26 @@
     "images": []
   },
   {
-    "name": "Carcair na gCeÃ¡rtan (Slope of the Forge)",
+    "name": "Carcair na gCeÃÂ¡rtan (Slope of the Forge)",
     "island": "Inishmore",
     "cluster": "Topographical and Folkloric Inventory (Inishmore)",
     "lat": 53.136389,
     "long": -9.698056,
     "coord_precision": "zona",
     "description": "A steep ascent on the road toward Eochaill.",
-    "folklore": "Named after a forge run by Micil Riabhach Ã Niaidh, a Connemara poitin smuggler of a century ago.",
+    "folklore": "Named after a forge run by Micil Riabhach ÃÂ Niaidh, a Connemara poitin smuggler of a century ago.",
     "nature": "A sharp limestone incline where the road cuts through the geological ridge.",
     "icon_type": "natural_feature",
     "images": []
   },
   {
-    "name": "An lui mÃ³r (The Big Lie-down)",
+    "name": "An lui mÃÂ³r (The Big Lie-down)",
     "island": "Inishmore",
     "cluster": "Topographical and Folkloric Inventory (Inishmore)",
     "lat": 53.1295,
     "long": -9.70858,
     "coord_precision": "zona",
-    "description": "A specific field name on Beartlaâs farm.",
+    "description": "A specific field name on BeartlaÃ¢ÂÂs farm.",
     "folklore": "Named for a horse that spent all day lying down there after a grueling morning carting seaweed.",
     "nature": "A patch of icy-looking limestone pavement with sparse grass.",
     "icon_type": "natural_feature",
@@ -3383,14 +3383,14 @@
     "lat": 53.132524,
     "long": -9.684565,
     "coord_precision": "precise",
-    "description": "A specific breach in a field wall near the Cill RÃ³nÃ¡in coast road.",
+    "description": "A specific breach in a field wall near the Cill RÃÂ³nÃÂ¡in coast road.",
     "folklore": "Site where Larry Beag was shot by a Black and Tan sniper with a telescopic sight while trying to sneak to Mass in 1920.",
     "nature": "A typical agricultural gap, now serving as a somber historical marker of the War of Independence.",
     "icon_type": "natural_feature",
     "images": []
   },
   {
-    "name": "BÃ³ithrÃ­n na gCottageachaÃ­",
+    "name": "BÃÂ³ithrÃÂ­n na gCottageachaÃÂ­",
     "island": "Inishmore",
     "cluster": "Topographical and Folkloric Inventory (Inishmore)",
     "lat": 53.1295,
@@ -3409,21 +3409,21 @@
     "lat": 53.120215,
     "long": -9.669452,
     "coord_precision": "zona",
-    "description": "A location in Cill RÃ³nÃ¡in associated with the 1920 raids.",
-    "folklore": "MÃ¡ire Gillâs two uncles were seized here by Black and Tans and dragged behind the gate while their grandmother was brought out to see them shot.",
+    "description": "A location in Cill RÃÂ³nÃÂ¡in associated with the 1920 raids.",
+    "folklore": "MÃÂ¡ire GillÃ¢ÂÂs two uncles were seized here by Black and Tans and dragged behind the gate while their grandmother was brought out to see them shot.",
     "nature": "A formal entranceway near the old rectory and Protestant church grounds.",
     "icon_type": "natural_feature",
     "images": []
   },
   {
-    "name": "Creig MhÃ³r (The Great Crag)",
+    "name": "Creig MhÃÂ³r (The Great Crag)",
     "island": "Inishmore",
     "cluster": "Topographical and Folkloric Inventory (Inishmore)",
     "lat": 53.1295,
     "long": -9.70858,
     "coord_precision": "zona",
     "description": "A massive limestone terrace used as a refuge.",
-    "folklore": "PÃ¡idraic Ã hIarnÃ¡in hid in a specific crevice here with his gun to escape the Black and Tans on a \"dim winter dawn\" in 1920.",
+    "folklore": "PÃÂ¡idraic ÃÂ hIarnÃÂ¡in hid in a specific crevice here with his gun to escape the Black and Tans on a \"dim winter dawn\" in 1920.",
     "nature": "High-elevation limestone pavement featuring deep, protective \"grikes\" and crevices.",
     "icon_type": "natural_feature",
     "images": []
@@ -3455,14 +3455,14 @@
     "images": []
   },
   {
-    "name": "Harry Stattleâs Crag",
+    "name": "Harry StattleÃ¢ÂÂs Crag",
     "island": "Inishmore",
     "cluster": "Topographical and Folkloric Inventory (Inishmore)",
     "lat": 53.136389,
     "long": -9.698056,
     "coord_precision": "zona",
     "description": "A crag in Eochaill with a cryptic local name.",
-    "folklore": "Associated with the saying \"SÃ¡raigh sÃ© Harai Steatail\" (He beats Harry Stattle), though the identity of Harry remains a mystery to current islanders.",
+    "folklore": "Associated with the saying \"SÃÂ¡raigh sÃÂ© Harai Steatail\" (He beats Harry Stattle), though the identity of Harry remains a mystery to current islanders.",
     "nature": "A characteristically stony limestone pavement with deep fissures.",
     "icon_type": "natural_feature",
     "images": []
@@ -3474,14 +3474,14 @@
     "lat": 53.120215,
     "long": -9.669452,
     "coord_precision": "zona",
-    "description": "A former educational building in Cill RÃ³nÃ¡in funded in 1826.",
+    "description": "A former educational building in Cill RÃÂ³nÃÂ¡in funded in 1826.",
     "folklore": "Funded by the London Hibernian Society; it was a site of intense sectarian tension between the \"Jumpers\" and the Catholic majority.",
     "nature": "A small, sturdy building constructed of local limestone blocks.",
     "icon_type": "building",
     "images": []
   },
   {
-    "name": "Chardeâs Shop",
+    "name": "ChardeÃ¢ÂÂs Shop",
     "island": "Inishmore",
     "cluster": "Topographical and Folkloric Inventory (Inishmore)",
     "lat": 53.13026,
@@ -3494,7 +3494,7 @@
     "images": []
   },
   {
-    "name": "Ganlyâs Farm",
+    "name": "GanlyÃ¢ÂÂs Farm",
     "island": "Inishmore",
     "cluster": "Topographical and Folkloric Inventory (Inishmore)",
     "lat": 53.13026,
@@ -3515,7 +3515,7 @@
     "coord_precision": "zona",
     "description": "A vessel named the Georgiana (Rev. Synge's yacht).",
     "folklore": "Used to transport Protestant supplies; it was an object of such resentment that Claddagh fishermen attacked it with \"sunfish spears\" in 1853.",
-    "nature": "Usually moored in the Cill RÃ³nÃ¡in harbor, visible to all \"hostile\" villagers.",
+    "nature": "Usually moored in the Cill RÃÂ³nÃÂ¡in harbor, visible to all \"hostile\" villagers.",
     "icon_type": "cliff_coast",
     "images": []
   },
@@ -3528,7 +3528,7 @@
     "coord_precision": "zona",
     "description": "Ruins of a Cromwellian fortification on an O'Flaherty castle site.",
     "folklore": "Represented the \"long shadow\" of Cromwell. William Wilde documented its ruins in 1857 as a symbol of the \"Saxon\" innovation.",
-    "nature": "Located at the edge of Cill RÃ³nÃ¡in where the built village meets the sea.",
+    "nature": "Located at the edge of Cill RÃÂ³nÃÂ¡in where the built village meets the sea.",
     "icon_type": "castle_ruin",
     "images": []
   },
@@ -3604,33 +3604,33 @@
     ]
   },
   {
-    "name": "Carcair na bPÃºcaÃ­",
+    "name": "Carcair na bPÃÂºcaÃÂ­",
     "island": "Inishmore",
     "cluster": "Topographical and Folkloric Inventory (Inishmore)",
     "lat": 53.1295,
     "long": -9.70858,
     "coord_precision": "zona",
     "description": "A slope associated with the \"Pooka\" or spirits.",
-    "folklore": "Legend warns of supernatural encounters here; it is one of the \"short-cuts\" linking Baile an DÃºin with the main road.",
+    "folklore": "Legend warns of supernatural encounters here; it is one of the \"short-cuts\" linking Baile an DÃÂºin with the main road.",
     "nature": "A winding section of the road with high walls that create deep shadows at night.",
     "icon_type": "natural_feature",
     "images": []
   },
   {
-    "name": "RÃ³idÃ­n an PhÃºca",
+    "name": "RÃÂ³idÃÂ­n an PhÃÂºca",
     "island": "Inishmore",
     "cluster": "Topographical and Folkloric Inventory (Inishmore)",
     "lat": 53.1295,
     "long": -9.70858,
     "coord_precision": "zona",
     "description": "A small road or \"little road of the pooka.\"",
-    "folklore": "Described by Robinson as \"ancient, twisty and haunted,\" leading toward the hamlet of Baile an DÃºin.",
+    "folklore": "Described by Robinson as \"ancient, twisty and haunted,\" leading toward the hamlet of Baile an DÃÂºin.",
     "nature": "Narrow and bordering ancient dry-stone walls.",
     "icon_type": "natural_feature",
     "images": []
   },
   {
-    "name": "An GleannachÃ¡n",
+    "name": "An GleannachÃÂ¡n",
     "island": "Inishmore",
     "cluster": "Topographical and Folkloric Inventory (Inishmore)",
     "lat": 53.151389,
@@ -3662,9 +3662,9 @@
     "lat": 53.120215,
     "long": -9.669452,
     "coord_precision": "zona",
-    "description": "A lodging house in Cill RÃ³nÃ¡in.",
+    "description": "A lodging house in Cill RÃÂ³nÃÂ¡in.",
     "folklore": "Associated with visiting antiquarians like Artaud, who left his bill unpaid before being arrested in Dublin.",
-    "nature": "A prominent stone building overlooking the Cill RÃ³nÃ¡in harbor.",
+    "nature": "A prominent stone building overlooking the Cill RÃÂ³nÃÂ¡in harbor.",
     "icon_type": "pub_amenity",
     "images": []
   },
@@ -3675,9 +3675,9 @@
     "lat": 53.120215,
     "long": -9.669452,
     "coord_precision": "zona",
-    "description": "A hotel in Cill RÃ³nÃ¡in.",
+    "description": "A hotel in Cill RÃÂ³nÃÂ¡in.",
     "folklore": "Site where early Celticists like Heinrich Zimmer and the \"statistic\" tourists of the 19th century stayed.",
-    "nature": "Located on the main street of Cill RÃ³nÃ¡in village.",
+    "nature": "Located on the main street of Cill RÃÂ³nÃÂ¡in village.",
     "icon_type": "pub_amenity",
     "images": []
   },
@@ -3695,7 +3695,7 @@
     "images": []
   },
   {
-    "name": "The \"Doctorâs Grave\"",
+    "name": "The \"DoctorÃ¢ÂÂs Grave\"",
     "island": "Inishmore",
     "cluster": "Topographical and Folkloric Inventory (Inishmore)",
     "lat": 53.1295,
@@ -3708,20 +3708,20 @@
     "images": []
   },
   {
-    "name": "An BÃ³thar BuÃ­",
+    "name": "An BÃÂ³thar BuÃÂ­",
     "island": "Inishmore",
     "cluster": "Topographical and Folkloric Inventory (Inishmore)",
     "lat": 53.120215,
     "long": -9.669452,
     "coord_precision": "zona",
-    "description": "The \"Yellow Road\" leading out of Cill RÃ³nÃ¡in.",
+    "description": "The \"Yellow Road\" leading out of Cill RÃÂ³nÃÂ¡in.",
     "folklore": "Named for the color of the local clay used to level the limestone surface.",
     "nature": "A dusty, bright trackway cutting through the grey limestone landscape.",
     "icon_type": "natural_feature",
     "images": []
   },
   {
-    "name": "Gort na gCeÃ¡rta",
+    "name": "Gort na gCeÃÂ¡rta",
     "island": "Inishmore",
     "cluster": "Topographical and Folkloric Inventory (Inishmore)",
     "lat": 53.1295,
@@ -3740,7 +3740,7 @@
     "lat": 53.142885,
     "long": -9.76921,
     "coord_precision": "zona",
-    "description": "The Track or ancient path in SruthÃ¡n.",
+    "description": "The Track or ancient path in SruthÃÂ¡n.",
     "folklore": "A worn trackway etched into the bare limestone pavement, used for centuries by locals to navigate the crags.",
     "nature": "A distinct linear feature in the otherwise uniform limestone \"desert.\"",
     "icon_type": "natural_feature",
@@ -3852,26 +3852,26 @@
     "images": []
   },
   {
-    "name": "An Buaile MÃ³r",
+    "name": "An Buaile MÃÂ³r",
     "island": "Inishmore",
     "cluster": "Topographical and Folkloric Inventory (Inishmore)",
     "lat": 53.142885,
     "long": -9.76921,
     "coord_precision": "zona",
-    "description": "The \"Large Pasture\" of SruthÃ¡n.",
-    "folklore": "The primary grazing area for the villageâs livestock, representing communal agricultural effort.",
+    "description": "The \"Large Pasture\" of SruthÃÂ¡n.",
+    "folklore": "The primary grazing area for the villageÃ¢ÂÂs livestock, representing communal agricultural effort.",
     "nature": "A vast, walled enclosure with some natural soil accumulation.",
     "icon_type": "natural_feature",
     "images": []
   },
   {
-    "name": "An SuicÃ­n Thiar",
+    "name": "An SuicÃÂ­n Thiar",
     "island": "Inishmore",
     "cluster": "Topographical and Folkloric Inventory (Inishmore)",
     "lat": 53.124417,
     "long": -9.672417,
     "coord_precision": "precise",
-    "description": "The \"Western SuicÃ­n.\"",
+    "description": "The \"Western SuicÃÂ­n.\"",
     "folklore": "A continuation of the marshy patch where water naturally collects from the Eochaill heights.",
     "nature": "A damp hollow filled with rushes and water-loving vegetation.",
     "icon_type": "natural_feature",
@@ -3891,7 +3891,7 @@
     "images": []
   },
   {
-    "name": "An Port BuÃ­",
+    "name": "An Port BuÃÂ­",
     "island": "Inishmore",
     "cluster": "Topographical and Folkloric Inventory (Inishmore)",
     "lat": 53.1295,
@@ -3904,13 +3904,13 @@
     "images": []
   },
   {
-    "name": "The \"Priestâs Wall\"",
+    "name": "The \"PriestÃ¢ÂÂs Wall\"",
     "island": "Inishmore",
     "cluster": "Topographical and Folkloric Inventory (Inishmore)",
     "lat": 53.120215,
     "long": -9.669452,
     "coord_precision": "zona",
-    "description": "A high wall in Cill RÃ³nÃ¡in.",
+    "description": "A high wall in Cill RÃÂ³nÃÂ¡in.",
     "folklore": "Historically associated with the Catholic clergy's efforts to define and protect their domain from the \"Jumpers.\"",
     "nature": "A high, well-maintained stone wall that blocks the Atlantic wind.",
     "icon_type": "natural_feature",
@@ -3944,7 +3944,7 @@
     ]
   },
   {
-    "name": "Gort an DÃºidÃ­n",
+    "name": "Gort an DÃÂºidÃÂ­n",
     "island": "Inishmore",
     "cluster": "Topographical and Folkloric Inventory (Inishmore)",
     "lat": 53.1295,
@@ -3965,7 +3965,7 @@
     "coord_precision": "zona",
     "description": "A marker near the Land League meeting site.",
     "folklore": "Commemorates the resistance of the islanders against the Digby bailiffs and the \"rent-war.\"",
-    "nature": "A natural stone integrated into the historical narrative of Cill RÃ³nÃ¡in.",
+    "nature": "A natural stone integrated into the historical narrative of Cill RÃÂ³nÃÂ¡in.",
     "icon_type": "natural_feature",
     "images": [
       {
@@ -3990,7 +3990,7 @@
     "images": []
   },
   {
-    "name": "An Gort MÃ³r",
+    "name": "An Gort MÃÂ³r",
     "island": "Inishmore",
     "cluster": "Topographical and Folkloric Inventory (Inishmore)",
     "lat": 53.151389,
@@ -4016,7 +4016,7 @@
     "images": []
   },
   {
-    "name": "An CarraigÃ­n",
+    "name": "An CarraigÃÂ­n",
     "island": "Inishmore",
     "cluster": "Topographical and Folkloric Inventory (Inishmore)",
     "lat": 53.1295,
@@ -4055,7 +4055,7 @@
     "images": []
   },
   {
-    "name": "An Carraig MhÃ³r",
+    "name": "An Carraig MhÃÂ³r",
     "island": "Inishmore",
     "cluster": "Topographical and Folkloric Inventory (Inishmore)",
     "lat": 53.131296,
@@ -4095,7 +4095,7 @@
     "long": -9.665643,
     "coord_precision": "precise",
     "description": "The main landing point for the SS Duras.",
-    "folklore": "Robinson describes its construction as the \"transformation of the seaward aspect of Cill RÃ³nÃ¡in.\"",
+    "folklore": "Robinson describes its construction as the \"transformation of the seaward aspect of Cill RÃÂ³nÃÂ¡in.\"",
     "nature": "A modern (late 19th-century) stone pier made of massive limestone.",
     "icon_type": "cliff_coast",
     "images": [
@@ -4121,7 +4121,7 @@
     "images": []
   },
   {
-    "name": "An Chreig MhÃ³r Refuge",
+    "name": "An Chreig MhÃÂ³r Refuge",
     "island": "Inishmore",
     "cluster": "Topographical and Folkloric Inventory (Inishmore)",
     "lat": 53.1295,
@@ -4140,7 +4140,7 @@
     "lat": 53.119982,
     "long": -9.665643,
     "coord_precision": "precise",
-    "description": "The old rectory in Cill RÃ³nÃ¡in.",
+    "description": "The old rectory in Cill RÃÂ³nÃÂ¡in.",
     "folklore": "Associated with Rev. Kilbride, who was described by locals as a \"bigot\" and a \"parson in council.\"",
     "nature": "A large stone building set in its own grounds, now largely disused.",
     "icon_type": "building",
@@ -4160,15 +4160,15 @@
     "images": []
   },
   {
-    "name": "An SuicÃ­n Theas",
+    "name": "An SuicÃÂ­n Theas",
     "island": "Inishmore",
     "cluster": "Topographical and Folkloric Inventory (Inishmore)",
     "lat": 53.124417,
     "long": -9.672417,
     "coord_precision": "precise",
-    "description": "The \"Southern SuicÃ­n.\"",
+    "description": "The \"Southern SuicÃÂ­n.\"",
     "folklore": "A continuation of the poor quarter where men gathered to \"exchange stories.\"",
-    "nature": "Known as the \"corner of lies\" (CoirnÃ©al na mBrÃ©ag).",
+    "nature": "Known as the \"corner of lies\" (CoirnÃÂ©al na mBrÃÂ©ag).",
     "icon_type": "village_settlement",
     "images": []
   },
@@ -4179,7 +4179,7 @@
     "lat": 53.121288,
     "long": -9.669438,
     "coord_precision": "precise",
-    "description": "A rise in Cill RÃ³nÃ¡in village.",
+    "description": "A rise in Cill RÃÂ³nÃÂ¡in village.",
     "folklore": "Location where islanders gathered to wait for news and mail from the SS Duras.",
     "nature": "A paved rise in the built-up area of the village.",
     "icon_type": "natural_feature",
@@ -4199,7 +4199,7 @@
     ]
   },
   {
-    "name": "An CarraigÃ­n Rua",
+    "name": "An CarraigÃÂ­n Rua",
     "island": "Inishmore",
     "cluster": "Topographical and Folkloric Inventory (Inishmore)",
     "lat": 53.1295,
@@ -4212,7 +4212,7 @@
     "images": []
   },
   {
-    "name": "BÃ³ithrÃ­n na bPÃ¡gÃ¡nach",
+    "name": "BÃÂ³ithrÃÂ­n na bPÃÂ¡gÃÂ¡nach",
     "island": "Inishmore",
     "cluster": "Topographical and Folkloric Inventory (Inishmore)",
     "lat": 53.1295,
@@ -4225,7 +4225,7 @@
     "images": []
   },
   {
-    "name": "An Screig BhÃ¡n",
+    "name": "An Screig BhÃÂ¡n",
     "island": "Inishmore",
     "cluster": "Topographical and Folkloric Inventory (Inishmore)",
     "lat": 53.1295,
@@ -4303,14 +4303,14 @@
     "lat": 53.1295,
     "long": -9.70858,
     "coord_precision": "zona",
-    "description": "Semi-detached dwellings along BÃ³ithrÃ­n na gCottageachaÃ­.",
+    "description": "Semi-detached dwellings along BÃÂ³ithrÃÂ­n na gCottageachaÃÂ­.",
     "folklore": "Built in 1915 as part of the \"Killing Home Rule by Kindness\" government policy.",
     "nature": "Identical stone dwellings that represent the first \"modern\" housing on the island.",
     "icon_type": "village_settlement",
     "images": []
   },
   {
-    "name": "An CarraigÃ­n BÃ¡n",
+    "name": "An CarraigÃÂ­n BÃÂ¡n",
     "island": "Inishmore",
     "cluster": "Topographical and Folkloric Inventory (Inishmore)",
     "lat": 53.1295,
@@ -4368,14 +4368,14 @@
     "lat": 53.1295,
     "long": -9.70858,
     "coord_precision": "zona",
-    "description": "A statue in the cliffs of An Aill BhrÃ­ste.",
+    "description": "A statue in the cliffs of An Aill BhrÃÂ­ste.",
     "folklore": "A blue and white figure that Robinson views as a \"Crivelli\" masterpiece in the wild.",
     "nature": "Nestled among \"shadowy greenery\" and flitting goldcrests.",
     "icon_type": "church_monastic",
     "images": []
   },
   {
-    "name": "An ScreigÃ­n",
+    "name": "An ScreigÃÂ­n",
     "island": "Inishmore",
     "cluster": "Topographical and Folkloric Inventory (Inishmore)",
     "lat": 53.1295,
@@ -4414,13 +4414,13 @@
     "images": []
   },
   {
-    "name": "An Chreig MhÃ³r (SruthÃ¡n)",
+    "name": "An Chreig MhÃÂ³r (SruthÃÂ¡n)",
     "island": "Inishmore",
     "cluster": "Topographical and Folkloric Inventory (Inishmore)",
     "lat": 53.142885,
     "long": -9.76921,
     "coord_precision": "precise",
-    "description": "The \"Great Crag\" of SruthÃ¡n.",
+    "description": "The \"Great Crag\" of SruthÃÂ¡n.",
     "folklore": "A massive expanse of limestone that served as a communal grazing area.",
     "nature": "A high, flat terrace of limestone with deep, protective fissures.",
     "icon_type": "natural_feature",
@@ -4440,7 +4440,7 @@
     "images": []
   },
   {
-    "name": "An SuicÃ­n (Cill RÃ³nÃ¡in)",
+    "name": "An SuicÃÂ­n (Cill RÃÂ³nÃÂ¡in)",
     "island": "Inishmore",
     "cluster": "Topographical and Folkloric Inventory (Inishmore)",
     "lat": 53.124417,
@@ -4453,7 +4453,7 @@
     "images": []
   },
   {
-    "name": "An Buaile BÃ¡n",
+    "name": "An Buaile BÃÂ¡n",
     "island": "Inishmore",
     "cluster": "Topographical and Folkloric Inventory (Inishmore)",
     "lat": 53.1295,
@@ -4492,7 +4492,7 @@
     "images": []
   },
   {
-    "name": "An Gort MÃ³r (Fearann an Choirce)",
+    "name": "An Gort MÃÂ³r (Fearann an Choirce)",
     "island": "Inishmore",
     "cluster": "Topographical and Folkloric Inventory (Inishmore)",
     "lat": 53.130845,
@@ -4519,19 +4519,19 @@
     "long": -9.713126,
     "coord_precision": "zona",
     "description": "The Green Pasture.",
-    "folklore": "A particularly fertile enclosure in the townland of CorrÃºch.",
+    "folklore": "A particularly fertile enclosure in the townland of CorrÃÂºch.",
     "nature": "Features thick, nutritious grass for cattle.",
     "icon_type": "natural_feature",
     "images": []
   },
   {
-    "name": "DÃºn ChonchÃºir (Fort of Conor)",
+    "name": "DÃÂºn ChonchÃÂºir (Fort of Conor)",
     "island": "Inishmaan",
-    "cluster": "Topographic and Folkloric Inventory (Inis MeÃ¡in)",
+    "cluster": "Topographic and Folkloric Inventory (Inis MeÃÂ¡in)",
     "lat": 53.083419,
     "long": -9.594797,
     "coord_precision": "precise",
-    "description": "A massive, elliptical stone fort commanding the islandâs highest pinnacle, characterized by monumental dry-stone terracing.",
+    "description": "A massive, elliptical stone fort commanding the islandÃ¢ÂÂs highest pinnacle, characterized by monumental dry-stone terracing.",
     "folklore": "Associated with the Fir Bolg, the site served as the setting for a legendary banquet in 1857. Seventy members of the British Association, led by Sir William Wilde acting as cicerone, celebrated the island's antiquities here. Wilde addressed the party upon the structures, though islanders reportedly told \"facetious stories\" about the monuments' origins.",
     "nature": "The surrounding terrain is a \"Vesuvian\" landscape of massy, lava-colored limestone. The terraces provide a sense of \"Alpine grandeur,\" with the grey rock appearing nearly molten in its geological intensity.",
     "icon_type": "fort_dun",
@@ -4540,13 +4540,13 @@
         "url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/D%C3%BAn_Chonch%C3%BAir6.jpg",
         "author": "Paucabot",
         "license": "CC BY-SA 3.0",
-        "source": "https://commons.wikimedia.org/wiki/File:DÃºn ChonchÃºir6.jpg"
+        "source": "https://commons.wikimedia.org/wiki/File:DÃÂºn ChonchÃÂºir6.jpg"
       },
       {
         "url": "https://upload.wikimedia.org/wikipedia/commons/4/42/D%C3%BAn_Chonch%C3%BAir2.jpg",
         "author": "Paucabot",
         "license": "CC BY-SA 3.0",
-        "source": "https://commons.wikimedia.org/wiki/File:DÃºn ChonchÃºir2.jpg"
+        "source": "https://commons.wikimedia.org/wiki/File:DÃÂºn ChonchÃÂºir2.jpg"
       },
       {
         "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Inishmaan_-_Dun_Chonchuir_-_geograph.org.uk_-_7930995.jpg",
@@ -4557,9 +4557,9 @@
     ]
   },
   {
-    "name": "DÃºn Fearbhaigh",
+    "name": "DÃÂºn Fearbhaigh",
     "island": "Inishmaan",
-    "cluster": "Topographic and Folkloric Inventory (Inis MeÃ¡in)",
+    "cluster": "Topographic and Folkloric Inventory (Inis MeÃÂ¡in)",
     "lat": 53.08055,
     "long": -9.59907,
     "coord_precision": "zona",
@@ -4572,7 +4572,7 @@
   {
     "name": "Cill Cheannannach",
     "island": "Inishmaan",
-    "cluster": "Topographic and Folkloric Inventory (Inis MeÃ¡in)",
+    "cluster": "Topographic and Folkloric Inventory (Inis MeÃÂ¡in)",
     "lat": 53.08055,
     "long": -9.59907,
     "coord_precision": "zona",
@@ -4585,25 +4585,25 @@
   {
     "name": "Tobar Cheannannach",
     "island": "Inishmaan",
-    "cluster": "Topographic and Folkloric Inventory (Inis MeÃ¡in)",
+    "cluster": "Topographic and Folkloric Inventory (Inis MeÃÂ¡in)",
     "lat": 53.08055,
     "long": -9.59907,
     "coord_precision": "zona",
     "description": "A sacred holy well located near the shore, preserved as a significant site of traditional devotion.",
-    "folklore": "A focal point for the \"Aranite\" pilgrimage, particularly during the patterns of the saints. John OâDonovan and George Petrie documented the siteâs continued status as a place for spiritual solace and historical preservation amidst the rocky landscape.",
+    "folklore": "A focal point for the \"Aranite\" pilgrimage, particularly during the patterns of the saints. John OÃ¢ÂÂDonovan and George Petrie documented the siteÃ¢ÂÂs continued status as a place for spiritual solace and historical preservation amidst the rocky landscape.",
     "nature": "Often found nestled within the \"chinks\" of the limestone pavement, the well is a rare source of freshwater in a landscape defined by parched, barren rock.",
     "icon_type": "holy_well",
     "images": []
   },
   {
-    "name": "Syngeâs Cottage (Teach Synge)",
+    "name": "SyngeÃ¢ÂÂs Cottage (Teach Synge)",
     "island": "Inishmaan",
-    "cluster": "Topographic and Folkloric Inventory (Inis MeÃ¡in)",
+    "cluster": "Topographic and Folkloric Inventory (Inis MeÃÂ¡in)",
     "lat": 53.084493,
     "long": -9.592385,
     "coord_precision": "precise",
     "description": "A traditional thatched cottage that served as the residence and linguistic laboratory for playwright J.M. Synge.",
-    "folklore": "Nicknamed \"Ollscoil na Gaeilge\" (The University of Irish), it became a shrine for the Gaelic League. Figures like PÃ¡draic Pearse and Fr. Eugene OâGrowney stayed here. Lady Gregory, however, expressed a passionate \"galling jealousy\" of Syngeâs deep connection to the islanders, wishing to be \"alone among the fishers.\"",
+    "folklore": "Nicknamed \"Ollscoil na Gaeilge\" (The University of Irish), it became a shrine for the Gaelic League. Figures like PÃÂ¡draic Pearse and Fr. Eugene OÃ¢ÂÂGrowney stayed here. Lady Gregory, however, expressed a passionate \"galling jealousy\" of SyngeÃ¢ÂÂs deep connection to the islanders, wishing to be \"alone among the fishers.\"",
     "nature": "The cottage is integrated into the \"labyrinth\" of thousands of field-walls and limestone terraces that define the central townlands.",
     "icon_type": "building",
     "images": [
@@ -4616,14 +4616,14 @@
     ]
   },
   {
-    "name": "Cathaoir Synge (Syngeâs Chair)",
+    "name": "Cathaoir Synge (SyngeÃ¢ÂÂs Chair)",
     "island": "Inishmaan",
-    "cluster": "Topographic and Folkloric Inventory (Inis MeÃ¡in)",
+    "cluster": "Topographic and Folkloric Inventory (Inis MeÃÂ¡in)",
     "lat": 53.083809,
     "long": -9.612787,
     "coord_precision": "precise",
     "description": "A natural stone seat perched precariously on the edge of the western cliffs.",
-    "folklore": "This site represents Synge's \"matchless matching of place and person.\" Here, he observed island girls in their \"dull red\" petticoats, which he felt harmonized perfectly with the grey limestone. Lady Gregoryâs own visits to these heights were marked by her envy of Syngeâs aesthetic intimacy with the island.",
+    "folklore": "This site represents Synge's \"matchless matching of place and person.\" Here, he observed island girls in their \"dull red\" petticoats, which he felt harmonized perfectly with the grey limestone. Lady GregoryÃ¢ÂÂs own visits to these heights were marked by her envy of SyngeÃ¢ÂÂs aesthetic intimacy with the island.",
     "nature": "Positioned above a vertical drop into the \"boisterous ocean,\" the site is frequently obscured by heavy marine spray and the roar of the Atlantic.",
     "icon_type": "cliff_coast",
     "images": [
@@ -4636,9 +4636,9 @@
     ]
   },
   {
-    "name": "Poll an tSÃ©ideÃ¡in (The Puffing Hole)",
+    "name": "Poll an tSÃÂ©ideÃÂ¡in (The Puffing Hole)",
     "island": "Inishmaan",
-    "cluster": "Topographic and Folkloric Inventory (Inis MeÃ¡in)",
+    "cluster": "Topographic and Folkloric Inventory (Inis MeÃÂ¡in)",
     "lat": 53.065669,
     "long": -9.614076,
     "coord_precision": "precise",
@@ -4651,33 +4651,33 @@
   {
     "name": "Baile an Mhothair / Baile an Teampaill / Baile an Lorgain",
     "island": "Inishmaan",
-    "cluster": "Topographic and Folkloric Inventory (Inis MeÃ¡in)",
+    "cluster": "Topographic and Folkloric Inventory (Inis MeÃÂ¡in)",
     "lat": 53.08535,
     "long": -9.581281,
     "coord_precision": "precise",
     "description": "The primary, densely clustered townlands situated upon the limestone pavement.",
-    "folklore": "In 1893, these villages hosted the Haddon and Browne Anthropometric Laboratory. The researchers observed the \"Aranite\" faceâlong, oval, and well-markedâconcluding the inhabitants were a \"pure\" race of primeval Gaelic stock.",
+    "folklore": "In 1893, these villages hosted the Haddon and Browne Anthropometric Laboratory. The researchers observed the \"Aranite\" faceÃ¢ÂÂlong, oval, and well-markedÃ¢ÂÂconcluding the inhabitants were a \"pure\" race of primeval Gaelic stock.",
     "nature": "Newcomers often react with \"consternation\" at the \"desert\" appearance of these settlements, where houses are built directly onto the bare, lava-colored rock of the terraces.",
     "icon_type": "village_settlement",
     "images": []
   },
   {
-    "name": "Carraig an PhÃ­obaire (The Piperâs Rock)",
+    "name": "Carraig an PhÃÂ­obaire (The PiperÃ¢ÂÂs Rock)",
     "island": "Inishmaan",
-    "cluster": "Topographic and Folkloric Inventory (Inis MeÃ¡in)",
+    "cluster": "Topographic and Folkloric Inventory (Inis MeÃÂ¡in)",
     "lat": 53.08055,
     "long": -9.59907,
     "coord_precision": "zona",
     "description": "A distinct limestone feature steeped in musical and subterranean lore.",
-    "folklore": "Legend tells of a piper who entered the cave of \"An Uamhain\" on the neighboring island of Inis OÃ­rr. His music was reportedly heard traveling under the sound between the islands, eventually emerging from beneath this rock on Inis MeÃ¡in.",
+    "folklore": "Legend tells of a piper who entered the cave of \"An Uamhain\" on the neighboring island of Inis OÃÂ­rr. His music was reportedly heard traveling under the sound between the islands, eventually emerging from beneath this rock on Inis MeÃÂ¡in.",
     "nature": "A singular landmark within the \"interminable and disheartening\" labyrinth of stone field-walls.",
     "icon_type": "natural_feature",
     "images": []
   },
   {
-    "name": "Leaba RÃ³nÃ¡in (Ronan's Bed)",
+    "name": "Leaba RÃÂ³nÃÂ¡in (Ronan's Bed)",
     "island": "Inishmaan",
-    "cluster": "Topographic and Folkloric Inventory (Inis MeÃ¡in)",
+    "cluster": "Topographic and Folkloric Inventory (Inis MeÃÂ¡in)",
     "lat": 53.08055,
     "long": -9.59907,
     "coord_precision": "zona",
@@ -4688,27 +4688,27 @@
     "images": []
   },
   {
-    "name": "An Aill BhrÃ­ste (The Broken Cliff)",
+    "name": "An Aill BhrÃÂ­ste (The Broken Cliff)",
     "island": "Inishmaan",
-    "cluster": "Topographic and Folkloric Inventory (Inis MeÃ¡in)",
+    "cluster": "Topographic and Folkloric Inventory (Inis MeÃÂ¡in)",
     "lat": 53.08055,
     "long": -9.59907,
     "coord_precision": "zona",
     "description": "A sharp vertical rock-face and carcair (slope) located near the old teachers' residence.",
-    "folklore": "Features a \"grotto\" in a nook of the cliff containing a blue-and-white Madonna statue. Synge described the area as a \"tapestry\" of rambling roses and \"old manâs beard,\" where the bright and the shadowy greenery met.",
+    "folklore": "Features a \"grotto\" in a nook of the cliff containing a blue-and-white Madonna statue. Synge described the area as a \"tapestry\" of rambling roses and \"old manÃ¢ÂÂs beard,\" where the bright and the shadowy greenery met.",
     "nature": "A sanctuary for wildlife, including the goldcrest, whose bright crown appears as a \"bright streak\" amidst the \"shadowy greenery\" and rambling roses.",
     "icon_type": "cliff_coast",
     "images": []
   },
   {
-    "name": "Dún Aonghasa",
+    "name": "DÃºn Aonghasa",
     "region": "Inishmore",
-    "cluster": "Dún Aonghasa & Kilmurvy (Inishmore)",
+    "cluster": "DÃºn Aonghasa & Kilmurvy (Inishmore)",
     "lat": 53.12583,
     "long": -9.76806,
     "coord_precision": "precise",
-    "description": "The best-known prehistoric fort on the Aran Islands, set at the edge of a 100-metre vertical cliff on Inis Mór. Four concentric drystone walls enclose roughly 6 hectares. Initial construction dates to c. 1100 BC (Late Bronze Age); the triple-wall defences were likely added around 500 BC. A cheval de frise of upright limestone spikes planted in the bedrock surrounds the outer walls.",
-    "folklore": "The name means 'Fort of Aonghas', linking it to either the pre-Christian god Aengus or the mythical Fir Bolg king Aonghus mac Úmhór. Irish mythology holds that the Fir Bolg retreated to the Aran Islands after their defeat by the Tuatha Dé Danann at the First Battle of Moytura, and that Dún Aonghasa was their chief stronghold. An Iron Age bird-head fibula (brooch) was discovered in a wall in 1839, the earliest physical relic recovered from the site.",
+    "description": "The best-known prehistoric fort on the Aran Islands, set at the edge of a 100-metre vertical cliff on Inis MÃ³r. Four concentric drystone walls enclose roughly 6 hectares. Initial construction dates to c. 1100 BC (Late Bronze Age); the triple-wall defences were likely added around 500 BC. A cheval de frise of upright limestone spikes planted in the bedrock surrounds the outer walls.",
+    "folklore": "The name means 'Fort of Aonghas', linking it to either the pre-Christian god Aengus or the mythical Fir Bolg king Aonghus mac ÃmhÃ³r. Irish mythology holds that the Fir Bolg retreated to the Aran Islands after their defeat by the Tuatha DÃ© Danann at the First Battle of Moytura, and that DÃºn Aonghasa was their chief stronghold. An Iron Age bird-head fibula (brooch) was discovered in a wall in 1839, the earliest physical relic recovered from the site.",
     "nature": "Clifftop karst landscape at 100m above the Atlantic. The cheval de frise is one of the best-preserved examples in Ireland or Britain. The surrounding plateau is classic Burren-type limestone pavement with grykes sheltering specialised flora.",
     "icon_type": "fort_dun",
     "images": [
@@ -4729,6 +4729,484 @@
         "author": "Patrice78500",
         "license": "CC BY-SA 3.0",
         "source": "https://commons.wikimedia.org/wiki/File:Inis_Mor_-_Dun_Aengus_-_Chevaux_de_Frise.JPG"
+      }
+    ]
+  },
+  {
+    "name": "Ireland West Airport Knock",
+    "region": "Mayo",
+    "cluster": "Knock (Mayo)",
+    "lat": 53.9103,
+    "long": -8.8185,
+    "coord_precision": "precise",
+    "description": "Ireland's largest regional airport outside Dublin and Cork, built on bogland in County Mayo at an elevation of 168 metres — unusually high for any airport. Opened in 1986, it was conceived and fundraised entirely by Monsignor James Horan, the local parish priest, against near-universal scepticism from government and engineers. It serves as the main air gateway for pilgrims to Knock Shrine and tourists heading to Connemara and the Aran Islands.",
+    "folklore": "Monsignor Horan raised the funds through parish collections and lobbying, calling the airport 'the miracle of the boglands'. He died in Lourdes in 1986, the very year it opened, never seeing its first scheduled flight. Locals say he went to his grave certain it would succeed.",
+    "nature": "Set at 168 m above sea level on the north Mayo boglands, making it one of the highest-elevation commercial airports in Western Europe. The surrounding peatland is characteristic of the western Irish uplands.",
+    "icon_type": "village_settlement",
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Ireland_West_Airport_Knock_terminal.jpg",
+        "author": "Ultrasonic7",
+        "license": "CC BY-SA 3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Ireland_West_Airport_Knock_terminal.jpg"
+      }
+    ]
+  },
+  {
+    "name": "Knock Shrine",
+    "region": "Mayo",
+    "cluster": "Knock (Mayo)",
+    "lat": 53.7924,
+    "long": -8.9172,
+    "coord_precision": "precise",
+    "description": "Ireland's national Marian pilgrimage site, established after fifteen villagers reported a silent apparition of the Virgin Mary, Saint Joseph, and Saint John the Evangelist on the south gable of the parish church on the evening of 21 August 1879. Today the shrine attracts 1.5 million pilgrims annually and ranks alongside Lourdes and Fátima as one of Europe's major Marian sanctuaries. The complex includes five churches, the enclosed Apparition Chapel, basilica, museum, and 100 acres of pilgrim gardens.",
+    "folklore": "On that wet August night, fifteen witnesses of all ages watched two silent figures in white light for about two hours — no words were spoken, no messages given. A subsequent ecclesiastical commission found their testimonies 'trustworthy and satisfactory'. Pope John Paul II visited on the centenary in 1979.",
+    "nature": "The original apparition gable of the 19th-century parish church is now enclosed within the Apparition Chapel. The broader shrine grounds include chapels, a large open-air altar capable of hosting tens of thousands, and the annual August novena which is Ireland's largest Marian gathering.",
+    "icon_type": "church_monastic",
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Knock_Basilica_exterior.jpg",
+        "author": "Altan46",
+        "license": "CC BY-SA 4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Knock_Basilica_exterior.jpg"
+      }
+    ]
+  },
+  {
+    "name": "Westport",
+    "region": "Mayo",
+    "cluster": "Westport (Mayo)",
+    "lat": 53.8008,
+    "long": -9.5178,
+    "coord_precision": "precise",
+    "description": "One of Ireland's best-preserved planned Georgian towns, designed by architect James Wyatt in the late 18th century for the Browne family (Earls of Altamont). The town is built around the Carrowbeg River, which flows as a tree-lined canal through the main Mall. It is the main base for exploring Clew Bay, Croagh Patrick, and the islands of Clew Bay, and is consistently ranked among Ireland's most liveable towns.",
+    "folklore": "Westport House is said to stand on the foundations of a castle once belonging to Grace O'Malley (Gráinne Mhaol), the 16th-century pirate queen of Connacht who ruled the seas around Clew Bay from her fleet of galleys. The dungeons of the current house are said to follow the layout of her original prison.",
+    "nature": "Clew Bay, visible from the town, contains roughly 365 drumlins — one for each day of the year, according to local lore — formed by glacial deposition and now partially submerged. The bay is an important habitat for wading birds and seals.",
+    "icon_type": "village_settlement",
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Westport_Mall.jpg",
+        "author": "Sxenko",
+        "license": "CC BY-SA 3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Westport_Mall.jpg"
+      }
+    ]
+  },
+  {
+    "name": "Murrisk",
+    "region": "Mayo",
+    "cluster": "Croagh Patrick & Murrisk (Mayo)",
+    "lat": 53.7678,
+    "long": -9.6454,
+    "coord_precision": "precise",
+    "description": "A small village at the foot of Croagh Patrick on the southern shore of Clew Bay, and the traditional starting point for the pilgrimage climb of the mountain. The ruins of Murrisk Abbey (Augustinian, founded 1457) stand at the water's edge. The village is also the location of the National Famine Memorial bronze sculpture by John Behan.",
+    "folklore": "Murrisk Abbey was founded by the O'Malley clan — the same family as the pirate queen Grace O'Malley — and several O'Malleys are buried in its grounds. The abbey was suppressed during the Reformation but its ruins retain fine carved stonework on the east window.",
+    "nature": "The shoreline at Murrisk offers sweeping views across Clew Bay toward Achill Island. At low tide the tidal flats are rich in wading birds. The bay's drumlin islands are a distinctive post-glacial landscape.",
+    "icon_type": "church_monastic",
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Murrisk_Abbey.jpg",
+        "author": "Andreas F. Borchert",
+        "license": "CC BY-SA 4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Murrisk_Abbey.jpg"
+      }
+    ]
+  },
+  {
+    "name": "National Famine Memorial",
+    "region": "Mayo",
+    "cluster": "Croagh Patrick & Murrisk (Mayo)",
+    "lat": 53.7802,
+    "long": -9.6397,
+    "coord_precision": "precise",
+    "description": "A large bronze sculpture by artist John Behan, unveiled by President Mary Robinson in 1997 on the shore of Clew Bay at Murrisk. The work depicts a coffin ship — the cramped, disease-ridden vessels that carried starving emigrants from Ireland during the Great Famine of 1845–52 — with skeletal figures tangled in the rigging, representing the hundreds of thousands who died on the crossing. It stands in view of Croagh Patrick, Ireland's holy mountain.",
+    "folklore": "The 'coffin ships' were overcrowded and poorly provisioned; mortality rates on some crossings exceeded 30%. Many vessels departing from Westport and nearby ports were headed for Canada and the United States. The inscription at the base reads: 'Dedicated to the memory of all those who left these shores during the Great Famine 1845–1852.'",
+    "nature": "The memorial stands metres from the water's edge on Clew Bay, with direct views toward Croagh Patrick rising behind it. The shoreline at this point is a shallow tidal estuary used by wading birds.",
+    "icon_type": "natural_feature",
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/37/National_Famine_Monument_Murrisk.jpg",
+        "author": "Velela",
+        "license": "CC BY-SA 3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:National_Famine_Monument_Murrisk.jpg"
+      }
+    ]
+  },
+  {
+    "name": "Croagh Patrick",
+    "region": "Mayo",
+    "cluster": "Croagh Patrick & Murrisk (Mayo)",
+    "lat": 53.76,
+    "long": -9.6595,
+    "coord_precision": "precise",
+    "description": "Ireland's holiest mountain, a quartzite peak rising 764 metres above Clew Bay in County Mayo. Saint Patrick is said to have fasted on its summit for forty days in 441 AD. Every year on Reek Sunday (last Sunday in July), up to 25,000 pilgrims climb barefoot as an act of penance — a tradition continuous since the early medieval period. On a clear day the summit commands views of over 100 drumlins in Clew Bay and, on exceptional days, as far as the Twelve Bens of Connemara.",
+    "folklore": "Patrick is said to have banished the snakes of Ireland from this summit — standing at the southern precipice, he rang his bell and every serpent and venomous creature cast itself over the cliff edge. Earlier still, the mountain was a site of the pre-Christian harvest festival of Lughnasadh, held in honour of the god Lugh.",
+    "nature": "The mountain's quartzite cone is one of the most distinctive profiles in Ireland. The western flanks above 500 m are covered in scree; the summit plateau is bare rock. The upper slopes are an internationally recognised archaeological landscape, with evidence of Bronze Age ritual activity predating the Christian associations.",
+    "icon_type": "natural_feature",
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Croagh_Patrick_2016.jpg",
+        "author": "Wojciech Głowacki",
+        "license": "CC BY-SA 4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Croagh_Patrick_2016.jpg"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/47/Croagh_Patrick_in_2002.jpg",
+        "author": "Rob Hurson",
+        "license": "CC BY-SA 2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Croagh_Patrick_in_2002.jpg"
+      }
+    ]
+  },
+  {
+    "name": "Doo Lough",
+    "region": "Mayo",
+    "cluster": "Doolough (Mayo)",
+    "lat": 53.6461,
+    "long": -9.8451,
+    "coord_precision": "precise",
+    "description": "A dark, glacially-carved lake set between the Mweelrea and Sheeffry Hill ranges in remote southwest Mayo, often called one of the most dramatic landscapes in Ireland. The Doolough Pass road above the lake's eastern shore is the site of the Doolough Tragedy of March 1849, when hundreds of starving Famine victims walked here in snow and rain seeking poor law relief — who were turned away. At least seven bodies were found on the roadside afterwards. An annual Famine Walk and a memorial cross at the lakeshore commemorate the event.",
+    "folklore": "A stone monument beside the lake carries the inscription from Mahatma Gandhi: 'How can men feel themselves honoured by the humiliation of their fellow beings?' The words were chosen because Gandhi had cited the Irish Famine as an example of colonial violence. The annual walk in late April follows the same road the famine victims walked in 1849.",
+    "nature": "Doo Lough (Dúloch, 'black lake') sits at around 30 m above sea level and is over 5 km long. It is extremely deep and oligotrophic, with dark peaty water draining from the bogs above. The surrounding valley is one of the least developed landscapes in Ireland, with Mweelrea (Connacht's highest mountain at 814 m) rising to the west.",
+    "icon_type": "natural_feature",
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/45/Doolough_Valley_Mayo.jpg",
+        "author": "Nigel Borrington",
+        "license": "CC BY-SA 3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Doolough_Valley_Mayo.jpg"
+      }
+    ]
+  },
+  {
+    "name": "Leenaun",
+    "region": "Connemara",
+    "cluster": "Killary Fjord & Leenaun (Connemara)",
+    "lat": 53.6033,
+    "long": -9.705,
+    "coord_precision": "precise",
+    "description": "A tiny village at the head of Killary Harbour, Ireland's only true fjord, where County Galway meets County Mayo. Leenaun achieved fame as the setting for Jim Sheridan's 1990 film 'The Field', starring Richard Harris, based on John B. Keane's play about land and identity in the west of Ireland. The village is surrounded by the Maumturk Mountains to the south and Ben Gorm to the north.",
+    "folklore": "John B. Keane's 'The Field' reflects the deep Irish connection between land, memory, and identity forged during and after the Famine. A farmer who has rented, fertilised and tended a field for decades is outbid by an American — the play ends in violence. The film was shot in Leenaun and surroundings in 1989.",
+    "nature": "Leenaun sits at the inner end of Killary Harbour. The Erriff River, which drains the Partry Mountains, enters the fjord here and is one of Ireland's best salmon rivers. The mountain walls on both sides rise steeply from sea level, giving the village a deeply enclosed, dramatic character.",
+    "icon_type": "village_settlement",
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Leenane_village_and_Killary_Harbour.jpg",
+        "author": "Velela",
+        "license": "CC BY-SA 3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Leenane_village_and_Killary_Harbour.jpg"
+      }
+    ]
+  },
+  {
+    "name": "Killary Harbour",
+    "region": "Connemara",
+    "cluster": "Killary Fjord & Leenaun (Connemara)",
+    "lat": 53.617,
+    "long": -9.8,
+    "coord_precision": "zona",
+    "description": "Ireland's only fjord — a 16-kilometre-long glacially-carved sea inlet on the border of Counties Galway and Mayo. It reaches depths of over 45 metres at its centre. The southern shore is in County Galway; the northern shore, dominated by Mweelrea (Connacht's highest peak at 814 m), is in County Mayo. A mussel farm operates in the sheltered mid-reach. Boat tours run along the fjord from Leenaun from spring to autumn.",
+    "folklore": "The Irish name An Caoláire Rua means 'the red fjord' — a reference some say to the reddish hue the water takes at sunset, and others to an old story about a battle whose blood turned the waters red. The fjord was used as a sheltered anchorage by smugglers running contraband between the west coast and the continent in the 18th century.",
+    "nature": "A true fjord formed by glacial scouring during the last ice age, the harbour is deeper than much of the adjacent continental shelf. The mussel-farming operation takes advantage of the clean, fast-flowing tidal water. The mountain walls on both sides are nesting sites for peregrine falcons and ravens.",
+    "icon_type": "cliff_coast",
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Killary_Harbour_from_above.jpg",
+        "author": "Joseph Mischyshyn",
+        "license": "CC BY-SA 2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Killary_Harbour_from_above.jpg"
+      }
+    ]
+  },
+  {
+    "name": "Maam Cross",
+    "region": "Connemara",
+    "cluster": "Connemara Heartland",
+    "lat": 53.5492,
+    "long": -9.5304,
+    "coord_precision": "precise",
+    "description": "A crossroads settlement in the heart of Connemara at the intersection of the N59 and the road to Maam valley, surrounded by bog, mountains, and the Maumturk range. The location is perhaps most famous as a principal filming site for John Ford's 1952 film 'The Quiet Man', starring John Wayne and Maureen O'Hara. The surrounding landscape of bog, lough, and mountain is quintessential Connemara.",
+    "folklore": "John Ford brought John Wayne and Maureen O'Hara here to film 'The Quiet Man', using the area around Maam Cross and the nearby village of Cong as stand-ins for a romanticised Ireland. The film made this corner of Connacht internationally famous. The 'White O'Morn' cottage used in the film still stands nearby.",
+    "nature": "The crossroads lies on the edge of the Maumturk Mountains at roughly 50 m above sea level, surrounded by blanket bog and oligotrophic loughs. The area is within the Connemara LIFE Natura 2000 zone, notable for its intact Atlantic bog systems and upland heath.",
+    "icon_type": "village_settlement",
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/35/Connemara_landscape_near_Maam_Cross.jpg",
+        "author": "Andreas F. Borchert",
+        "license": "CC BY-SA 3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Connemara_landscape_near_Maam_Cross.jpg"
+      }
+    ]
+  },
+  {
+    "name": "Carraroe Peninsula",
+    "region": "Connemara",
+    "cluster": "South Connemara (Galway)",
+    "lat": 53.2611,
+    "long": -9.5972,
+    "coord_precision": "zona",
+    "description": "A deeply indented peninsula in the Gaeltacht heartland of south Connemara, one of the most strongly Irish-speaking communities in Ireland. The Coral Strand (Trá an Dóilín) at the tip of the peninsula is formed almost entirely of maerl — a pink-white coralline algae — rather than sand, making it one of the most unusual beaches in Ireland. The landscape of low granite hills, numerous loughs, and Atlantic inlets is characteristic of the south Connemara 'drowned' coastline.",
+    "folklore": "The entire peninsula is Irish-speaking (Gaeltacht); Irish is the everyday language of home, shop, and school. Local storytellers (seanchaí) kept oral traditions alive here long after they died out elsewhere.",
+    "nature": "The Coral Strand is a Site of Community Importance under the EU Habitats Directive specifically for its maerl beds — the living alga forms delicate branched structures on the seabed and washes ashore over millennia. The surrounding coastline of south Connemara is a mosaic of bays, islands, and channels of international nature conservation importance.",
+    "icon_type": "village_settlement",
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Coral_Strand_Carraroe.jpg",
+        "author": "Amanda Slater",
+        "license": "CC BY-SA 2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Coral_Strand_Carraroe.jpg"
+      }
+    ]
+  },
+  {
+    "name": "Rossaveal Ferry Pier",
+    "region": "Connemara",
+    "cluster": "South Connemara (Galway)",
+    "lat": 53.2681,
+    "long": -9.5573,
+    "coord_precision": "precise",
+    "description": "The main ferry terminal for services to the Aran Islands from the Connemara mainland, located on the southern shore of Connemara at the end of the R336. Ferries from here reach Kilronan (Inishmore) in about 40 minutes — significantly faster than the Galway city route. The pier was developed specifically to serve the growing year-round Aran Island community and tourist traffic.",
+    "folklore": "The fishing village of Rossaveal (An Ros Muc) is part of the south Connemara Gaeltacht. The surrounding coastline was historically a centre of traditional currach fishing, and the currachs still in use on the Aran Islands trace their design directly to the Connemara tradition.",
+    "nature": "The pier opens onto Greatman's Bay (Cuan an Fhir Mhóir), a sheltered natural harbour used by fishing vessels and the Aran ferries. The bay is part of a European Special Area of Conservation for its seagrass beds and the harbour porpoise population using the bay.",
+    "icon_type": "village_settlement",
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Rossaveel_pier.jpg",
+        "author": "Jonathon Nally",
+        "license": "CC BY-SA 2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Rossaveel_pier.jpg"
+      }
+    ]
+  },
+  {
+    "name": "Kilronan Pier",
+    "region": "Inishmore",
+    "cluster": "Kilronan & Killeany (Inishmore)",
+    "lat": 53.1178,
+    "long": -9.6666,
+    "coord_precision": "precise",
+    "description": "The main arrival point on Inishmore (Inis Mór) and the island's commercial hub. The pier in Kilronan (Cill Rónáin) receives all Aran Islands ferries from Rossaveal and Galway, as well as the island cargo boat. Behind the pier, Kilronan village has shops, cafés, a pub, bike hire, and pony-trap operators — the entire island infrastructure radiates outward from this point.",
+    "folklore": "Cill Rónáin means 'church of Rónán', a reference to Saint Rónán Finn, an early Christian monk associated with Inishmore. The island has been inhabited for at least 3,000 years and Kilronan's harbour has been the main point of connection with the mainland for all of that time.",
+    "nature": "The pier is one of the few sheltered landing points on the eastern side of Inishmore. Killeany Bay is a relatively calm, south-facing anchorage that provides protection from the prevailing westerlies. Grey seals are regularly seen hauled out on rocks near the pier entrance.",
+    "icon_type": "village_settlement",
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Kilronan_harbour_Inis_Mor.jpg",
+        "author": "Andreas F. Borchert",
+        "license": "CC BY-SA 4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Kilronan_harbour_Inis_Mor.jpg"
+      }
+    ]
+  },
+  {
+    "name": "Seal Colony",
+    "region": "Inishmore",
+    "cluster": "Dún Aonghasa & Kilmurvy (Inishmore)",
+    "lat": 53.1253,
+    "long": -9.7502,
+    "coord_precision": "zona",
+    "description": "A resident colony of grey Atlantic seals (Halichoerus grypus) on the northern shoreline of Inishmore, clearly signposted on the road between Kilmurvey and Dún Aonghasa. At low tide, a dozen or more seals haul out on the flat limestone rocks and small beach, with the mountains of Connemara as a backdrop. A small shelter has been established for visitors at the cliff-top viewpoint.",
+    "folklore": "The Irish west coast seals have long been associated with the mythological Selkies — shapeshifting creatures who are seals in the water and humans on land. Fishermen believed that harming a seal brought bad luck.",
+    "nature": "Grey seals (Halichoerus grypus) are the larger of the two seal species native to Ireland. Adults can weigh up to 235 kg. The colony on Inishmore's north coast is resident year-round, using the sheltered limestone ledges for resting and pupping in autumn.",
+    "icon_type": "natural_feature",
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Grey_seals_on_rocks_Aran_Islands.jpg",
+        "author": "Eithne O'Brien",
+        "license": "CC BY-SA 4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Grey_seals_on_rocks_Aran_Islands.jpg"
+      }
+    ]
+  },
+  {
+    "name": "Kilmurvey Beach",
+    "region": "Inishmore",
+    "cluster": "Dún Aonghasa & Kilmurvy (Inishmore)",
+    "lat": 53.1268,
+    "long": -9.7575,
+    "coord_precision": "precise",
+    "description": "A sheltered, Blue Flag sandy beach on the northern coast of Inishmore, a short walk from Dún Aonghasa. The beach faces north toward the mountains of Connemara across a stretch of clear, shallow water with extraordinary visibility. It is one of the most scenic beaches on the Aran Islands and is rarely crowded. The limestone pavement surrounding the beach is characteristic of the island's karst landscape.",
+    "folklore": "Kilmurvey (Cill Mhuirbhigh) takes its name from a church dedicated to Saint Muirbheal. The area around the beach was part of the estate of the Digby family, who were the main landlords of Inishmore in the 19th century.",
+    "nature": "The beach is composed of clean white sand derived from fragmented shell and coralline material. The beach is adjacent to limestone pavement ('karren') with grykes harbouring rare plant species including Maidenhair Fern (Adiantum capillus-veneris) and Spring Gentian (Gentiana verna).",
+    "icon_type": "beach_strand",
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Kilmurvey_Beach_Inis_Mor.jpg",
+        "author": "Velela",
+        "license": "CC BY-SA 3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Kilmurvey_Beach_Inis_Mor.jpg"
+      }
+    ]
+  },
+  {
+    "name": "Bungowla",
+    "region": "Inishmore",
+    "cluster": "West Inishmore",
+    "lat": 53.115,
+    "long": -9.821,
+    "coord_precision": "zona",
+    "description": "The westernmost village on Inishmore, lying about 9 km from Kilronan at the far end of the island's main road. Beyond Bungowla (Bun Gabhla), the island's road ends and the landscape opens onto the Atlantic. The village is the last settlement before the island's western cliffs, with views stretching unobstructed to the horizon. This is one of the most isolated and traditional communities on the Aran Islands, where Irish remains the everyday language.",
+    "folklore": "Bungowla means 'the end of the fork' in Irish, referring to the branching point of paths at the western tip of the island. The village has maintained the strongest traditions of island life — including currach fishing and dry-stone wall building — long after they declined elsewhere.",
+    "nature": "The western tip of Inishmore drops to the Atlantic via cliff faces and low rocky shores. The area is used by breeding seabirds including guillemots, razorbills, and choughs — the latter being the bird most associated with the Aran Islands.",
+    "icon_type": "village_settlement",
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Inishmore_western_tip.jpg",
+        "author": "Brocken Inaglory",
+        "license": "CC BY-SA 3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Inishmore_western_tip.jpg"
+      }
+    ]
+  },
+  {
+    "name": "Dún Dúchathair",
+    "region": "Inishmore",
+    "cluster": "Kilronan & Killeany (Inishmore)",
+    "lat": 53.1046,
+    "long": -9.6876,
+    "coord_precision": "precise",
+    "description": "A large promontory stone fort on the southern cliffs of Inishmore near Killeany, also called the Black Fort. Walls up to 6 metres high and 5 metres wide surround an area that contains the ruins of several clocháns (beehive huts). A cheval de frise of jagged limestone spikes protects the landward approach. Coastal erosion has reduced the fort considerably since it was first recorded. Construction dates to between the 1st century BC and the 7th century AD.",
+    "folklore": "Like the other great forts of Inishmore, Dún Dúchathair is linked in legend to the Fir Bolg, the mythological pre-Celtic inhabitants of Ireland who are said to have retreated to the Aran Islands after their defeat in battle. The dark limestone of the cliffs and fort walls gives the site its 'black' name.",
+    "nature": "The fort occupies a limestone promontory with sheer sea cliffs on three sides. The cliff faces below the fort are nesting sites for peregrine falcons, fulmars, and kittiwakes.",
+    "icon_type": "fort_dun",
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/26/Dun_Duchathair.jpg",
+        "author": "Evinhane",
+        "license": "CC BY-SA 3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Dun_Duchathair.jpg"
+      }
+    ]
+  },
+  {
+    "name": "Gleann na nDeor",
+    "region": "Inishmore",
+    "cluster": "West Inishmore",
+    "lat": 53.123,
+    "long": -9.778,
+    "coord_precision": "zona",
+    "description": "A small valley descending to the clifftops on the northern coast of Inishmore, whose name translates as 'Valley of Tears'. The name commemorates the departures of emigrants from the island during and after the Great Famine. When emigrant ships sheltered in Gregory Sound awaiting favourable winds, islanders could climb to this clifftop to see their loved ones on the ships one last time — too far away to call out to, too close to pretend they were already gone.",
+    "folklore": "Tim Robinson, in his masterwork 'Stones of Aran: Pilgrimage', describes Gleann na nDeor as one of the most emotionally charged places on the island. The 'vale of tears' phrase comes from the old Catholic prayer 'Salve Regina', used to describe this world as a place of sorrow and exile — an apt double meaning for an island whose young people were leaving it, weeping, for the last time.",
+    "nature": "The valley leads down through limestone pavement to the northern cliff edge, overlooking Gregory Sound and the open Atlantic. The clifftops here are carpeted in spring by wildflowers typical of the Aran Islands — Spring Gentian, Mountain Avens, Wild Thyme — growing directly in grykes in the bare limestone.",
+    "icon_type": "cliff_coast",
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/38/Inis_Mor_northern_cliffs.jpg",
+        "author": "Velela",
+        "license": "CC BY-SA 3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Inis_Mor_northern_cliffs.jpg"
+      }
+    ]
+  },
+  {
+    "name": "Puffing Holes",
+    "region": "Inishmore",
+    "cluster": "Kilronan & Killeany (Inishmore)",
+    "lat": 53.0898,
+    "long": -9.642,
+    "coord_precision": "precise",
+    "description": "Two large and one small circular blowholes on the limestone plateau at the southeastern tip of Inishmore, beyond the village of Cill Éinne. When Atlantic swells push into the sea caves below the plateau, compressed air erupts upward through these natural vents in spectacular geysers of white water and spray. Access requires a cross-country walk across bare limestone pavement from Cill Éinne village.",
+    "folklore": "Na Poill Seideáin ('the puffing holes') are known locally as a signal of incoming storms — the intensity of the spray is said to forecast how severe the weather will be. Fishermen traditionally read the blowholes before deciding whether to put to sea.",
+    "nature": "The blowholes are formed where sea caves eroded by wave action have punched through the thin limestone plateau above. The flat karst pavement surrounding them is one of the most intact examples of this habitat type in Ireland, designated as a Special Area of Conservation.",
+    "icon_type": "natural_feature",
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Puffing_Holes_Inis_Mor.jpg",
+        "author": "Murr Rhys",
+        "license": "CC BY-SA 2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Puffing_Holes_Inis_Mor.jpg"
+      }
+    ]
+  },
+  {
+    "name": "Dún Chonchúir",
+    "region": "Inis Meáin",
+    "cluster": "Inis Meáin",
+    "lat": 53.0835,
+    "long": -9.5948,
+    "coord_precision": "precise",
+    "description": "The largest prehistoric stone fort on Inis Meáin, occupying the highest point of the island at about 60 metres above sea level. The oval cashel has an inner defensive wall reaching over 8 metres wide; originally over 14,000 tonnes of stone would have formed the inner wall alone. The fort's position gives commanding views of all three Aran Islands, Galway Bay, and the Connemara mountains.",
+    "folklore": "The fort is named after Conchúr, a semi-legendary king of the Aran Islands. J.M. Synge, who spent several summers on Inis Meáin between 1898 and 1902 gathering material for his plays, described sitting in the fort and feeling 'the full force of the spirit of the island'.",
+    "nature": "Dún Chonchúir crowns the limestone ridge of Inis Meáin. The surrounding plateau hosts a limestone grassland flora typical of the Burren, including Spring Gentian, Bloody Cranesbill, and several species of orchid.",
+    "icon_type": "fort_dun",
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/17/D%C3%BAn_Chonch%C3%BAir_Inis_Me%C3%A1in.jpg",
+        "author": "Andreas F. Borchert",
+        "license": "CC BY-SA 4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:D%C3%BAn_Chonch%C3%BAir_Inis_Me%C3%A1in.jpg"
+      }
+    ]
+  },
+  {
+    "name": "An Trá",
+    "region": "Inis Oírr",
+    "cluster": "Inis Oírr",
+    "lat": 53.064,
+    "long": -9.523,
+    "coord_precision": "zona",
+    "description": "The main beach on Inis Oírr (the smallest Aran Island), a sweep of clean white sand on the northeastern coast sheltered by the island's small harbour. An Trá ('The Strand') faces northeast across Galway Bay, with views of the Burren limestone cliffs on the Clare coast. Inis Oírr is the smallest and most compact of the three Aran Islands, with the beach at the centre of island social life.",
+    "folklore": "The island looks across to the Burren coast of Clare, and its early Christian community maintained close ties with the monastic settlements on that coast. Saint Caomhán (Kevin), patron of Inis Oírr, is said to be buried in the medieval church of Teampall Chaomháin, which is partially buried in sand dunes at the southern edge of the beach.",
+    "nature": "The beach is composed of crushed shell and carbonate sand, characteristically white. The sheltered bay is a nursery area for juvenile fish and used by harbour porpoise. The sand dunes behind the beach are a nationally important habitat, with a diverse grassland flora including Pyramidal Orchid and Lady's Bedstraw.",
+    "icon_type": "beach_strand",
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/65/An_Tr%C3%A1_Inis_O%C3%ADrr.jpg",
+        "author": "Velela",
+        "license": "CC BY-SA 3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:An_Tr%C3%A1_Inis_O%C3%ADrr.jpg"
+      }
+    ]
+  },
+  {
+    "name": "Clonmacnoise",
+    "region": "Midlands",
+    "cluster": "Clonmacnoise (Offaly)",
+    "lat": 53.3254,
+    "long": -7.9884,
+    "coord_precision": "precise",
+    "description": "One of Ireland's most important early medieval monastic sites, founded in 544 AD by Saint Ciarán on the banks of the River Shannon in County Offaly. At the crossing of the ancient east-west road (Slighe Mhór) with Ireland's great river, Clonmacnoise became one of the foremost centres of Christian scholarship, art, and manuscript production in Europe. The site includes the ruins of a cathedral, eight churches, two round towers, three High Crosses, and over 200 early medieval grave slabs.",
+    "folklore": "Saint Ciarán died of plague only seven months after founding the community, at around 33 years old — the same age as Christ. Vikings raided Clonmacnoise at least nine times between 795 and 1012. The Book of the Dun Cow, one of Ireland's oldest manuscripts in Irish, was compiled here around 1100.",
+    "nature": "The monastery stands on a low ridge above the Shannon floodplain — the Callows — which floods seasonally and supports one of Ireland's largest inland concentrations of wintering wildfowl, including internationally important numbers of Whooper Swan and Greenland White-fronted Goose.",
+    "icon_type": "church_monastic",
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Clonmacnoise.jpg",
+        "author": "Rabe!",
+        "license": "CC BY-SA 3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Clonmacnoise.jpg"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Clonmacnoise_-_panoramio.jpg",
+        "author": "Martin Vossberg",
+        "license": "CC BY 3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Clonmacnoise_-_panoramio.jpg"
+      }
+    ]
+  },
+  {
+    "name": "Kilmainham Gaol",
+    "region": "Dublin",
+    "cluster": "Dublin",
+    "lat": 53.3385,
+    "long": -6.3058,
+    "coord_precision": "precise",
+    "description": "A former prison in Kilmainham, Dublin, now one of Ireland's most visited museums, operated by the Office of Public Works. Built in 1796 and operational until 1924, Kilmainham Gaol held the leaders of almost every Irish rebellion from 1798 to the War of Independence. The leaders of the 1916 Easter Rising — Pearse, Connolly, Clarke, MacDonagh, Mac Diarmada, Plunkett, Ceannt — were executed by firing squad in the prison's stone-breakers' yard between 3 and 12 May 1916.",
+    "folklore": "Joseph Plunkett married his fiancée Grace Gifford in the prison chapel just hours before his execution. James Connolly, wounded in the fighting, was executed tied to a chair because he could not stand. The gaol's East Wing, visited by Oscar Wilde's mother, was said to be the most oppressive building in Ireland.",
+    "nature": "The gaol is a striking example of Victorian penitentiary architecture, designed on the panopticon principle with radiating cell wings. The East Wing's central atrium is filled with natural light from a glazed roof, contrasting with the original 18th-century West Wing of dark, damp cells.",
+    "icon_type": "castle_ruin",
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Kilmainham_Gaol_exterior.jpg",
+        "author": "William Murphy",
+        "license": "CC BY-SA 2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Kilmainham_Gaol_exterior.jpg"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/39/Kilmainham_Gaol_East_Wing.jpg",
+        "author": "William Murphy",
+        "license": "CC BY-SA 2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Kilmainham_Gaol_East_Wing.jpg"
       }
     ]
   }
