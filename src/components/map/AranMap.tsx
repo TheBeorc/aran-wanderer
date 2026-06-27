@@ -14,11 +14,11 @@ import { Crosshair, MapPin } from "lucide-react";
 
 // --- Constants ---
 const ARAN_BOUNDS: L.LatLngBoundsExpression = [
-  [53.04, -9.82],
-  [53.16, -9.48],
+  [53.0, -10.15],
+  [53.95, -6.2],
 ];
 const INITIAL_CENTER: L.LatLngExpression = [53.095, -9.62];
-const INITIAL_ZOOM = 11;
+const INITIAL_ZOOM = 9;
 
 // Carto Voyager - free, friendly, no key
 const TILE_URL = "https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png";
