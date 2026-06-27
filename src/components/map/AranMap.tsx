@@ -230,7 +230,7 @@ export default function AranMap({ pois, selected, onSelect }: AranMapProps) {
       >
         <TileLayer url={TILE_URL} attribution={TILE_ATTR} className="aran-tiles" />
         <PoiClusterLayer pois={pois} onSelect={onSelect} />
-        <UserLocationLayer fix={geo.fix} setRecenter={setRecenter} />
+        <UserLocationLayer fix={geo.fix} geoStatus={geo.status} pois={pois} setRecenter={setRecenter} />
         <FlyToOnSelect target={selectedTarget} />
         <MapClickCloser onClose={() => onSelect(null)} />
       </MapContainer>
