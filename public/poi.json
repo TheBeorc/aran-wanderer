@@ -4735,7 +4735,7 @@
   {
     "name": "Ireland West Airport Knock",
     "region": "Mayo",
-    "cluster": "Knock (Mayo)",
+    "cluster": "Main",
     "lat": 53.9103,
     "long": -8.8185,
     "coord_precision": "precise",
@@ -6199,7 +6199,7 @@
   {
     "name": "Dublin Airport",
     "region": "Dublin",
-    "cluster": "Dublin",
+    "cluster": "Main",
     "lat": 53.4264,
     "long": -6.2499,
     "coord_precision": "precise",
