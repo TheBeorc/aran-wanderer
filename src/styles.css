@@ -142,6 +142,20 @@
   50% { transform: scale(1.05); opacity: 0.85; }
 }
 
+/* POI name tooltip */
+.leaflet-tooltip.aran-tooltip {
+  background: var(--color-card, #fff);
+  color: var(--color-foreground, #1a1a1a);
+  border: 1px solid var(--color-border, rgba(0,0,0,0.1));
+  border-radius: 9999px;
+  padding: 4px 10px;
+  font-size: 12px;
+  font-weight: 600;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  white-space: nowrap;
+}
+.leaflet-tooltip.aran-tooltip::before { display: none; }
+
 /* User location */
 .aran-user-wrap { background: transparent; border: none; }
 .aran-user {

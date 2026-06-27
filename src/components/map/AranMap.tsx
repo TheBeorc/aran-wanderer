@@ -76,6 +76,12 @@ function PoiClusterLayer({
 
     pois.forEach((poi) => {
       const m = L.marker([poi.lat, poi.long], { icon: buildPoiDivIcon(poi) });
+      m.bindTooltip(poi.name, {
+        direction: "top",
+        offset: [0, -18],
+        opacity: 1,
+        className: "aran-tooltip",
+      });
       m.on("click", () => onSelect(poi));
       cluster.addLayer(m);
     });
