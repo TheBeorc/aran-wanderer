@@ -4735,7 +4735,7 @@
   {
     "name": "Ireland West Airport Knock",
     "region": "Mayo",
-    "cluster": "Main",
+    "cluster": "",
     "lat": 53.9103,
     "long": -8.8185,
     "coord_precision": "precise",
@@ -4750,7 +4750,8 @@
         "license": "CC BY-SA 3.0",
         "source": "https://commons.wikimedia.org/wiki/File:Ireland_West_Airport_Knock_terminal.jpg"
       }
-    ]
+    ],
+    "main": true
   },
   {
     "name": "Knock Shrine",
@@ -6199,7 +6200,7 @@
   {
     "name": "Dublin Airport",
     "region": "Dublin",
-    "cluster": "Main",
+    "cluster": "",
     "lat": 53.4264,
     "long": -6.2499,
     "coord_precision": "precise",
@@ -6207,6 +6208,7 @@
     "folklore": "Dublin Airport opened in 1940, replacing a grass airstrip at Baldonnel. The original terminal building, designed by Desmond FitzGerald (father of Taoiseach Garret FitzGerald), is now listed as an architectural heritage structure. The airport was the point of arrival and departure for generations of Irish emigrants — and, since the Celtic Tiger, of their return.",
     "nature": "The airport lies in the flat drumlin landscape north of Dublin. The surrounding farmland is used by flocks of lapwing and golden plover in winter. The River Tolka rises near the airport perimeter.",
     "icon_type": "airport",
-    "images": []
+    "images": [],
+    "main": true
   }
 ]
