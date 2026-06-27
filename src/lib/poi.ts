@@ -37,6 +37,7 @@ export interface Poi {
   nature?: string;
   icon_type: IconType;
   images: PoiImage[];
+  main?: boolean;
 }
 
 export const KNOWN_ICON_TYPES: IconType[] = [
