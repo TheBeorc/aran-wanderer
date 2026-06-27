@@ -81,8 +81,13 @@ function PoiClusterLayer({
       },
     }) as L.LayerGroup & { addLayer: (l: L.Layer) => void };
 
+    const mainMarkers: L.Marker[] = [];
+
     pois.forEach((poi) => {
-      const m = L.marker([poi.lat, poi.long], { icon: buildPoiDivIcon(poi) });
+      const m = L.marker([poi.lat, poi.long], {
+        icon: buildPoiDivIcon(poi),
+        zIndexOffset: poi.main ? 1000 : 0,
+      });
       m.bindTooltip(poi.name, {
         direction: "top",
         offset: [0, -18],
@@ -90,12 +95,18 @@ function PoiClusterLayer({
         className: "aran-tooltip",
       });
       m.on("click", () => onSelect(poi));
-      cluster.addLayer(m);
+      if (poi.main) {
+        m.addTo(map);
+        mainMarkers.push(m);
+      } else {
+        cluster.addLayer(m);
+      }
     });
 
     map.addLayer(cluster);
     return () => {
       map.removeLayer(cluster);
+      mainMarkers.forEach((m) => m.remove());
     };
   }, [map, pois, onSelect]);
   return null;
