@@ -37,6 +37,7 @@ export interface Poi {
   nature?: string;
   icon_type: IconType;
   images: PoiImage[];
+  main?: boolean;
 }
 
 export const KNOWN_ICON_TYPES: IconType[] = [
@@ -84,6 +85,7 @@ export function normalisePoi(raw: unknown): Poi | null {
     nature: (r.nature as string) ?? "",
     icon_type: icon,
     images: Array.isArray(r.images) ? (r.images as PoiImage[]) : [],
+    main: r.main === true,
   };
 }
 
