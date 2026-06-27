@@ -14,11 +14,11 @@ import { Crosshair, MapPin } from "lucide-react";
 
 // --- Constants ---
 const ARAN_BOUNDS: L.LatLngBoundsExpression = [
-  [53.04, -9.82],
-  [53.16, -9.48],
+  [53.0, -10.15],
+  [53.95, -6.2],
 ];
 const INITIAL_CENTER: L.LatLngExpression = [53.095, -9.62];
-const INITIAL_ZOOM = 11;
+const INITIAL_ZOOM = 9;
 
 // Carto Voyager - free, friendly, no key
 const TILE_URL = "https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png";
@@ -90,23 +90,54 @@ function PoiClusterLayer({
 
 function UserLocationLayer({
   fix,
+  geoStatus,
+  pois,
   setRecenter,
 }: {
   fix: { lat: number; lng: number; accuracy: number } | null;
+  geoStatus: string;
+  pois: Poi[];
   setRecenter: (fn: () => void) => void;
 }) {
   const map = useMap();
   const markerRef = useRef<L.Marker | null>(null);
-  const firstFixRef = useRef(true);
+  const autoAppliedRef = useRef(false);
 
+  const bounds = L.latLngBounds(ARAN_BOUNDS as L.LatLngBoundsLiteral);
+  const userInBounds = !!fix && bounds.contains([fix.lat, fix.lng]);
+
+  // Recompute the recenter action whenever inputs change
   useEffect(() => {
     setRecenter(() => () => {
-      if (fix) {
-        map.flyTo([fix.lat, fix.lng], Math.max(map.getZoom(), 15), { duration: 0.8 });
+      if (fix && userInBounds) {
+        map.flyTo([fix.lat, fix.lng], 13, { duration: 0.8 });
+      } else if (pois.length > 0) {
+        const poiBounds = L.latLngBounds(pois.map((p) => [p.lat, p.long] as [number, number]));
+        map.flyToBounds(poiBounds, { padding: [40, 40], duration: 0.8 });
       }
     });
-  }, [fix, map, setRecenter]);
+  }, [fix, userInBounds, pois, map, setRecenter]);
 
+  // Smart initial view: apply once GPS resolves (granted/denied/unavailable/error)
+  useEffect(() => {
+    if (autoAppliedRef.current) return;
+    const resolved =
+      geoStatus === "granted" ||
+      geoStatus === "denied" ||
+      geoStatus === "unavailable" ||
+      geoStatus === "error";
+    if (!resolved) return;
+
+    if (fix && userInBounds) {
+      map.setView([fix.lat, fix.lng], 13);
+    } else if (pois.length > 0) {
+      const poiBounds = L.latLngBounds(pois.map((p) => [p.lat, p.long] as [number, number]));
+      map.fitBounds(poiBounds, { padding: [40, 40] });
+    }
+    autoAppliedRef.current = true;
+  }, [fix, userInBounds, geoStatus, pois, map]);
+
+  // Marker management
   useEffect(() => {
     if (!fix) return;
     if (!markerRef.current) {
@@ -118,15 +149,6 @@ function UserLocationLayer({
     } else {
       markerRef.current.setLatLng([fix.lat, fix.lng]);
     }
-    if (firstFixRef.current) {
-      firstFixRef.current = false;
-      if (map.getBounds().contains([fix.lat, fix.lng])) {
-        map.flyTo([fix.lat, fix.lng], Math.max(map.getZoom(), 14), { duration: 0.8 });
-      }
-    }
-    return () => {
-      // keep marker between renders; cleanup on unmount only
-    };
   }, [fix, map]);
 
   useEffect(() => {
@@ -138,7 +160,7 @@ function UserLocationLayer({
     };
   }, []);
 
-  if (!fix) return null;
+  if (!fix || !userInBounds) return null;
   return (
     <Circle
       center={[fix.lat, fix.lng]}
@@ -197,7 +219,7 @@ export default function AranMap({ pois, selected, onSelect }: AranMapProps) {
       <MapContainer
         center={INITIAL_CENTER}
         zoom={INITIAL_ZOOM}
-        minZoom={10}
+        minZoom={8}
         maxZoom={18}
         maxBounds={ARAN_BOUNDS}
         maxBoundsViscosity={1.0}
@@ -208,7 +230,7 @@ export default function AranMap({ pois, selected, onSelect }: AranMapProps) {
       >
         <TileLayer url={TILE_URL} attribution={TILE_ATTR} className="aran-tiles" />
         <PoiClusterLayer pois={pois} onSelect={onSelect} />
-        <UserLocationLayer fix={geo.fix} setRecenter={setRecenter} />
+        <UserLocationLayer fix={geo.fix} geoStatus={geo.status} pois={pois} setRecenter={setRecenter} />
         <FlyToOnSelect target={selectedTarget} />
         <MapClickCloser onClose={() => onSelect(null)} />
       </MapContainer>
