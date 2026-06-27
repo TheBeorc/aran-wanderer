@@ -4742,7 +4742,7 @@
     "description": "Ireland's largest regional airport outside Dublin and Cork, built on bogland in County Mayo at an elevation of 168 metres â unusually high for any airport. Opened in 1986, it was conceived and fundraised entirely by Monsignor James Horan, the local parish priest, against near-universal scepticism from government and engineers. It serves as the main air gateway for pilgrims to Knock Shrine and tourists heading to Connemara and the Aran Islands.",
     "folklore": "Monsignor Horan raised the funds through parish collections and lobbying, calling the airport 'the miracle of the boglands'. He died in Lourdes in 1986, the very year it opened, never seeing its first scheduled flight. Locals say he went to his grave certain it would succeed.",
     "nature": "Set at 168 m above sea level on the north Mayo boglands, making it one of the highest-elevation commercial airports in Western Europe. The surrounding peatland is characteristic of the western Irish uplands.",
-    "icon_type": "village_settlement",
+    "icon_type": "airport",
     "images": [
       {
         "url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Ireland_West_Airport_Knock_terminal.jpg",
