@@ -91,11 +91,20 @@ const ICON_RENDERERS: Record<IconType, IconRenderer> = {
     ),
   pub_amenity: () =>
     wrap(
-      <g stroke={STROKE} strokeWidth="1.4" strokeLinejoin="round">
-        <path d="M9 7 H23 V12 Q23 22 16 26 Q9 22 9 12 Z" fill={GOLD} />
-        <path d="M9 12 H23" />
-        <path d="M12 7 V4 H20 V7" fill="none" />
-        <ellipse cx="16" cy="11" rx="6" ry="1.4" fill="#fff" stroke="none" />
+      <g stroke={STROKE} strokeWidth="1.4" strokeLinejoin="round" strokeLinecap="round">
+        {/* frothy head */}
+        <path
+          d="M10 10 Q9 7 12 7 Q13 5 16 6 Q19 5 20 7 Q23 7 22 10 Z"
+          fill="#fffaf0"
+        />
+        {/* glass body with beer */}
+        <path d="M10 10 H22 L21 26 H11 Z" fill={GOLD} />
+        {/* handle */}
+        <path d="M22 13 Q26 14 26 18 Q26 22 22 23" fill="none" />
+        {/* glass outline + bubbles */}
+        <path d="M10 10 H22 L21 26 H11 Z" fill="none" />
+        <circle cx="14" cy="16" r="0.9" fill="#fffaf0" stroke="none" />
+        <circle cx="17" cy="20" r="0.7" fill="#fffaf0" stroke="none" />
       </g>,
     ),
   natural_feature: () =>
@@ -103,6 +112,16 @@ const ICON_RENDERERS: Record<IconType, IconRenderer> = {
       <g stroke={STROKE} strokeWidth="1.4" strokeLinejoin="round">
         <path d="M4 24 L11 12 L16 19 L20 14 L28 24 Z" fill={GREEN} />
         <path d="M11 12 L13 14 M20 14 L22 17" stroke="#fff" />
+      </g>,
+    ),
+  airport: () =>
+    wrap(
+      <g stroke={STROKE} strokeWidth="1.4" strokeLinejoin="round" strokeLinecap="round">
+        {/* plane body */}
+        <path
+          d="M4 18 L14 16 L20 9 Q22 7 23 9 L19 17 L26 19 L25 21 L18 20 L15 25 L13 24 L14 19 L8 20 Z"
+          fill={STONE}
+        />
       </g>,
     ),
 };
@@ -122,4 +141,5 @@ export const POI_LABELS: Record<IconType, string> = {
   village_settlement: "Village",
   pub_amenity: "Pub / amenity",
   natural_feature: "Natural feature",
+  airport: "Airport",
 };
