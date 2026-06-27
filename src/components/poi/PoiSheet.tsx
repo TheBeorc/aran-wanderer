@@ -58,7 +58,7 @@ export function PoiSheet({ poi, onClose }: PoiSheetProps) {
           <div className="min-w-0 flex-1">
             <h2 className="text-lg font-semibold leading-tight text-foreground">{poi.name}</h2>
             <p className="mt-0.5 text-xs text-muted-foreground">
-              {POI_LABELS[poi.icon_type]} · {poi.island}
+              {POI_LABELS[poi.icon_type]} · {poi.region ?? poi.island}
             </p>
             {approx && (
               <p className="mt-1 text-[11px] font-medium text-[var(--color-marker-approx-ink)]">
