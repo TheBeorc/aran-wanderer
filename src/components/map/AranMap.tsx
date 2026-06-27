@@ -219,7 +219,7 @@ export default function AranMap({ pois, selected, onSelect }: AranMapProps) {
       <MapContainer
         center={INITIAL_CENTER}
         zoom={INITIAL_ZOOM}
-        minZoom={10}
+        minZoom={8}
         maxZoom={18}
         maxBounds={ARAN_BOUNDS}
         maxBoundsViscosity={1.0}
