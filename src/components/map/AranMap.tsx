@@ -29,12 +29,19 @@ const TILE_ATTR =
 function buildPoiDivIcon(poi: Poi): L.DivIcon {
   const svg = renderToStaticMarkup(renderPoiIcon(poi.icon_type));
   const approx = poi.coord_precision !== "precise";
-  const cls = `aran-marker ${approx ? "aran-marker--approx" : "aran-marker--precise"}`;
+  const isMain = poi.main === true;
+  const size = isMain ? 44 : 31;
+  const cls = [
+    "aran-marker",
+    approx ? "aran-marker--approx" : "aran-marker--precise",
+    isMain ? "aran-marker--main" : "aran-marker--small",
+  ].join(" ");
+  const badge = isMain ? `<div class="aran-marker__badge"></div>` : "";
   return L.divIcon({
-    html: `<div class="${cls}"><div class="aran-marker__halo"></div><div class="aran-marker__icon">${svg}</div></div>`,
+    html: `<div class="${cls}" style="width:${size}px;height:${size}px"><div class="aran-marker__halo"></div><div class="aran-marker__icon">${svg}</div>${badge}</div>`,
     className: "aran-marker-wrap",
-    iconSize: [44, 44],
-    iconAnchor: [22, 22],
+    iconSize: [size, size],
+    iconAnchor: [size / 2, size / 2],
   });
 }
 
