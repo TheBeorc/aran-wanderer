@@ -85,6 +85,7 @@ export function normalisePoi(raw: unknown): Poi | null {
     nature: (r.nature as string) ?? "",
     icon_type: icon,
     images: Array.isArray(r.images) ? (r.images as PoiImage[]) : [],
+    main: r.main === true,
   };
 }
 
