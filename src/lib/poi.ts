@@ -14,6 +14,7 @@ export type IconType =
 export type CoordPrecision = "precise" | "zona" | "uncertain";
 
 export type Island = "Inishmore" | "Inishmaan" | "Inisheer";
+export type Region = Island | "Connemara" | "Galway" | "Dublin" | "Mainland";
 
 export interface PoiImage {
   url: string;
@@ -24,7 +25,9 @@ export interface PoiImage {
 
 export interface Poi {
   name: string;
-  island: Island;
+  island?: Island;
+  region?: Region | string;
+
   cluster: string;
   lat: number;
   long: number;
