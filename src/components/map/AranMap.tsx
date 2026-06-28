@@ -10,7 +10,8 @@ import { MapContainer, TileLayer, Circle, useMap, useMapEvents } from "react-lea
 import type { Poi } from "@/lib/poi";
 import { renderPoiIcon } from "@/lib/poi-icons";
 import { useWatchPosition } from "@/lib/geolocation";
-import { Crosshair, MapPin } from "lucide-react";
+import { ROUTE_STYLE, type RouteFeature } from "@/lib/routes";
+import { Crosshair, MapPin, Route as RouteIcon, Upload } from "lucide-react";
 
 // --- Constants ---
 const ARAN_BOUNDS: L.LatLngBoundsExpression = [
