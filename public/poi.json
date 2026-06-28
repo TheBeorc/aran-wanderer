@@ -179,7 +179,8 @@
         "license": "CC BY-SA 2.0",
         "source": "https://commons.wikimedia.org/wiki/File:Joe Watty's Bar - geograph.org.uk - 6741134.jpg"
       }
-    ]
+    ],
+    "main": true
   },
   {
     "name": "The Rectory",
@@ -413,7 +414,8 @@
         "license": "CC BY-SA 3.0",
         "source": "https://commons.wikimedia.org/wiki/File:Poll na bPÃÂÃÂ©ist.jpg"
       }
-    ]
+    ],
+    "main": true
   },
   {
     "name": "An Aill Bhrisite (The Broken Cliff)",
@@ -1153,7 +1155,8 @@
         "license": "CC BY-SA 2.0",
         "source": "https://commons.wikimedia.org/wiki/File:Inisheer - The Lighthouse ^ out buildings - geograph.org.uk - 5611689.jpg"
       }
-    ]
+    ],
+    "main": true
   },
   {
     "name": "The 'Plassy'",
@@ -1166,7 +1169,8 @@
     "folklore": "Wrecked on Carraig na Finnise. Storms have since lifted the hull five feet higher than high tide, creating a landmark of rusting iron against the limestone.",
     "nature": "Resting on a storm beach of massive limestone boulders.",
     "icon_type": "cliff_coast",
-    "images": []
+    "images": [],
+    "main": true
   },
   {
     "name": "Cathair na mBan",
@@ -1829,7 +1833,8 @@
         "license": "CC BY-SA 4.0",
         "source": "https://commons.wikimedia.org/wiki/File:Inisheer Plassy-View.jpg"
       }
-    ]
+    ],
+    "main": true
   },
   {
     "name": "Inisheer Lighthouse",
@@ -1861,7 +1866,8 @@
         "license": "CC BY-SA 2.0",
         "source": "https://commons.wikimedia.org/wiki/File:Inisheer - The Lighthouse ^ out buildings - geograph.org.uk - 5611689.jpg"
       }
-    ]
+    ],
+    "main": true
   },
   {
     "name": "TÃÂÃÂ­ Smith",
@@ -2017,7 +2023,8 @@
     "folklore": "Folklore speaks of a \"pÃÂÃÂ©ist\" (serpent) inhabiting the depths. It is a marvel of coastal erosion, often mistaken for a man-made quarry.",
     "nature": "A geometric basin cut into the sea-shelf by the relentless hydraulic action of the Atlantic.",
     "icon_type": "cliff_coast",
-    "images": []
+    "images": [],
+    "main": true
   },
   {
     "name": "Creig an BhobailÃÂÃÂ­n",
@@ -3056,7 +3063,8 @@
         "license": "CC BY-SA 2.0",
         "source": "https://commons.wikimedia.org/wiki/File:Mercedes minibus by Na Seacht dTeampaill (Seven Churches), near Onaght, InishmÃÂÃÂ³r (ÃÂÃÂrainn), Aran Islands, Co. Galway - geograph.org.uk - 3635007.jpg"
       }
-    ]
+    ],
+    "main": true
   },
   {
     "name": "DÃÂÃÂºn Eoghanachta",
@@ -3257,7 +3265,8 @@
         "license": "CC BY-SA 2.0",
         "source": "https://commons.wikimedia.org/wiki/File:Joe Watty's Bar - geograph.org.uk - 6741134.jpg"
       }
-    ]
+    ],
+    "main": true
   },
   {
     "name": "The \"Cair\"",
@@ -3601,7 +3610,8 @@
         "license": "CC BY 3.0",
         "source": "https://commons.wikimedia.org/wiki/File:Dun Eochla seen from lighthouse.jpg"
       }
-    ]
+    ],
+    "main": true
   },
   {
     "name": "Carcair na bPÃÂÃÂºcaÃÂÃÂ­",
@@ -4633,7 +4643,8 @@
         "license": "CC BY-SA 2.0",
         "source": "https://commons.wikimedia.org/wiki/File:Inishmaan - Synge's Chair - geograph.org.uk - 7931012.jpg"
       }
-    ]
+    ],
+    "main": true
   },
   {
     "name": "Poll an tSÃÂÃÂ©ideÃÂÃÂ¡in (The Puffing Hole)",
@@ -4646,7 +4657,8 @@
     "folklore": "Visitors often viewed this as an \"awfully sublime\" feature of the Romantic landscape. It represents the \"primitive\" power of the island that so fascinated 19th-century scholars and \"sentimental tourists.\"",
     "nature": "Erosion has created a vertical shaft; during heavy swells, the Atlantic is forced through the rock, resulting in a towering plume of salt spray and air.",
     "icon_type": "cliff_coast",
-    "images": []
+    "images": [],
+    "main": true
   },
   {
     "name": "Baile an Mhothair / Baile an Teampaill / Baile an Lorgain",
@@ -4730,7 +4742,8 @@
         "license": "CC BY-SA 3.0",
         "source": "https://commons.wikimedia.org/wiki/File:Inis_Mor_-_Dun_Aengus_-_Chevaux_de_Frise.JPG"
       }
-    ]
+    ],
+    "main": true
   },
   {
     "name": "Ireland West Airport Knock",
@@ -4771,7 +4784,8 @@
         "license": "CC BY-SA 4.0",
         "source": "https://commons.wikimedia.org/wiki/File:Knock_Basilica_exterior.jpg"
       }
-    ]
+    ],
+    "main": true
   },
   {
     "name": "Westport",
@@ -4791,7 +4805,8 @@
         "license": "CC BY-SA 3.0",
         "source": "https://commons.wikimedia.org/wiki/File:Westport_Mall.jpg"
       }
-    ]
+    ],
+    "main": true
   },
   {
     "name": "Murrisk",
@@ -4811,7 +4826,8 @@
         "license": "CC BY-SA 4.0",
         "source": "https://commons.wikimedia.org/wiki/File:Murrisk_Abbey.jpg"
       }
-    ]
+    ],
+    "main": true
   },
   {
     "name": "National Famine Memorial",
@@ -4831,7 +4847,8 @@
         "license": "CC BY-SA 3.0",
         "source": "https://commons.wikimedia.org/wiki/File:National_Famine_Monument_Murrisk.jpg"
       }
-    ]
+    ],
+    "main": true
   },
   {
     "name": "Croagh Patrick",
@@ -4857,7 +4874,8 @@
         "license": "CC BY-SA 2.0",
         "source": "https://commons.wikimedia.org/wiki/File:Croagh_Patrick_in_2002.jpg"
       }
-    ]
+    ],
+    "main": true
   },
   {
     "name": "Doo Lough",
@@ -4877,7 +4895,8 @@
         "license": "CC BY-SA 3.0",
         "source": "https://commons.wikimedia.org/wiki/File:Doolough_Valley_Mayo.jpg"
       }
-    ]
+    ],
+    "main": true
   },
   {
     "name": "Leenaun",
@@ -4897,7 +4916,8 @@
         "license": "CC BY-SA 3.0",
         "source": "https://commons.wikimedia.org/wiki/File:Leenane_village_and_Killary_Harbour.jpg"
       }
-    ]
+    ],
+    "main": true
   },
   {
     "name": "Killary Harbour",
@@ -4917,7 +4937,8 @@
         "license": "CC BY-SA 2.0",
         "source": "https://commons.wikimedia.org/wiki/File:Killary_Harbour_from_above.jpg"
       }
-    ]
+    ],
+    "main": true
   },
   {
     "name": "Maam Cross",
@@ -4937,7 +4958,8 @@
         "license": "CC BY-SA 3.0",
         "source": "https://commons.wikimedia.org/wiki/File:Connemara_landscape_near_Maam_Cross.jpg"
       }
-    ]
+    ],
+    "main": true
   },
   {
     "name": "Carraroe Peninsula",
@@ -4957,7 +4979,8 @@
         "license": "CC BY-SA 2.0",
         "source": "https://commons.wikimedia.org/wiki/File:Coral_Strand_Carraroe.jpg"
       }
-    ]
+    ],
+    "main": true
   },
   {
     "name": "Rossaveal Ferry Pier",
@@ -4977,7 +5000,8 @@
         "license": "CC BY-SA 2.0",
         "source": "https://commons.wikimedia.org/wiki/File:Rossaveel_pier.jpg"
       }
-    ]
+    ],
+    "main": true
   },
   {
     "name": "Kilronan Pier",
@@ -4997,7 +5021,8 @@
         "license": "CC BY-SA 4.0",
         "source": "https://commons.wikimedia.org/wiki/File:Kilronan_harbour_Inis_Mor.jpg"
       }
-    ]
+    ],
+    "main": true
   },
   {
     "name": "Seal Colony",
@@ -5017,7 +5042,8 @@
         "license": "CC BY-SA 4.0",
         "source": "https://commons.wikimedia.org/wiki/File:Grey_seals_on_rocks_Aran_Islands.jpg"
       }
-    ]
+    ],
+    "main": true
   },
   {
     "name": "Kilmurvey Beach",
@@ -5037,7 +5063,8 @@
         "license": "CC BY-SA 3.0",
         "source": "https://commons.wikimedia.org/wiki/File:Kilmurvey_Beach_Inis_Mor.jpg"
       }
-    ]
+    ],
+    "main": true
   },
   {
     "name": "Bungowla",
@@ -5057,7 +5084,8 @@
         "license": "CC BY-SA 3.0",
         "source": "https://commons.wikimedia.org/wiki/File:Inishmore_western_tip.jpg"
       }
-    ]
+    ],
+    "main": true
   },
   {
     "name": "DÃºn DÃºchathair",
@@ -5077,7 +5105,8 @@
         "license": "CC BY-SA 3.0",
         "source": "https://commons.wikimedia.org/wiki/File:Dun_Duchathair.jpg"
       }
-    ]
+    ],
+    "main": true
   },
   {
     "name": "Gleann na nDeor",
@@ -5097,7 +5126,8 @@
         "license": "CC BY-SA 3.0",
         "source": "https://commons.wikimedia.org/wiki/File:Inis_Mor_northern_cliffs.jpg"
       }
-    ]
+    ],
+    "main": true
   },
   {
     "name": "Puffing Holes",
@@ -5117,7 +5147,8 @@
         "license": "CC BY-SA 2.0",
         "source": "https://commons.wikimedia.org/wiki/File:Puffing_Holes_Inis_Mor.jpg"
       }
-    ]
+    ],
+    "main": true
   },
   {
     "name": "DÃºn ChonchÃºir",
@@ -5183,7 +5214,8 @@
         "license": "CC BY 3.0",
         "source": "https://commons.wikimedia.org/wiki/File:Clonmacnoise_-_panoramio.jpg"
       }
-    ]
+    ],
+    "main": true
   },
   {
     "name": "Kilmainham Gaol",
@@ -5209,7 +5241,8 @@
         "license": "CC BY-SA 2.0",
         "source": "https://commons.wikimedia.org/wiki/File:Kilmainham_Gaol_East_Wing.jpg"
       }
-    ]
+    ],
+    "main": true
   },
   {
     "name": "Newport Viaduct",
