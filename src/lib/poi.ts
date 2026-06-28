@@ -54,6 +54,23 @@ export const KNOWN_ICON_TYPES: IconType[] = [
   "airport",
 ];
 
+export function repairEncoding<T>(str: T): T {
+  if (typeof str !== "string" || !str) return str;
+  let out = str as string;
+  for (let i = 0; i < 4; i++) {
+    if (!/[ÃÂ]/.test(out)) break;
+    try {
+      const bytes = Uint8Array.from(out, (c) => c.charCodeAt(0) & 0xff);
+      const decoded = new TextDecoder("utf-8", { fatal: false }).decode(bytes);
+      if (decoded === out) break;
+      out = decoded;
+    } catch {
+      break;
+    }
+  }
+  return out as unknown as T;
+}
+
 export function normalisePoi(raw: unknown): Poi | null {
   if (!raw || typeof raw !== "object") return null;
   const r = raw as Record<string, unknown>;
@@ -74,17 +91,17 @@ export function normalisePoi(raw: unknown): Poi | null {
       ? r.coord_precision
       : "uncertain";
   return {
-    name: r.name,
+    name: repairEncoding(r.name),
     island: r.island as Island | undefined,
-    region: (r.region as string | undefined) ?? undefined,
+    region: repairEncoding((r.region as string | undefined) ?? undefined),
 
-    cluster: (r.cluster as string) ?? "",
+    cluster: repairEncoding((r.cluster as string) ?? ""),
     lat: r.lat,
     long: r.long,
     coord_precision: precision,
-    description: (r.description as string) ?? "",
-    folklore: (r.folklore as string) ?? "",
-    nature: (r.nature as string) ?? "",
+    description: repairEncoding((r.description as string) ?? ""),
+    folklore: repairEncoding((r.folklore as string) ?? ""),
+    nature: repairEncoding((r.nature as string) ?? ""),
     icon_type: icon,
     images: Array.isArray(r.images) ? (r.images as PoiImage[]) : [],
     main: r.main === true,
