@@ -91,17 +91,17 @@ export function normalisePoi(raw: unknown): Poi | null {
       ? r.coord_precision
       : "uncertain";
   return {
-    name: r.name,
+    name: repairEncoding(r.name),
     island: r.island as Island | undefined,
-    region: (r.region as string | undefined) ?? undefined,
+    region: repairEncoding((r.region as string | undefined) ?? undefined),
 
-    cluster: (r.cluster as string) ?? "",
+    cluster: repairEncoding((r.cluster as string) ?? ""),
     lat: r.lat,
     long: r.long,
     coord_precision: precision,
-    description: (r.description as string) ?? "",
-    folklore: (r.folklore as string) ?? "",
-    nature: (r.nature as string) ?? "",
+    description: repairEncoding((r.description as string) ?? ""),
+    folklore: repairEncoding((r.folklore as string) ?? ""),
+    nature: repairEncoding((r.nature as string) ?? ""),
     icon_type: icon,
     images: Array.isArray(r.images) ? (r.images as PoiImage[]) : [],
     main: r.main === true,
