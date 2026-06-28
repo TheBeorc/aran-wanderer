@@ -71,22 +71,26 @@ function PoiClusterLayer({
       spiderfyOnMaxZoom: false,
       maxClusterRadius: 50,
       showCoverageOnHover: false,
-      iconCreateFunction: (c: { getChildCount: () => number }) => {
+      iconCreateFunction: (c: {
+        getChildCount: () => number;
+        getAllChildMarkers: () => Array<{ options: { hasMain?: boolean } }>;
+      }) => {
         const n = c.getChildCount();
+        const hasMain = c.getAllChildMarkers().some((m) => m.options.hasMain === true);
         return L.divIcon({
-          html: `<div class="aran-cluster"><span>${n}</span></div>`,
+          html: `<div class="aran-cluster${hasMain ? " aran-cluster--main" : ""}"><span>${n}</span></div>`,
           className: "aran-cluster-wrap",
           iconSize: [40, 40],
         });
       },
     }) as L.LayerGroup & { addLayer: (l: L.Layer) => void };
 
-    const mainMarkers: L.Marker[] = [];
-
     pois.forEach((poi) => {
       const m = L.marker([poi.lat, poi.long], {
         icon: buildPoiDivIcon(poi),
         zIndexOffset: poi.main ? 1000 : 0,
+        // @ts-expect-error custom option read by iconCreateFunction
+        hasMain: poi.main === true,
       });
       m.bindTooltip(poi.name, {
         direction: "top",
@@ -95,18 +99,12 @@ function PoiClusterLayer({
         className: "aran-tooltip",
       });
       m.on("click", () => onSelect(poi));
-      if (poi.main) {
-        m.addTo(map);
-        mainMarkers.push(m);
-      } else {
-        cluster.addLayer(m);
-      }
+      cluster.addLayer(m);
     });
 
     map.addLayer(cluster);
     return () => {
       map.removeLayer(cluster);
-      mainMarkers.forEach((m) => m.remove());
     };
   }, [map, pois, onSelect]);
   return null;
