@@ -1,7 +1,8 @@
-import { lazy, Suspense, useState } from "react";
+import { lazy, Suspense, useCallback, useState } from "react";
 import { createFileRoute } from "@tanstack/react-router";
 
 import { usePois, type Poi } from "@/lib/poi";
+import { useRoutes, parseMyMapsFile, type RouteFeature } from "@/lib/routes";
 import { PoiSheet } from "@/components/poi/PoiSheet";
 
 const AranMap = lazy(() => import("@/components/map/AranMap"));
@@ -34,7 +35,16 @@ export const Route = createFileRoute("/")({
 
 function Home() {
   const { data: pois, isLoading, error } = usePois();
+  const { data: baseRoutes } = useRoutes();
+  const [importedRoutes, setImportedRoutes] = useState<RouteFeature[]>([]);
   const [selected, setSelected] = useState<Poi | null>(null);
+
+  const allRoutes: RouteFeature[] = [...(baseRoutes ?? []), ...importedRoutes];
+
+  const handleImportRoutes = useCallback(async (file: File) => {
+    const features = await parseMyMapsFile(file);
+    setImportedRoutes((prev) => [...prev, ...features]);
+  }, []);
 
   return (
     <main className="fixed inset-0 overflow-hidden bg-[var(--color-sea)]">
@@ -58,7 +68,13 @@ function Home() {
             </div>
           }
         >
-          <AranMap pois={pois} selected={selected} onSelect={setSelected} />
+          <AranMap
+            pois={pois}
+            selected={selected}
+            onSelect={setSelected}
+            routes={allRoutes}
+            onImportRoutes={handleImportRoutes}
+          />
         </Suspense>
       )}
       <PoiSheet poi={selected} onClose={() => setSelected(null)} />

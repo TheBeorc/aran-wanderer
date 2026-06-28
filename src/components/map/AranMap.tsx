@@ -10,7 +10,8 @@ import { MapContainer, TileLayer, Circle, useMap, useMapEvents } from "react-lea
 import type { Poi } from "@/lib/poi";
 import { renderPoiIcon } from "@/lib/poi-icons";
 import { useWatchPosition } from "@/lib/geolocation";
-import { Crosshair, MapPin } from "lucide-react";
+import { ROUTE_STYLE, type RouteFeature } from "@/lib/routes";
+import { Crosshair, MapPin, Route as RouteIcon, Upload } from "lucide-react";
 
 // --- Constants ---
 const ARAN_BOUNDS: L.LatLngBoundsExpression = [
@@ -216,17 +217,63 @@ function MapClickCloser({ onClose }: { onClose: () => void }) {
   return null;
 }
 
+function RoutesLayer({ routes, visible }: { routes: RouteFeature[]; visible: boolean }) {
+  const map = useMap();
+  useEffect(() => {
+    if (!visible) return;
+    const group = L.layerGroup();
+    for (const feat of routes) {
+      const coords = feat.geometry.coordinates.map(
+        ([lng, lat]) => [lat, lng] as [number, number],
+      );
+      const style = ROUTE_STYLE[feat.properties.mode];
+      const poly = L.polyline(coords, {
+        color: style.color,
+        weight: 4,
+        opacity: 0.9,
+        dashArray: style.dashArray,
+        lineCap: "round",
+        lineJoin: "round",
+      });
+      const desc = feat.properties.description
+        ? `<div style="margin-top:4px;font-size:12px;opacity:0.8">${feat.properties.description}</div>`
+        : "";
+      poly.bindTooltip(
+        `<strong>${feat.properties.name}</strong> · ${feat.properties.mode}${desc}`,
+        { sticky: true, className: "aran-tooltip" },
+      );
+      group.addLayer(poly);
+    }
+    group.addTo(map);
+    return () => {
+      map.removeLayer(group);
+    };
+  }, [map, routes, visible]);
+  return null;
+}
+
 // --- Main component ---
 export interface AranMapProps {
   pois: Poi[];
   selected: Poi | null;
   onSelect: (poi: Poi | null) => void;
+  routes: RouteFeature[];
+  onImportRoutes: (file: File) => Promise<void> | void;
 }
 
-export default function AranMap({ pois, selected, onSelect }: AranMapProps) {
+export default function AranMap({
+  pois,
+  selected,
+  onSelect,
+  routes,
+  onImportRoutes,
+}: AranMapProps) {
   const geo = useWatchPosition();
   const [recenter, setRecenter] = useState<() => void>(() => () => {});
   const [geoNoticeDismissed, setGeoNoticeDismissed] = useState(false);
+  const [routesVisible, setRoutesVisible] = useState(true);
+  const [importError, setImportError] = useState<string | null>(null);
+  const fileInputRef = useRef<HTMLInputElement | null>(null);
 
   const selectedTarget = useMemo(
     () => (selected ? { lat: selected.lat, lng: selected.long } : null),
@@ -236,8 +283,29 @@ export default function AranMap({ pois, selected, onSelect }: AranMapProps) {
   const showGeoNotice =
     !geoNoticeDismissed && (geo.status === "denied" || geo.status === "unavailable" || geo.status === "error");
 
+  const handleFiles = async (files: FileList | null) => {
+    if (!files || files.length === 0) return;
+    setImportError(null);
+    for (const file of Array.from(files)) {
+      try {
+        await onImportRoutes(file);
+      } catch (e) {
+        setImportError(e instanceof Error ? e.message : "Failed to import file");
+      }
+    }
+  };
+
   return (
-    <div className="relative h-full w-full">
+    <div
+      className="relative h-full w-full"
+      onDragOver={(e) => {
+        e.preventDefault();
+      }}
+      onDrop={(e) => {
+        e.preventDefault();
+        void handleFiles(e.dataTransfer.files);
+      }}
+    >
       <MapContainer
         center={INITIAL_CENTER}
         zoom={INITIAL_ZOOM}
@@ -251,6 +319,7 @@ export default function AranMap({ pois, selected, onSelect }: AranMapProps) {
         style={{ background: "var(--color-sea)" }}
       >
         <TileLayer url={TILE_URL} attribution={TILE_ATTR} className="aran-tiles" />
+        <RoutesLayer routes={routes} visible={routesVisible} />
         <PoiClusterLayer pois={pois} onSelect={onSelect} />
         <UserLocationLayer fix={geo.fix} geoStatus={geo.status} pois={pois} setRecenter={setRecenter} />
         <FlyToOnSelect target={selectedTarget} />
@@ -261,6 +330,69 @@ export default function AranMap({ pois, selected, onSelect }: AranMapProps) {
       <div className="pointer-events-none absolute left-3 top-3 z-[1000] flex items-center gap-2 rounded-full bg-card/95 px-3 py-1.5 text-sm font-semibold text-foreground shadow-md backdrop-blur">
         <MapPin className="h-4 w-4 text-[var(--color-sea-deep)]" />
         The Aran Wanderer
+      </div>
+
+      {/* Routes panel: toggle + legend + import */}
+      <div className="absolute bottom-6 left-3 z-[1000] flex flex-col gap-2 rounded-xl bg-card/95 p-2 text-xs text-foreground shadow-md ring-1 ring-border backdrop-blur">
+        <div className="flex items-center gap-2">
+          <button
+            type="button"
+            onClick={() => setRoutesVisible((v) => !v)}
+            className="flex items-center gap-1.5 rounded-md px-2 py-1 font-semibold hover:bg-muted"
+            aria-pressed={routesVisible}
+          >
+            <RouteIcon className="h-4 w-4" />
+            {routesVisible ? "Hide routes" : "Show routes"}
+          </button>
+          <button
+            type="button"
+            onClick={() => fileInputRef.current?.click()}
+            className="flex items-center gap-1.5 rounded-md px-2 py-1 font-semibold hover:bg-muted"
+            title="Import .kml or .kmz from Google My Maps"
+          >
+            <Upload className="h-4 w-4" />
+            Import
+          </button>
+          <input
+            ref={fileInputRef}
+            type="file"
+            accept=".kml,.kmz,application/vnd.google-earth.kml+xml,application/vnd.google-earth.kmz"
+            multiple
+            className="hidden"
+            onChange={(e) => {
+              void handleFiles(e.target.files);
+              e.target.value = "";
+            }}
+          />
+        </div>
+        {routesVisible && (
+          <div className="flex flex-col gap-1 px-1 pb-1 text-[11px] text-muted-foreground">
+            <span className="flex items-center gap-2">
+              <svg width="28" height="6">
+                <line x1="0" y1="3" x2="28" y2="3" stroke={ROUTE_STYLE.car.color} strokeWidth="4" />
+              </svg>
+              Car
+            </span>
+            <span className="flex items-center gap-2">
+              <svg width="28" height="6">
+                <line
+                  x1="0"
+                  y1="3"
+                  x2="28"
+                  y2="3"
+                  stroke={ROUTE_STYLE.walk.color}
+                  strokeWidth="4"
+                  strokeLinecap="round"
+                  strokeDasharray="1 8"
+                />
+              </svg>
+              Walking
+            </span>
+          </div>
+        )}
+        {importError && (
+          <p className="max-w-[180px] px-1 text-[11px] text-destructive">{importError}</p>
+        )}
       </div>
 
       {/* Recenter FAB */}
