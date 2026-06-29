@@ -383,7 +383,7 @@ export default function AranMap({
                   stroke={ROUTE_STYLE.walk.color}
                   strokeWidth="4"
                   strokeLinecap="round"
-                  strokeDasharray="1 8"
+                  strokeDasharray="2 8"
                 />
               </svg>
               Walking
