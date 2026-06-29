@@ -65,10 +65,53 @@ export function useRoutes() {
   });
 }
 
-/** Parse a Google My Maps KML/KMZ file into RouteFeatures.
- *  Each top-level <Folder> (layer) name is mapped to a mode. */
+/** Parse a Google My Maps KML/KMZ or GPX file into RouteFeatures.
+ *  KML: each top-level <Folder> (layer) name is mapped to a mode.
+ *  GPX: every <trk>/<rte> becomes a walk LineString; <wpt> ignored. */
 export async function parseMyMapsFile(file: File): Promise<RouteFeature[]> {
   const lower = file.name.toLowerCase();
+
+  if (lower.endsWith(".gpx")) {
+    const gpxText = await file.text();
+    const gpxParser = new DOMParser();
+    const gpxXml = gpxParser.parseFromString(gpxText, "text/xml");
+    const { gpx: gpxToGeoJSON } = await import("@tmcw/togeojson");
+    const gj = gpxToGeoJSON(gpxXml as unknown as Document);
+    const out: RouteFeature[] = [];
+    for (const feat of gj.features ?? []) {
+      if (!feat.geometry) continue;
+      const props = (feat.properties ?? {}) as Record<string, unknown>;
+      const name = repairEncoding(
+        typeof props.name === "string" ? props.name : "Imported route",
+      );
+      const description =
+        typeof props.description === "string"
+          ? repairEncoding(props.description)
+          : undefined;
+      if (feat.geometry.type === "LineString") {
+        out.push({
+          type: "Feature",
+          geometry: {
+            type: "LineString",
+            coordinates: (feat.geometry as LineString).coordinates,
+          },
+          properties: { name, mode: "walk", description },
+        });
+      } else if (feat.geometry.type === "MultiLineString") {
+        for (const line of (feat.geometry as { coordinates: number[][][] })
+          .coordinates) {
+          out.push({
+            type: "Feature",
+            geometry: { type: "LineString", coordinates: line },
+            properties: { name, mode: "walk", description },
+          });
+        }
+      }
+      // Ignore Point (waypoint) features entirely.
+    }
+    return out;
+  }
+
   let kmlText: string;
   if (lower.endsWith(".kmz")) {
     const JSZipMod = await import("jszip");
