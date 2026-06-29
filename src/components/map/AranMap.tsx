@@ -258,7 +258,9 @@ export interface AranMapProps {
   selected: Poi | null;
   onSelect: (poi: Poi | null) => void;
   routes: RouteFeature[];
+  importedCount?: number;
   onImportRoutes: (file: File) => Promise<void> | void;
+  onClearImported?: () => void;
 }
 
 export default function AranMap({
@@ -266,7 +268,9 @@ export default function AranMap({
   selected,
   onSelect,
   routes,
+  importedCount = 0,
   onImportRoutes,
+  onClearImported,
 }: AranMapProps) {
   const geo = useWatchPosition();
   const [recenter, setRecenter] = useState<() => void>(() => () => {});
