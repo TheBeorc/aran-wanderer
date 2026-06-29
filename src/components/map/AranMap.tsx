@@ -261,7 +261,19 @@ export interface AranMapProps {
   importedCount?: number;
   onImportRoutes: (file: File) => Promise<void> | void;
   onClearImported?: () => void;
+  onExportImported?: () => void;
 }
+
+export default function AranMap({
+  pois,
+  selected,
+  onSelect,
+  routes,
+  importedCount = 0,
+  onImportRoutes,
+  onClearImported,
+  onExportImported,
+
 
 export default function AranMap({
   pois,
