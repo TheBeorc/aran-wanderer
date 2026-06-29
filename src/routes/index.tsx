@@ -127,6 +127,8 @@ function Home() {
             importedCount={importedRoutes.length}
             onImportRoutes={handleImportRoutes}
             onClearImported={handleClearImported}
+            onExportImported={handleExportImported}
+
           />
         </Suspense>
       )}
