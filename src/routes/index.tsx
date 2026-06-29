@@ -1,4 +1,4 @@
-import { lazy, Suspense, useCallback, useState } from "react";
+import { lazy, Suspense, useCallback, useEffect, useState } from "react";
 import { createFileRoute } from "@tanstack/react-router";
 
 import { usePois, type Poi } from "@/lib/poi";
@@ -6,6 +6,20 @@ import { useRoutes, parseMyMapsFile, type RouteFeature } from "@/lib/routes";
 import { PoiSheet } from "@/components/poi/PoiSheet";
 
 const AranMap = lazy(() => import("@/components/map/AranMap"));
+
+const IMPORTED_ROUTES_KEY = "aran-wanderer:imported-routes:v1";
+
+function loadImportedRoutes(): RouteFeature[] {
+  if (typeof window === "undefined") return [];
+  try {
+    const raw = window.localStorage.getItem(IMPORTED_ROUTES_KEY);
+    if (!raw) return [];
+    const parsed = JSON.parse(raw);
+    return Array.isArray(parsed) ? (parsed as RouteFeature[]) : [];
+  } catch {
+    return [];
+  }
+}
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -39,11 +53,33 @@ function Home() {
   const [importedRoutes, setImportedRoutes] = useState<RouteFeature[]>([]);
   const [selected, setSelected] = useState<Poi | null>(null);
 
+  // Hydrate from localStorage after mount (SSR-safe).
+  useEffect(() => {
+    setImportedRoutes(loadImportedRoutes());
+  }, []);
+
   const allRoutes: RouteFeature[] = [...(baseRoutes ?? []), ...importedRoutes];
 
   const handleImportRoutes = useCallback(async (file: File) => {
     const features = await parseMyMapsFile(file);
-    setImportedRoutes((prev) => [...prev, ...features]);
+    setImportedRoutes((prev) => {
+      const next = [...prev, ...features];
+      try {
+        window.localStorage.setItem(IMPORTED_ROUTES_KEY, JSON.stringify(next));
+      } catch {
+        // ignore quota errors
+      }
+      return next;
+    });
+  }, []);
+
+  const handleClearImported = useCallback(() => {
+    setImportedRoutes([]);
+    try {
+      window.localStorage.removeItem(IMPORTED_ROUTES_KEY);
+    } catch {
+      // ignore
+    }
   }, []);
 
   return (
@@ -73,7 +109,9 @@ function Home() {
             selected={selected}
             onSelect={setSelected}
             routes={allRoutes}
+            importedCount={importedRoutes.length}
             onImportRoutes={handleImportRoutes}
+            onClearImported={handleClearImported}
           />
         </Suspense>
       )}
