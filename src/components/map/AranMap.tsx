@@ -356,7 +356,7 @@ export default function AranMap({
           <input
             ref={fileInputRef}
             type="file"
-            accept=".kml,.kmz,application/vnd.google-earth.kml+xml,application/vnd.google-earth.kmz"
+            accept=".kml,.kmz,.gpx,application/vnd.google-earth.kml+xml,application/vnd.google-earth.kmz,application/gpx+xml"
             multiple
             className="hidden"
             onChange={(e) => {
@@ -383,7 +383,7 @@ export default function AranMap({
                   stroke={ROUTE_STYLE.walk.color}
                   strokeWidth="4"
                   strokeLinecap="round"
-                  strokeDasharray="1 8"
+                  strokeDasharray="2 8"
                 />
               </svg>
               Walking
