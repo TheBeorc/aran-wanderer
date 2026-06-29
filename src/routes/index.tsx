@@ -1,4 +1,4 @@
-import { lazy, Suspense, useCallback, useState } from "react";
+import { lazy, Suspense, useCallback, useEffect, useState } from "react";
 import { createFileRoute } from "@tanstack/react-router";
 
 import { usePois, type Poi } from "@/lib/poi";
@@ -7,43 +7,55 @@ import { PoiSheet } from "@/components/poi/PoiSheet";
 
 const AranMap = lazy(() => import("@/components/map/AranMap"));
 
-export const Route = createFileRoute("/")({
-  head: () => ({
-    meta: [
-      { title: "The Aran Wanderer — interactive field guide" },
-      {
-        name: "description",
-        content:
-          "A playful illustrated field guide to the Aran Islands. Tap cartoon markers on a precise map to discover holy wells, stone forts, beaches and stories.",
-      },
-      { name: "theme-color", content: "#5fb0c9" },
-      { property: "og:title", content: "The Aran Wanderer" },
-      {
-        property: "og:description",
-        content:
-          "Walk the Aran Islands with a cartoon field guide on a geographically accurate map.",
-      },
-      { property: "og:type", content: "website" },
-    ],
-    links: [
-      { rel: "manifest", href: "/manifest.webmanifest" },
-      { rel: "apple-touch-icon", href: "/icons/icon-192.png" },
-    ],
-  }),
-  component: Home,
-});
+const IMPORTED_ROUTES_KEY = "aran-wanderer:imported-routes:v1";
 
+function loadImportedRoutes(): RouteFeature[] {
+  if (typeof window === "undefined") return [];
+  try {
+    const raw = window.localStorage.getItem(IMPORTED_ROUTES_KEY);
+    if (!raw) return [];
+    const parsed = JSON.parse(raw);
+    return Array.isArray(parsed) ? (parsed as RouteFeature[]) : [];
+  } catch {
+    return [];
+  }
+}
+
+export const Route = createFileRoute("/")({
+...
 function Home() {
   const { data: pois, isLoading, error } = usePois();
   const { data: baseRoutes } = useRoutes();
   const [importedRoutes, setImportedRoutes] = useState<RouteFeature[]>([]);
   const [selected, setSelected] = useState<Poi | null>(null);
 
+  // Hydrate from localStorage after mount (SSR-safe).
+  useEffect(() => {
+    setImportedRoutes(loadImportedRoutes());
+  }, []);
+
   const allRoutes: RouteFeature[] = [...(baseRoutes ?? []), ...importedRoutes];
 
   const handleImportRoutes = useCallback(async (file: File) => {
     const features = await parseMyMapsFile(file);
-    setImportedRoutes((prev) => [...prev, ...features]);
+    setImportedRoutes((prev) => {
+      const next = [...prev, ...features];
+      try {
+        window.localStorage.setItem(IMPORTED_ROUTES_KEY, JSON.stringify(next));
+      } catch {
+        // ignore quota errors
+      }
+      return next;
+    });
+  }, []);
+
+  const handleClearImported = useCallback(() => {
+    setImportedRoutes([]);
+    try {
+      window.localStorage.removeItem(IMPORTED_ROUTES_KEY);
+    } catch {
+      // ignore
+    }
   }, []);
 
   return (
