@@ -22,7 +22,31 @@ function loadImportedRoutes(): RouteFeature[] {
 }
 
 export const Route = createFileRoute("/")({
-...
+  head: () => ({
+    meta: [
+      { title: "The Aran Wanderer — interactive field guide" },
+      {
+        name: "description",
+        content:
+          "A playful illustrated field guide to the Aran Islands. Tap cartoon markers on a precise map to discover holy wells, stone forts, beaches and stories.",
+      },
+      { name: "theme-color", content: "#5fb0c9" },
+      { property: "og:title", content: "The Aran Wanderer" },
+      {
+        property: "og:description",
+        content:
+          "Walk the Aran Islands with a cartoon field guide on a geographically accurate map.",
+      },
+      { property: "og:type", content: "website" },
+    ],
+    links: [
+      { rel: "manifest", href: "/manifest.webmanifest" },
+      { rel: "apple-touch-icon", href: "/icons/icon-192.png" },
+    ],
+  }),
+  component: Home,
+});
+
 function Home() {
   const { data: pois, isLoading, error } = usePois();
   const { data: baseRoutes } = useRoutes();
@@ -85,7 +109,9 @@ function Home() {
             selected={selected}
             onSelect={setSelected}
             routes={allRoutes}
+            importedCount={importedRoutes.length}
             onImportRoutes={handleImportRoutes}
+            onClearImported={handleClearImported}
           />
         </Suspense>
       )}
