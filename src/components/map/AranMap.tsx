@@ -357,6 +357,16 @@ export default function AranMap({
             <Upload className="h-4 w-4" />
             Import
           </button>
+          {importedCount > 0 && onClearImported && (
+            <button
+              type="button"
+              onClick={onClearImported}
+              className="rounded-md px-2 py-1 font-semibold text-destructive hover:bg-muted"
+              title="Remove all imported routes from this device"
+            >
+              Clear ({importedCount})
+            </button>
+          )}
           <input
             ref={fileInputRef}
             type="file"
