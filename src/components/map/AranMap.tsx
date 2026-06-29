@@ -273,17 +273,8 @@ export default function AranMap({
   onImportRoutes,
   onClearImported,
   onExportImported,
-
-
-export default function AranMap({
-  pois,
-  selected,
-  onSelect,
-  routes,
-  importedCount = 0,
-  onImportRoutes,
-  onClearImported,
 }: AranMapProps) {
+
   const geo = useWatchPosition();
   const [recenter, setRecenter] = useState<() => void>(() => () => {});
   const [geoNoticeDismissed, setGeoNoticeDismissed] = useState(false);
