@@ -261,6 +261,7 @@ export interface AranMapProps {
   importedCount?: number;
   onImportRoutes: (file: File) => Promise<void> | void;
   onClearImported?: () => void;
+  onExportImported?: () => void;
 }
 
 export default function AranMap({
@@ -271,7 +272,9 @@ export default function AranMap({
   importedCount = 0,
   onImportRoutes,
   onClearImported,
+  onExportImported,
 }: AranMapProps) {
+
   const geo = useWatchPosition();
   const [recenter, setRecenter] = useState<() => void>(() => () => {});
   const [geoNoticeDismissed, setGeoNoticeDismissed] = useState(false);
@@ -365,6 +368,16 @@ export default function AranMap({
               title="Remove all imported routes from this device"
             >
               Clear ({importedCount})
+            </button>
+          )}
+          {importedCount > 0 && onExportImported && (
+            <button
+              type="button"
+              onClick={onExportImported}
+              className="rounded-md px-2 py-1 font-semibold hover:bg-muted"
+              title="Download imported routes as JSON to bundle for everyone"
+            >
+              Export
             </button>
           )}
           <input

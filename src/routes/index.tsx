@@ -82,6 +82,21 @@ function Home() {
     }
   }, []);
 
+  const handleExportImported = useCallback(() => {
+    const blob = new Blob([JSON.stringify(importedRoutes, null, 2)], {
+      type: "application/json",
+    });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = "imported-routes.json";
+    document.body.appendChild(a);
+    a.click();
+    a.remove();
+    URL.revokeObjectURL(url);
+  }, [importedRoutes]);
+
+
   return (
     <main className="fixed inset-0 overflow-hidden bg-[var(--color-sea)]">
       {isLoading && (
@@ -112,6 +127,8 @@ function Home() {
             importedCount={importedRoutes.length}
             onImportRoutes={handleImportRoutes}
             onClearImported={handleClearImported}
+            onExportImported={handleExportImported}
+
           />
         </Suspense>
       )}
