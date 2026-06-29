@@ -370,6 +370,16 @@ export default function AranMap({
               Clear ({importedCount})
             </button>
           )}
+          {importedCount > 0 && onExportImported && (
+            <button
+              type="button"
+              onClick={onExportImported}
+              className="rounded-md px-2 py-1 font-semibold hover:bg-muted"
+              title="Download imported routes as JSON to bundle for everyone"
+            >
+              Export
+            </button>
+          )}
           <input
             ref={fileInputRef}
             type="file"
