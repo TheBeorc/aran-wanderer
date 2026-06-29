@@ -356,7 +356,7 @@ export default function AranMap({
           <input
             ref={fileInputRef}
             type="file"
-            accept=".kml,.kmz,application/vnd.google-earth.kml+xml,application/vnd.google-earth.kmz"
+            accept=".kml,.kmz,.gpx,application/vnd.google-earth.kml+xml,application/vnd.google-earth.kmz,application/gpx+xml"
             multiple
             className="hidden"
             onChange={(e) => {
