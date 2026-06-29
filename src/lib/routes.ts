@@ -14,7 +14,7 @@ export type RouteFeature = Feature<LineString, RouteProperties>;
 
 export const ROUTE_STYLE: Record<RouteMode, { color: string; dashArray?: string }> = {
   car: { color: "#b45309" }, // amber-700, solid
-  walk: { color: "#15803d", dashArray: "1 8" }, // green-700, dotted
+  walk: { color: "#15803d", dashArray: "2 8" }, // green-700, dotted
 };
 
 function coerceMode(input: unknown): RouteMode {
