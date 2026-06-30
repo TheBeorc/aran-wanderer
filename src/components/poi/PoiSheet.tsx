@@ -89,25 +89,35 @@ export function PoiSheet({ poi, onClose }: PoiSheetProps) {
                   alt={poi.name}
                   className="h-full w-full object-cover"
                   loading="lazy"
+                  referrerPolicy="no-referrer"
+                  onError={() => {
+                    setBrokenUrls((prev) => {
+                      if (prev.has(cur.url)) return prev;
+                      const next = new Set(prev);
+                      next.add(cur.url);
+                      return next;
+                    });
+                    setImgIdx(0);
+                  }}
                 />
-                {images.length > 1 && (
+                {visibleImages.length > 1 && (
                   <>
                     <button
-                      onClick={() => setImgIdx((i) => (i - 1 + images.length) % images.length)}
+                      onClick={() => setImgIdx((i) => (i - 1 + visibleImages.length) % visibleImages.length)}
                       className="absolute left-2 top-1/2 -translate-y-1/2 rounded-full bg-card/80 p-1.5 text-foreground shadow hover:bg-card"
                       aria-label="Previous image"
                     >
                       <ChevronLeft className="h-4 w-4" />
                     </button>
                     <button
-                      onClick={() => setImgIdx((i) => (i + 1) % images.length)}
+                      onClick={() => setImgIdx((i) => (i + 1) % visibleImages.length)}
                       className="absolute right-2 top-1/2 -translate-y-1/2 rounded-full bg-card/80 p-1.5 text-foreground shadow hover:bg-card"
                       aria-label="Next image"
                     >
                       <ChevronRight className="h-4 w-4" />
                     </button>
                     <div className="absolute bottom-2 left-1/2 flex -translate-x-1/2 gap-1">
-                      {images.map((_, i) => (
+                      {visibleImages.map((_, i) => (
                         <span
                           key={i}
                           className={`h-1.5 w-1.5 rounded-full ${
