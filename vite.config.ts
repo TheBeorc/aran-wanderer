@@ -53,7 +53,19 @@ export default defineConfig({
               },
             },
             {
-              // POI images (Wikimedia etc.)
+              // Wikimedia Commons images — explicit no-referrer fetch to avoid
+              // hotlink rejections, and SWR caching of opaque responses.
+              urlPattern: ({ url }) => /\.wikimedia\.org$/.test(url.hostname),
+              handler: "StaleWhileRevalidate",
+              options: {
+                cacheName: "aran-wikimedia",
+                expiration: { maxEntries: 300, maxAgeSeconds: 60 * 60 * 24 * 30 },
+                cacheableResponse: { statuses: [0, 200] },
+                fetchOptions: { mode: "no-cors", credentials: "omit", referrerPolicy: "no-referrer" },
+              },
+            },
+            {
+              // POI images (other hosts)
               urlPattern: ({ request }) => request.destination === "image",
               handler: "StaleWhileRevalidate",
               options: {
