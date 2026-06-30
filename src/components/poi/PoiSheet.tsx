@@ -31,8 +31,9 @@ export function PoiSheet({ poi, onClose }: PoiSheetProps) {
 
   const approx = poi.coord_precision !== "precise";
   const images = poi.images ?? [];
-  const hasImages = images.length > 0;
-  const cur = hasImages ? images[Math.min(imgIdx, images.length - 1)] : null;
+  const visibleImages = images.filter((im) => !brokenUrls.has(im.url));
+  const hasImages = visibleImages.length > 0;
+  const cur = hasImages ? visibleImages[Math.min(imgIdx, visibleImages.length - 1)] : null;
 
   return (
     <>
