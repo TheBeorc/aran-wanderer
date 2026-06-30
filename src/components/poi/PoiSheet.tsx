@@ -11,9 +11,11 @@ export interface PoiSheetProps {
 
 export function PoiSheet({ poi, onClose }: PoiSheetProps) {
   const [imgIdx, setImgIdx] = useState(0);
+  const [brokenUrls, setBrokenUrls] = useState<Set<string>>(new Set());
 
   useEffect(() => {
     setImgIdx(0);
+    setBrokenUrls(new Set());
   }, [poi]);
 
   useEffect(() => {
