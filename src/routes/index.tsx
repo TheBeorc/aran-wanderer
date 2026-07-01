@@ -4,6 +4,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import { usePois, type Poi } from "@/lib/poi";
 import { useRoutes, parseMyMapsFile, type RouteFeature } from "@/lib/routes";
 import { PoiSheet } from "@/components/poi/PoiSheet";
+import { ChatPanel } from "@/components/chat/ChatPanel";
 
 const AranMap = lazy(() => import("@/components/map/AranMap"));
 
