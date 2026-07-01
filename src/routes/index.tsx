@@ -134,6 +134,7 @@ function Home() {
         </Suspense>
       )}
       <PoiSheet poi={selected} onClose={() => setSelected(null)} />
+      <ChatPanel />
     </main>
   );
 }
