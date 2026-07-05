@@ -4,7 +4,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import { usePois, type Poi } from "@/lib/poi";
 import { useRoutes, parseMyMapsFile, type RouteFeature } from "@/lib/routes";
 import { PoiSheet } from "@/components/poi/PoiSheet";
-import { ChatPanel } from "@/components/chat/ChatPanel";
+import { NotebookLink } from "@/components/notebook/NotebookLink";
 
 const AranMap = lazy(() => import("@/components/map/AranMap"));
 
@@ -134,7 +134,7 @@ function Home() {
         </Suspense>
       )}
       <PoiSheet poi={selected} onClose={() => setSelected(null)} />
-      <ChatPanel />
+      <NotebookLink />
     </main>
   );
 }
