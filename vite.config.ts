@@ -1,5 +1,7 @@
 import { defineConfig } from "@lovable.dev/vite-tanstack-config";
+import { mcpPlugin } from "@lovable.dev/mcp-js/stacks/tanstack/vite";
 import { VitePWA } from "vite-plugin-pwa";
+
 
 export default defineConfig({
   tanstackStart: {
@@ -7,7 +9,9 @@ export default defineConfig({
   },
   vite: {
     plugins: [
+      mcpPlugin(),
       VitePWA({
+
         registerType: "autoUpdate",
         injectRegister: null, // wrapper module is the only registrar
         filename: "sw.js",
@@ -16,7 +20,7 @@ export default defineConfig({
         workbox: {
           globPatterns: ["**/*.{js,css,html,svg,png,ico,webmanifest,json}"],
           navigateFallback: "/",
-          navigateFallbackDenylist: [/^\/api\//, /^\/~oauth/],
+          navigateFallbackDenylist: [/^\/api\//, /^\/~oauth/, /^\/mcp/, /^\/\.well-known\//, /^\/\.mcp/],
           cleanupOutdatedCaches: true,
           runtimeCaching: [
             {
