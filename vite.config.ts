@@ -20,7 +20,7 @@ export default defineConfig({
         workbox: {
           globPatterns: ["**/*.{js,css,html,svg,png,ico,webmanifest,json}"],
           navigateFallback: "/",
-          navigateFallbackDenylist: [/^\/api\//, /^\/~oauth/],
+          navigateFallbackDenylist: [/^\/api\//, /^\/~oauth/, /^\/mcp/, /^\/\.well-known\//, /^\/\.mcp/],
           cleanupOutdatedCaches: true,
           runtimeCaching: [
             {
