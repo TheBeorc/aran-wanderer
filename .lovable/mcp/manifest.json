@@ -1,0 +1,109 @@
+{
+  "version": 1,
+  "sdk_version": "0.20.0",
+  "path": "/mcp",
+  "auth": {
+    "type": "none"
+  },
+  "mcp": {
+    "server": {
+      "name": "aran-wanderer-mcp",
+      "version": "0.1.0",
+      "title": "Aran Wanderer"
+    },
+    "tools": [
+      {
+        "name": "list_pois",
+        "title": "List points of interest",
+        "description": "List points of interest from the Aran Wanderer field guide. Optionally filter by island (Inishmore, Inishmaan, Inisheer) or icon type (e.g. holy_well, fort_dun, beach_strand).",
+        "annotations": {
+          "readOnlyHint": true,
+          "idempotentHint": true,
+          "openWorldHint": false
+        },
+        "inputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "island": {
+              "description": "Restrict results to a single Aran island.",
+              "type": "string",
+              "enum": [
+                "Inishmore",
+                "Inishmaan",
+                "Inisheer"
+              ]
+            },
+            "icon_type": {
+              "description": "Restrict to an icon type such as holy_well, fort_dun, beach_strand, church_monastic, cliff_coast, village_settlement, pub_amenity, natural_feature, airport, castle_ruin.",
+              "type": "string"
+            },
+            "limit": {
+              "description": "Max number of results to return. Defaults to all matches.",
+              "type": "integer",
+              "exclusiveMinimum": 0,
+              "maximum": 9007199254740991
+            }
+          }
+        },
+        "outputSchema": null
+      },
+      {
+        "name": "search_pois",
+        "title": "Search points of interest",
+        "description": "Full-text search over Aran Islands POIs. Matches against name, cluster, description, folklore, and nature notes.",
+        "annotations": {
+          "readOnlyHint": true,
+          "idempotentHint": true,
+          "openWorldHint": false
+        },
+        "inputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "query": {
+              "type": "string",
+              "minLength": 1,
+              "description": "Search term to match against POI text fields."
+            },
+            "limit": {
+              "description": "Max results. Defaults to 20.",
+              "type": "integer",
+              "exclusiveMinimum": 0,
+              "maximum": 9007199254740991
+            }
+          },
+          "required": [
+            "query"
+          ]
+        },
+        "outputSchema": null
+      },
+      {
+        "name": "get_poi",
+        "title": "Get a point of interest",
+        "description": "Return the full field-guide entry for a POI by (case-insensitive) name match, including description, folklore, nature notes, coordinates, and image credits.",
+        "annotations": {
+          "readOnlyHint": true,
+          "idempotentHint": true,
+          "openWorldHint": false
+        },
+        "inputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string",
+              "minLength": 1,
+              "description": "POI name or a distinctive substring of it."
+            }
+          },
+          "required": [
+            "name"
+          ]
+        },
+        "outputSchema": null
+      }
+    ]
+  }
+}
