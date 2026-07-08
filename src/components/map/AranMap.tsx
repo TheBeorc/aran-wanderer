@@ -336,7 +336,7 @@ export default function AranMap({
       {/* Title chip */}
       <div className="pointer-events-none absolute left-3 top-3 z-[1000] flex items-center gap-2 rounded-full bg-card/95 px-3 py-1.5 text-sm font-semibold text-foreground shadow-md backdrop-blur">
         <MapPin className="h-4 w-4 text-[var(--color-sea-deep)]" />
-        The Aran Wanderer
+        The Aran Rover 2026
       </div>
 
       {/* Routes panel: toggle + legend + import */}
