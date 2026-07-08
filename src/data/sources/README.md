@@ -1,4 +1,4 @@
-# Aran Wanderer — Source Documents
+# Aran Rover 2026 — Source Documents
 
 Add plain-text or Markdown files here. Their full contents are bundled into the
 system prompt for the `chat` Supabase Edge Function so the AI can answer using
