@@ -1,7 +1,7 @@
-# The Aran Wanderer — App Documentation
+# The Aran Rover 2026 — App Documentation
 
 ## What it is
-The Aran Wanderer is an interactive, illustrated field guide to the three
+The Aran Rover 2026 is an interactive, illustrated field guide to the three
 Aran Islands off the west coast of Ireland — **Inishmore (Inis Mór)**,
 **Inishmaan (Inis Meáin)** and **Inisheer (Inis Oírr)**. It pairs a
 geographically accurate map with a hand-drawn, cartoon "field-guide"

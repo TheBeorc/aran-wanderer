@@ -25,14 +25,14 @@ function loadImportedRoutes(): RouteFeature[] {
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "The Aran Wanderer — interactive field guide" },
+      { title: "The Aran Rover 2026 — interactive field guide" },
       {
         name: "description",
         content:
           "A playful illustrated field guide to the Aran Islands. Tap cartoon markers on a precise map to discover holy wells, stone forts, beaches and stories.",
       },
       { name: "theme-color", content: "#5fb0c9" },
-      { property: "og:title", content: "The Aran Wanderer" },
+      { property: "og:title", content: "The Aran Rover 2026" },
       {
         property: "og:description",
         content:

@@ -1,5 +1,5 @@
 /**
- * Guarded service-worker registration for The Aran Wanderer.
+ * Guarded service-worker registration for The Aran Rover 2026.
  *
  * Per Lovable PWA skill: NEVER register a service worker in dev, in iframe
  * previews, on Lovable preview hostnames, or when ?sw=off is present. In any
