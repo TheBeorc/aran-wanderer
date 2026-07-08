@@ -6,7 +6,7 @@ export default defineTool({
   name: "list_pois",
   title: "List points of interest",
   description:
-    "List points of interest from the Aran Wanderer field guide. Optionally filter by island (Inishmore, Inishmaan, Inisheer) or icon type (e.g. holy_well, fort_dun, beach_strand).",
+    "List points of interest from the Aran Rover 2026 field guide. Optionally filter by island (Inishmore, Inishmaan, Inisheer) or icon type (e.g. holy_well, fort_dun, beach_strand).",
   inputSchema: {
     island: z
       .enum(["Inishmore", "Inishmaan", "Inisheer"])
