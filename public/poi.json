@@ -95,7 +95,20 @@
     "folklore": "A stark reminder of seventy years of barren ministry. The roof was removed in 1921 to avoid paying rates, an act of practical necessity that nonetheless symbolized the final departure of the \"alien\" Protestant authority from the island’s religious landscape.",
     "nature": "Limestone shell standing amidst a \"sheltery backwater\" of the town.",
     "icon_type": "church_monastic",
-    "images": []
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Church%2C_Arranmore%2C_Aran_Islands%2C_Co._Galway_%2821634489082%29.jpg",
+        "author": "Robert French",
+        "license": "No restrictions",
+        "source": "https://commons.wikimedia.org/wiki/File:Church, Arranmore, Aran Islands, Co. Galway (21634489082).jpg"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Kilronan_-_Eaglais_San_Thom%C3%A1is_-_20210622191807.jpg",
+        "author": "Dieglop",
+        "license": "CC BY-SA 4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Kilronan - Eaglais San Thomáis - 20210622191807.jpg"
+      }
+    ]
   },
   {
     "name": "Teampall Bheanáin",
@@ -650,7 +663,20 @@
     "folklore": "Still visited for its curative waters. Robinson notes that while Clochán Éinne is nearby, only a trace of the saint's cell remains.",
     "nature": "A natural spring issuing through a fissure in the limestone.",
     "icon_type": "holy_well",
-    "images": []
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/394-0365_tobar-eanna_hinnerk-ruemenapf.jpg",
+        "author": "Hinnerk Rümenapf (Hinnerk R)",
+        "license": "CC BY-SA 4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:394-0365 tobar-eanna hinnerk-ruemenapf.jpg"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/23/394-0362_tobar-eanna_hinnerk-ruemenapf.jpg",
+        "author": "Hinnerk Rümenapf (Hinnerk R)",
+        "license": "CC BY-SA 4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:394-0362 tobar-eanna hinnerk-ruemenapf.jpg"
+      }
+    ]
   },
   {
     "name": "Poll na gCaorach",
@@ -663,7 +689,14 @@
     "folklore": "Traditionally a site where sheep were washed in sea-water or where livestock were lost during storm surges.",
     "nature": "A deep coastal inlet or blow-hole.",
     "icon_type": "cliff_coast",
-    "images": []
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Inisheer_Aran_Islands_Seascape_Photography_%28117296713%29.jpeg",
+        "author": "Giuseppe Milo",
+        "license": "CC BY 3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Inisheer Aran Islands Seascape Photography (117296713).jpeg"
+      }
+    ]
   },
   {
     "name": "Port na Cille",
@@ -897,7 +930,14 @@
     "folklore": "Part of a chain of towers built to watch for a French invasion during the Napoleonic Wars.",
     "nature": "A square stone tower on a prominent coastal height.",
     "icon_type": "castle_ruin",
-    "images": []
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Torre_en_Inis_O%C3%ADrr_%281%29.jpg",
+        "author": "Chairego apc",
+        "license": "CC BY-SA 4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Torre en Inis Oírr (1).jpg"
+      }
+    ]
   },
   {
     "name": "An Lurgain",
@@ -910,7 +950,14 @@
     "folklore": "A significant geographical feature that defines the island’s northern aspect.",
     "nature": "A long, steady limestone incline.",
     "icon_type": "natural_feature",
-    "images": []
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Cnoc_Rathnighe_on_Inis_O%C3%ADrr_-_geograph.org.uk_-_2622908.jpg",
+        "author": "louise price",
+        "license": "CC BY-SA 2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Cnoc Rathnighe on Inis Oírr - geograph.org.uk - 2622908.jpg"
+      }
+    ]
   },
   {
     "name": "Dún Eochla",
@@ -1138,7 +1185,20 @@
     "folklore": "Site where Larry Beag was shot by a Black and Tan sniper with a telescopic sight while trying to sneak to Mass in 1920.",
     "nature": "A typical agricultural gap, now serving as a somber historical marker of the War of Independence.",
     "icon_type": "natural_feature",
-    "images": []
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/56/St_Ciaran%27s_Church_%28rems_of%29_-_geograph.org.uk_-_6741150.jpg",
+        "author": "N Chadwick",
+        "license": "CC BY-SA 2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:St Ciaran's Church (rems of) - geograph.org.uk - 6741150.jpg"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Carraig_Fhuathach_-_geograph.org.uk_-_4226822.jpg",
+        "author": "Ian Capper",
+        "license": "CC BY-SA 2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Carraig Fhuathach - geograph.org.uk - 4226822.jpg"
+      }
+    ]
   },
   {
     "name": "Gort na gCapall",
@@ -1177,7 +1237,14 @@
     "folklore": "In 1857, excursionists including William Wilde and Samuel Ferguson landed here. Robinson notes the abundance of the \"handsome rose-beetle\" (Cetonia aurata).",
     "nature": "A sandy-bottomed bay with low-lying dunes and \"sweetly mottled\" ferns in the rock chinks.",
     "icon_type": "beach_strand",
-    "images": []
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/The_pier_at_Port_Mhuirbhigh_-_geograph.org.uk_-_1995917.jpg",
+        "author": "Russel Wills",
+        "license": "CC BY-SA 2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:The pier at Port Mhuirbhigh - geograph.org.uk - 1995917.jpg"
+      }
+    ]
   },
   {
     "name": "The \"Signal Tower\" Site",
@@ -1190,7 +1257,20 @@
     "folklore": "Part of the 18th-century coastal defense network; Robinson reflects on its strategic but desolate position.",
     "nature": "High-elevation site with 360-degree views of the Atlantic and the Galway coast.",
     "icon_type": "castle_ruin",
-    "images": []
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Dun_Eochla_seen_from_lighthouse.jpg",
+        "author": "Herbert Ortner",
+        "license": "CC BY 3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Dun Eochla seen from lighthouse.jpg"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Dun_Eochla_and_dry_stone_walls.jpg",
+        "author": "Herbert Ortner",
+        "license": "CC BY 3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Dun Eochla and dry stone walls.jpg"
+      }
+    ]
   },
   {
     "name": "An Suicín Thiar",
@@ -1321,7 +1401,20 @@
     "folklore": "A massive expanse of limestone that served as a communal grazing area.",
     "nature": "A high, flat terrace of limestone with deep, protective fissures.",
     "icon_type": "natural_feature",
-    "images": []
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/House%2C_Shrawnbeg_Shrawn_-_geograph.org.uk_-_6756152.jpg",
+        "author": "N Chadwick",
+        "license": "CC BY-SA 2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:House, Shrawnbeg Shrawn - geograph.org.uk - 6756152.jpg"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Ruin_%5E_cottage_-_geograph.org.uk_-_6770091.jpg",
+        "author": "N Chadwick",
+        "license": "CC BY-SA 2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Ruin ^ cottage - geograph.org.uk - 6770091.jpg"
+      }
+    ]
   },
   {
     "name": "An Gort Glas (Mainistir)",
@@ -1347,7 +1440,20 @@
     "folklore": "Believed to mark a specific grave from the 1584 O'Flaherty battle.",
     "nature": "A small heap of stones weathered by time.",
     "icon_type": "natural_feature",
-    "images": []
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/56/St_Ciaran%27s_Church_%28rems_of%29_-_geograph.org.uk_-_6741150.jpg",
+        "author": "N Chadwick",
+        "license": "CC BY-SA 2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:St Ciaran's Church (rems of) - geograph.org.uk - 6741150.jpg"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Carraig_Fhuathach_-_geograph.org.uk_-_4226822.jpg",
+        "author": "Ian Capper",
+        "license": "CC BY-SA 2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Carraig Fhuathach - geograph.org.uk - 4226822.jpg"
+      }
+    ]
   },
   {
     "name": "An Gort Mór (Fearann an Choirce)",
@@ -2883,7 +2989,20 @@
     "nature": "The church occupies an exposed rocky ridge characterized by massive limestone pavements, jagged crags, and large scattered boulders. Its high position reflects the island's typical terraced topography, rising directly above the lower coastal plains and village settlements.",
     "icon_type": "church_monastic",
     "main": false,
-    "images": []
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/37/Inishmore_Island_April_04.jpg",
+        "author": "Pocyun photograph",
+        "license": "CC BY-SA 4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Inishmore Island April 04.jpg"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/13/Inishmore_Island_April_05.jpg",
+        "author": "Pocyun photograph",
+        "license": "CC BY-SA 4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Inishmore Island April 05.jpg"
+      }
+    ]
   },
   {
     "name": "7. Dabhach an tSnámha",
@@ -3037,7 +3156,14 @@
     "nature": "Geologically, this inlet forms a distinct three-sided rectangular recess carved directly into the sheer limestone ramparts. The unique shape acts as a natural wave trap, causing the incoming sea to churn and explode against the vertical rock boundaries.",
     "icon_type": "cliff_coast",
     "main": false,
-    "images": []
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/82/DSC_6404_%2810597718804%29.jpg",
+        "author": "Ludger Heide",
+        "license": "CC BY-SA 2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:DSC 6404 (10597718804).jpg"
+      }
+    ]
   },
   {
     "name": "18. An Cró",
@@ -3121,7 +3247,20 @@
     "nature": "The site is characterized by an abrupt, vertical cliff profile where the sea has systematically licked away the underlying shale layers. This ongoing erosion leaves the upper limestone tiers completely overhanging, creating an extreme, dangerous drop over deep ocean waters.",
     "icon_type": "cliff_coast",
     "main": false,
-    "images": []
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/D%C3%BAn_Aonghusa_internal.jpg",
+        "author": "Joe byrne",
+        "license": "CC BY-SA 4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Dún Aonghusa internal.jpg"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Wild_fuchsias.jpg",
+        "author": "Maria Teresa Satta",
+        "license": "CC BY-SA 4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Wild fuchsias.jpg"
+      }
+    ]
   },
   {
     "name": "24. Leac an tSalainn",
@@ -3499,7 +3638,20 @@
     "nature": "The complex is nestled within a sheltered, fertile valley surrounded by high limestone hills. The masonry displays a nucleus of massive early Christian stone craftsmanship, bordered by a consecrated graveyard riddled with historic rabbit burrows.",
     "icon_type": "church_monastic",
     "main": false,
-    "images": []
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Na_Seacht_dTeampaill_%28The_Seven_Churches%29_-_geograph.org.uk_-_6762826.jpg",
+        "author": "N Chadwick",
+        "license": "CC BY-SA 2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Na Seacht dTeampaill (The Seven Churches) - geograph.org.uk - 6762826.jpg"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Teampall_Bhreac%C3%A1in%2C_Na_Seacht_dTeampaill_-_geograph.org.uk_-_4230106.jpg",
+        "author": "Ian Capper",
+        "license": "CC BY-SA 2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Teampall Bhreacáin, Na Seacht dTeampaill - geograph.org.uk - 4230106.jpg"
+      }
+    ]
   },
   {
     "name": "51. An Chora Dhubh Thoir",
@@ -3709,7 +3861,20 @@
     "nature": "The ruin consists of an imposing stone facade with three tall, blank window spaces that frame the sky. Built from solid unmortared limestone blocks, its architectural style introduces a stark, structured geometry into the wild karst landscape.",
     "icon_type": "natural_feature",
     "main": false,
-    "images": []
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Coastal_road_-_geograph.org.uk_-_6745184.jpg",
+        "author": "N Chadwick",
+        "license": "CC BY-SA 2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Coastal road - geograph.org.uk - 6745184.jpg"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/be/Coastal_road_-_geograph.org.uk_-_6745167.jpg",
+        "author": "N Chadwick",
+        "license": "CC BY-SA 2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Coastal road - geograph.org.uk - 6745167.jpg"
+      }
+    ]
   },
   {
     "name": "66. Mulán Cholm Cille",
@@ -3933,7 +4098,20 @@
     "nature": "The ruins feature broken lengths of massive curtain-walls and a small square tower situated right by the water. Built from rough limestone blocks, its foundations incorporate rags of ancient Celtic masonry that face the tidal harbor.",
     "icon_type": "castle_ruin",
     "main": false,
-    "images": []
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/30/Arkin%27s_Castle.JPG",
+        "author": "Ronan Mac Giollapharaic",
+        "license": "CC BY-SA 4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Arkin's Castle.JPG"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/16/County_Galway_-_Arkin%27s_Castle_-_20130916111523.jpg",
+        "author": "KevForkan",
+        "license": "CC BY-SA 4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:County Galway - Arkin's Castle - 20130916111523.jpg"
+      }
+    ]
   },
   {
     "name": "82. An Maoilín",
@@ -4129,7 +4307,20 @@
     "nature": "The townland possesses an expansive territory of roughly 1,800 acres of limestone karst terrain. The local landscape features a continuous band of houses, grassy step-fields, and small plots situated along the gentler, more sheltered northern slopes of the island.",
     "icon_type": "village_settlement",
     "main": false,
-    "images": []
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Cottage_west_of_The_Seven_Churches_-_geograph.org.uk_-_6770405.jpg",
+        "author": "N Chadwick",
+        "license": "CC BY-SA 2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Cottage west of The Seven Churches - geograph.org.uk - 6770405.jpg"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/The_northern_shore_of_Inishmor_-_geograph.org.uk_-_6770408.jpg",
+        "author": "N Chadwick",
+        "license": "CC BY-SA 2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:The northern shore of Inishmor - geograph.org.uk - 6770408.jpg"
+      }
+    ]
   },
   {
     "name": "Dún Eoghanachta",
@@ -4143,7 +4334,20 @@
     "nature": "The fort is constructed as a massive ring wall of unmortared limestone blocks built on a high ridge. It features thick, tiered internal defensive walls and stone steps, commanding an unobstructed view over a vast, intricate grid of rectangular dry-stone fields.",
     "icon_type": "fort_dun",
     "main": false,
-    "images": []
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Int%C3%A9rieur_du_ringfort_de_Dun_Eoghanachta.jpg",
+        "author": "Jonathan Wilkins",
+        "license": "CC BY-SA 4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Intérieur du ringfort de Dun Eoghanachta.jpg"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Interior%2C_Dun_Eoghanachta_-_geograph.org.uk_-_1471069.jpg",
+        "author": "Jonathan Wilkins",
+        "license": "CC BY-SA 2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Interior, Dun Eoghanachta - geograph.org.uk - 1471069.jpg"
+      }
+    ]
   },
   {
     "name": "Sruthán",
@@ -4157,7 +4361,20 @@
     "nature": "The village is set along the lower terraced slopes where narrow boreens run directly down toward the northern bays. Its shoreline boundary features traditional subdivisions where local households managed separate rights to collect shore weed from the intertidal platforms.",
     "icon_type": "village_settlement",
     "main": false,
-    "images": []
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/House%2C_Shrawnbeg_Shrawn_-_geograph.org.uk_-_6756152.jpg",
+        "author": "N Chadwick",
+        "license": "CC BY-SA 2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:House, Shrawnbeg Shrawn - geograph.org.uk - 6756152.jpg"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Ruin_%5E_cottage_-_geograph.org.uk_-_6770091.jpg",
+        "author": "N Chadwick",
+        "license": "CC BY-SA 2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Ruin ^ cottage - geograph.org.uk - 6770091.jpg"
+      }
+    ]
   },
   {
     "name": "An Gleannachán",
@@ -4199,7 +4416,14 @@
     "nature": "This wide, crescent-shaped beach is composed of soft, bright white sand backed by extensive, grassed-over sand dunes. Its unique position creates a localized sheltering effect, producing calm, shallow coastal waters that contrast sharply with the wild southern cliffs.",
     "icon_type": "beach_strand",
     "main": false,
-    "images": []
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/The_pier_at_Port_Mhuirbhigh_-_geograph.org.uk_-_1995917.jpg",
+        "author": "Russel Wills",
+        "license": "CC BY-SA 2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:The pier at Port Mhuirbhigh - geograph.org.uk - 1995917.jpg"
+      }
+    ]
   },
   {
     "name": "Cill Mhuirbhigh",
@@ -4227,7 +4451,20 @@
     "nature": "The fort consists of three concentric semi-circular walls of unmortared limestone blocks, open to the sheer cliff edge. Its defenses feature an extraordinary, wide band of jagged, upright stones called chevaux-de-frise designed to stop ancient cavalry attacks.",
     "icon_type": "fort_dun",
     "main": false,
-    "images": []
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/13/Wall%2C_Dun_Aonghasa_-_geograph.org.uk_-_6750492.jpg",
+        "author": "N Chadwick",
+        "license": "CC BY-SA 2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Wall, Dun Aonghasa - geograph.org.uk - 6750492.jpg"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Door_in_the_wall.JPG",
+        "author": "Dag van Gennip",
+        "license": "CC BY-SA 4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Door in the wall.JPG"
+      }
+    ]
   },
   {
     "name": "Gort na gCapall",
@@ -4269,7 +4506,20 @@
     "nature": "This feature is a geological marvel carved by the regular, rectilinear jointing of Aran's limestone. The horizontal stratifications and vertical fissures intersect at perfect right angles, creating an oblong, cuboid pool that mimics precise human stone-cutting.",
     "icon_type": "cliff_coast",
     "main": false,
-    "images": []
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/DSC_7009_%2810597979073%29.jpg",
+        "author": "Ludger Heide",
+        "license": "CC BY-SA 2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:DSC 7009 (10597979073).jpg"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Inishmore_Island_April_15.jpg",
+        "author": "Pocyun photograph",
+        "license": "CC BY-SA 4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Inishmore Island April 15.jpg"
+      }
+    ]
   },
   {
     "name": "Port Bhéal an Dúin",
@@ -4325,7 +4575,14 @@
     "nature": "Its territory stretches across the island from the northern shore to the south. The local terrain is exceptionally craggy, defined by a failure to support a continuous plain, transitioning instead between bramble patches and high, wind-swept limestone peninsulas.",
     "icon_type": "village_settlement",
     "main": false,
-    "images": []
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/69/Aran_Islands_-_White_painted_house_on_Inishmore%2C_Co._Galway_%282014%29.jpg",
+        "author": "JoachimKohler-HB",
+        "license": "CC BY-SA 4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Aran Islands - White painted house on Inishmore, Co. Galway (2014).jpg"
+      }
+    ]
   },
   {
     "name": "Corrúch",
@@ -4437,7 +4694,20 @@
     "nature": "The village is built along a sweeping, north-facing slope that dips into a large, protected deep-water harbor. Its modern landscape features a dense array of bungalows, a large concrete pier, and traditional dry-stone walls running up the hills.",
     "icon_type": "village_settlement",
     "main": false,
-    "images": []
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Church_of_St_Bridget_-_geograph.org.uk_-_6741127.jpg",
+        "author": "N Chadwick",
+        "license": "CC BY-SA 2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Church of St Bridget - geograph.org.uk - 6741127.jpg"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Spar_-_geograph.org.uk_-_6775742.jpg",
+        "author": "N Chadwick",
+        "license": "CC BY-SA 2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Spar - geograph.org.uk - 6775742.jpg"
+      }
+    ]
   },
   {
     "name": "Cill Éinne",
@@ -4451,7 +4721,14 @@
     "nature": "The village is a traditional sráidbhaile (street-village) nestled along a shoreline backed by low limestone cliffs. Its surrounding landscape features a mixture of old landless fishermen's hovels, modern bungalows, and sandy fields constantly threatened by shifting dunes.",
     "icon_type": "village_settlement",
     "main": false,
-    "images": []
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/16/County_Galway_-_Arkin%27s_Castle_-_20130916111523.jpg",
+        "author": "KevForkan",
+        "license": "CC BY-SA 4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:County Galway - Arkin's Castle - 20130916111523.jpg"
+      }
+    ]
   },
   {
     "name": "Cuan Chill Éinne",
@@ -4507,7 +4784,20 @@
     "nature": "The fort is built on an isolated tongue of land defended by vertical cliffs dropping a hundred feet to a wave-cut terrace. Its interior includes two terraces and the faint remains of ancient stone huts clustered together like a wild bees' nest.",
     "icon_type": "fort_dun",
     "main": false,
-    "images": []
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/94/Inishmore_Island_April_11.jpg",
+        "author": "Pocyun photograph",
+        "license": "CC BY-SA 4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Inishmore Island April 11.jpg"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Inishmore_Island_April_12.jpg",
+        "author": "Pocyun photograph",
+        "license": "CC BY-SA 4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Inishmore Island April 12.jpg"
+      }
+    ]
   },
   {
     "name": "Poll Dick",
@@ -4605,7 +4895,14 @@
     "nature": "The harbor consists of a level terrace of rock backed by a steep shingle barrier. A seepage of fresh water flows onto the terrace from a spring under the stony ledges, providing a rare natural water source right beside the sea.",
     "icon_type": "cliff_coast",
     "main": false,
-    "images": []
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/05/Portdeha_-_view_to_Gregory%27s_Sound_-_geograph.org.uk_-_1574365.jpg",
+        "author": "Nick O'Reilly",
+        "license": "CC BY-SA 2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Portdeha - view to Gregory's Sound - geograph.org.uk - 1574365.jpg"
+      }
+    ]
   },
   {
     "name": "Aill na nGlasóg",
@@ -4619,7 +4916,14 @@
     "nature": "The feature consists of a great rock platform sitting beneath sheer limestone walls. The surrounding waters represent a highly volatile fishing ground that is exceptionally rich in black pollack, a local type of shore-fish.",
     "icon_type": "cliff_coast",
     "main": false,
-    "images": []
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/22/Gonicast_2-1.jpg",
+        "author": "Bernard Picton",
+        "license": "CC BY-SA 4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Gonicast 2-1.jpg"
+      }
+    ]
   },
   {
     "name": "Sunda Ghríora",
